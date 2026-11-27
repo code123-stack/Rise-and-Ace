@@ -1,0 +1,7 @@
+services:
+  - type: web
+    name: riseandace
+    runtime: node
+    plan: free
+    buildCommand: "echo no build needed"
+    startCommand: node server/server.js

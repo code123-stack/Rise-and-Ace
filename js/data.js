@@ -1,0 +1,159 @@
+// Sample content. These are ORIGINAL practice questions written in exam style,
+// not real previous-year papers. To add an exam, copy one block and change the questions.
+// "ans" is the position of the right option, starting from 0.
+window.RA_EXAMS = [
+  {
+    id: 'jee', name: 'JEE Main style practice', group: 'JEE Main style practice', minutes: 20, plus: 4, minus: 1,
+    questions: [
+      { subject: 'Physics', topic: 'Kinematics', q: 'A body starts from rest and moves with a uniform acceleration of 2 m/s². How far does it travel in 5 s?', options: ['10 m', '20 m', '25 m', '50 m'], ans: 2, exp: 's = ut + ½at² = 0 + ½ × 2 × 5² = 25 m.' },
+      { subject: 'Physics', topic: 'Projectile motion', q: 'A ball is thrown at 20 m/s at 45° to the horizontal. Taking g = 10 m/s², its horizontal range is', options: ['20 m', '40 m', '60 m', '80 m'], ans: 1, exp: 'R = u² sin2θ / g = 400 × 1 / 10 = 40 m.' },
+      { subject: 'Physics', topic: 'Current electricity', q: 'Resistors of 6 Ω and 3 Ω are connected in parallel. The equivalent resistance is', options: ['9 Ω', '4.5 Ω', '3 Ω', '2 Ω'], ans: 3, exp: '1/R = 1/6 + 1/3 = 1/2, so R = 2 Ω.' },
+      { subject: 'Physics', topic: 'Units and dimensions', q: 'The dimensional formula of work is', options: ['[M L T⁻²]', '[M L² T⁻²]', '[M L² T⁻³]', '[M L⁻¹ T⁻²]'], ans: 1, exp: 'Work = force × distance = [M L T⁻²][L] = [M L² T⁻²].' },
+      { subject: 'Chemistry', topic: 'Chemical bonding', q: 'The hybridisation of carbon in methane (CH₄) is', options: ['sp', 'sp²', 'sp³', 'sp³d'], ans: 2, exp: 'Carbon forms four equivalent sigma bonds in a tetrahedral shape, so it is sp³.' },
+      { subject: 'Chemistry', topic: 'Mole concept', q: 'How many moles are present in 36 g of water? (Molar mass = 18 g/mol)', options: ['0.5', '1', '2', '18'], ans: 2, exp: 'Moles = mass / molar mass = 36 / 18 = 2.' },
+      { subject: 'Chemistry', topic: 'Ionic equilibrium', q: 'The pH of a 0.001 M HCl solution at 25 °C is', options: ['1', '2', '3', '11'], ans: 2, exp: 'HCl is a strong acid, so [H⁺] = 10⁻³ M and pH = −log(10⁻³) = 3.' },
+      { subject: 'Chemistry', topic: 'Periodic table', q: 'Which of these elements has the highest electronegativity?', options: ['Oxygen', 'Chlorine', 'Nitrogen', 'Fluorine'], ans: 3, exp: 'Fluorine is the most electronegative element.' },
+      { subject: 'Mathematics', topic: 'Differentiation', q: 'The derivative of x³ at x = 2 is', options: ['6', '8', '12', '16'], ans: 2, exp: 'd/dx (x³) = 3x². At x = 2 this is 3 × 4 = 12.' },
+      { subject: 'Mathematics', topic: 'Sequences and series', q: 'The sum of the first 20 natural numbers is', options: ['190', '200', '210', '420'], ans: 2, exp: 'Sum = n(n+1)/2 = 20 × 21 / 2 = 210.' },
+      { subject: 'Mathematics', topic: 'Trigonometry', q: 'If sin θ = 3/5 and θ is acute, then cos θ equals', options: ['4/5', '3/4', '5/3', '2/5'], ans: 0, exp: 'cos θ = √(1 − 9/25) = √(16/25) = 4/5.' },
+      { subject: 'Mathematics', topic: 'Permutations', q: 'In how many ways can the letters of the word RISE be arranged?', options: ['12', '16', '24', '120'], ans: 2, exp: 'Four different letters can be arranged in 4! = 24 ways.' }
+    ]
+  },
+  {
+    id: 'neet', name: 'NEET style practice', group: 'NEET style practice', minutes: 15, plus: 4, minus: 1,
+    questions: [
+      { subject: 'Biology', topic: 'Cell biology', q: 'Which organelle is called the powerhouse of the cell?', options: ['Ribosome', 'Mitochondrion', 'Golgi body', 'Lysosome'], ans: 1, exp: 'Mitochondria produce most of the cell\'s ATP.' },
+      { subject: 'Biology', topic: 'Genetics', q: 'How many chromosomes does a normal human body (somatic) cell have?', options: ['23', '44', '46', '48'], ans: 2, exp: 'Human somatic cells have 46 chromosomes (23 pairs).' },
+      { subject: 'Biology', topic: 'Plant physiology', q: 'The main pigment that traps light energy in photosynthesis is', options: ['Chlorophyll a', 'Xanthophyll', 'Carotene', 'Anthocyanin'], ans: 0, exp: 'Chlorophyll a is the primary photosynthetic pigment.' },
+      { subject: 'Biology', topic: 'Human physiology', q: 'The structural and functional unit of the kidney is the', options: ['Neuron', 'Alveolus', 'Nephron', 'Villus'], ans: 2, exp: 'Each kidney contains about a million nephrons that filter blood.' },
+      { subject: 'Biology', topic: 'Molecular biology', q: 'Which nitrogenous base is found in DNA but not in RNA?', options: ['Adenine', 'Uracil', 'Guanine', 'Thymine'], ans: 3, exp: 'RNA has uracil in place of thymine.' },
+      { subject: 'Biology', topic: 'Human physiology', q: 'Which blood group is known as the universal donor?', options: ['A positive', 'AB positive', 'O negative', 'B negative'], ans: 2, exp: 'O negative red cells carry no A, B or Rh(D) antigens.' },
+      { subject: 'Physics', topic: 'Units and dimensions', q: 'The SI unit of force is the', options: ['joule', 'newton', 'watt', 'pascal'], ans: 1, exp: 'Force is measured in newtons (kg·m/s²).' },
+      { subject: 'Physics', topic: 'Optics', q: 'Which lens is used to correct short-sightedness (myopia)?', options: ['Convex', 'Concave', 'Cylindrical', 'Bifocal'], ans: 1, exp: 'A concave (diverging) lens moves the image back onto the retina.' },
+      { subject: 'Chemistry', topic: 'Atomic structure', q: 'The atomic number of carbon is', options: ['4', '6', '8', '12'], ans: 1, exp: 'Carbon has 6 protons; 12 is its mass number.' },
+      { subject: 'Chemistry', topic: 'Chemical reactions', q: 'Which gas is released when zinc reacts with dilute hydrochloric acid?', options: ['Oxygen', 'Chlorine', 'Hydrogen', 'Carbon dioxide'], ans: 2, exp: 'Zn + 2HCl → ZnCl₂ + H₂.' }
+    ]
+  },
+  {
+    id: 'upsc', name: 'UPSC Prelims GS style practice', group: 'UPSC Prelims GS style practice', minutes: 12, plus: 2, minus: 0.66,
+    questions: [
+      { subject: 'Polity', topic: 'Constitution', q: 'Fundamental Duties are contained in which Part of the Constitution of India?', options: ['Part III', 'Part IV', 'Part IVA', 'Part V'], ans: 2, exp: 'Part IVA (Article 51A) lists the Fundamental Duties.' },
+      { subject: 'Polity', topic: 'Parliament', q: 'Who is the ex-officio Chairman of the Rajya Sabha?', options: ['President', 'Vice-President', 'Prime Minister', 'Speaker of the Lok Sabha'], ans: 1, exp: 'The Vice-President of India is the ex-officio Chairman of the Rajya Sabha.' },
+      { subject: 'Polity', topic: 'Fundamental Rights', q: 'Article 21 of the Constitution deals with', options: ['Equality before law', 'Freedom of religion', 'Protection of life and personal liberty', 'Right to constitutional remedies'], ans: 2, exp: 'Article 21 protects life and personal liberty.' },
+      { subject: 'Geography', topic: 'India: physical', q: 'The Tropic of Cancer does NOT pass through which of these states?', options: ['Rajasthan', 'Odisha', 'Tripura', 'Jharkhand'], ans: 1, exp: 'It passes through Gujarat, Rajasthan, Madhya Pradesh, Chhattisgarh, Jharkhand, West Bengal, Tripura and Mizoram, not Odisha.' },
+      { subject: 'Geography', topic: 'Rivers', q: 'Which river is often called the Dakshin Ganga?', options: ['Krishna', 'Kaveri', 'Godavari', 'Narmada'], ans: 2, exp: 'The Godavari, the longest river of peninsular India, is called the Dakshin Ganga.' },
+      { subject: 'History', topic: 'Freedom struggle', q: 'The Quit India Movement was launched in', options: ['1930', '1940', '1942', '1946'], ans: 2, exp: 'It was launched in August 1942.' },
+      { subject: 'History', topic: 'Ancient India', q: 'Who founded the Maurya Empire?', options: ['Ashoka', 'Chandragupta Maurya', 'Bindusara', 'Samudragupta'], ans: 1, exp: 'Chandragupta Maurya founded it around 321 BCE.' },
+      { subject: 'Economy', topic: 'Banking', q: 'The Reserve Bank of India was established in', options: ['1935', '1947', '1949', '1969'], ans: 0, exp: 'The RBI began operations on 1 April 1935 and was nationalised in 1949.' },
+      { subject: 'Economy', topic: 'Taxation', q: 'The Goods and Services Tax (GST) came into effect in India on', options: ['1 April 2016', '1 July 2017', '1 April 2018', '8 November 2016'], ans: 1, exp: 'GST was rolled out on 1 July 2017.' },
+      { subject: 'Environment', topic: 'Atmosphere', q: 'The ozone layer is found mainly in the', options: ['Troposphere', 'Stratosphere', 'Mesosphere', 'Thermosphere'], ans: 1, exp: 'Most atmospheric ozone lies in the stratosphere.' }
+    ]
+  },
+  {
+    id: 'ssc', name: 'SSC CGL style practice', group: 'SSC CGL style practice', minutes: 12, plus: 2, minus: 0.5,
+    questions: [
+      { subject: 'Quantitative aptitude', topic: 'Percentage', q: 'What is 15% of 240?', options: ['24', '30', '36', '40'], ans: 2, exp: '240 × 15/100 = 36.' },
+      { subject: 'Quantitative aptitude', topic: 'Time and work', q: 'A can finish a job in 10 days and B in 15 days. Working together, they finish it in', options: ['5 days', '6 days', '8 days', '12.5 days'], ans: 1, exp: 'Combined rate = 1/10 + 1/15 = 1/6 of the job per day, so 6 days.' },
+      { subject: 'Quantitative aptitude', topic: 'Simple interest', q: 'The simple interest on ₹5,000 at 8% per year for 3 years is', options: ['₹400', '₹1,000', '₹1,200', '₹1,500'], ans: 2, exp: 'SI = P × R × T / 100 = 5000 × 8 × 3 / 100 = ₹1,200.' },
+      { subject: 'Quantitative aptitude', topic: 'Average', q: 'The average of 12, 18, 24 and 30 is', options: ['20', '21', '22', '24'], ans: 1, exp: 'Sum = 84, and 84 / 4 = 21.' },
+      { subject: 'Reasoning', topic: 'Number series', q: 'Find the next number: 2, 6, 12, 20, 30, ?', options: ['36', '40', '42', '44'], ans: 2, exp: 'The differences are 4, 6, 8, 10, so the next difference is 12 and 30 + 12 = 42.' },
+      { subject: 'Reasoning', topic: 'Coding-decoding', q: 'If CAT = 24 (using letter positions, C=3, A=1, T=20), then DOG = ?', options: ['24', '26', '28', '30'], ans: 1, exp: 'D=4, O=15, G=7, and 4 + 15 + 7 = 26.' },
+      { subject: 'English', topic: 'Synonyms', q: 'Choose the word closest in meaning to ABUNDANT.', options: ['Scarce', 'Plentiful', 'Costly', 'Ancient'], ans: 1, exp: 'Abundant means available in large quantity, i.e. plentiful.' },
+      { subject: 'English', topic: 'Antonyms', q: 'Choose the word opposite in meaning to ANCIENT.', options: ['Old', 'Historic', 'Modern', 'Antique'], ans: 2, exp: 'Modern is the opposite of ancient.' },
+      { subject: 'English', topic: 'Spelling', q: 'Choose the correctly spelt word.', options: ['Accomodate', 'Acommodate', 'Accommodate', 'Acomodate'], ans: 2, exp: 'Accommodate has a double c and a double m.' },
+      { subject: 'General awareness', topic: 'World geography', q: 'What is the capital of Australia?', options: ['Sydney', 'Melbourne', 'Perth', 'Canberra'], ans: 3, exp: 'Canberra is the capital; Sydney is the largest city.' }
+    ]
+  },
+  {
+    id: 'bank', name: 'IBPS PO style practice', group: 'IBPS PO style practice', minutes: 10, plus: 1, minus: 0.25,
+    questions: [
+      { subject: 'Quantitative aptitude', topic: 'Simplification', q: '25% of 480 + 15 = ?', options: ['120', '125', '135', '145'], ans: 2, exp: '25% of 480 is 120, and 120 + 15 = 135.' },
+      { subject: 'Quantitative aptitude', topic: 'Profit and loss', q: 'An article bought for ₹800 is sold for ₹1,000. The profit percentage is', options: ['20%', '25%', '30%', '80%'], ans: 1, exp: 'Profit = 200, and 200 / 800 × 100 = 25%.' },
+      { subject: 'Quantitative aptitude', topic: 'Ratio and proportion', q: '₹1,200 is divided between two people in the ratio 2 : 3. The larger share is', options: ['₹480', '₹600', '₹720', '₹800'], ans: 2, exp: 'Larger share = 3/5 × 1200 = ₹720.' },
+      { subject: 'Reasoning', topic: 'Blood relations', q: 'A is the brother of B. B is the mother of C. How is A related to C?', options: ['Father', 'Maternal uncle', 'Grandfather', 'Cousin'], ans: 1, exp: 'A is the brother of C\'s mother, so A is C\'s maternal uncle.' },
+      { subject: 'Reasoning', topic: 'Direction sense', q: 'Ravi walks 5 km north, turns right and walks 12 km. How far is he from the starting point?', options: ['7 km', '13 km', '17 km', '60 km'], ans: 1, exp: 'The two paths form a right angle, so distance = √(5² + 12²) = 13 km.' },
+      { subject: 'English', topic: 'Grammar', q: 'Fill in the blank: She ___ to school every day.', options: ['go', 'goes', 'going', 'gone'], ans: 1, exp: 'With a third-person singular subject (She), the simple present verb takes -es: "goes".' },
+      { subject: 'Banking awareness', topic: 'Payment systems', q: 'NEFT stands for', options: ['National Electronic Funds Transfer', 'New Electronic Funds Transaction', 'National Exchange Funds Transfer', 'Net Electronic Funds Transfer'], ans: 0, exp: 'NEFT is National Electronic Funds Transfer.' },
+      { subject: 'Banking awareness', topic: 'RBI', q: 'The headquarters of the Reserve Bank of India is in', options: ['New Delhi', 'Kolkata', 'Mumbai', 'Chennai'], ans: 2, exp: 'The RBI central office is in Mumbai.' }
+    ]
+  },
+  {
+    id: 'cat', name: 'CAT style practice', group: 'CAT style practice', minutes: 15, plus: 3, minus: 1,
+    questions: [
+      { subject: 'Quantitative ability', topic: 'Number system', q: 'What is the remainder when 2¹⁰ is divided by 7?', options: ['1', '2', '4', '6'], ans: 1, exp: '2³ = 8 leaves remainder 1, so 2⁹ leaves 1 and 2¹⁰ leaves 2. (1024 = 7 × 146 + 2.)' },
+      { subject: 'Quantitative ability', topic: 'Algebra', q: 'If x + 1/x = 3, then x² + 1/x² equals', options: ['5', '7', '9', '11'], ans: 1, exp: '(x + 1/x)² = x² + 1/x² + 2, so x² + 1/x² = 9 − 2 = 7.' },
+      { subject: 'Quantitative ability', topic: 'Time, speed and distance', q: 'A train 150 m long runs at 54 km/h. How long does it take to pass a pole?', options: ['8 s', '10 s', '12 s', '15 s'], ans: 1, exp: '54 km/h = 15 m/s, and 150 / 15 = 10 s.' },
+      { subject: 'Quantitative ability', topic: 'Geometry', q: 'The area of a triangle with sides 3 cm, 4 cm and 5 cm is', options: ['6 cm²', '7.5 cm²', '10 cm²', '12 cm²'], ans: 0, exp: 'It is a right triangle, so area = ½ × 3 × 4 = 6 cm².' },
+      { subject: 'Quantitative ability', topic: 'Percentage', q: 'The price of sugar rises by 25%. By what percentage must a family cut consumption to keep spending the same?', options: ['20%', '25%', '30%', '33.3%'], ans: 0, exp: 'New consumption = 1 / 1.25 = 0.8 of the old, a cut of 20%.' },
+      { subject: 'Logical reasoning', topic: 'Ordering', q: 'A is taller than B. C is shorter than B. D is taller than A. Who is the shortest?', options: ['A', 'B', 'C', 'D'], ans: 2, exp: 'The order is D > A > B > C, so C is the shortest.' },
+      { subject: 'Data interpretation', topic: 'Growth', q: 'Quarterly sales were ₹40 lakh, ₹50 lakh, ₹60 lakh and ₹70 lakh. What is the percentage growth from the first quarter to the fourth?', options: ['30%', '50%', '75%', '175%'], ans: 2, exp: '(70 − 40) / 40 × 100 = 75%.' },
+      { subject: 'Verbal ability', topic: 'Vocabulary', q: 'EPHEMERAL most nearly means', options: ['Eternal', 'Short-lived', 'Beautiful', 'Heavy'], ans: 1, exp: 'Ephemeral means lasting for a very short time.' }
+    ]
+  },
+  {
+    id: 'gate', name: 'GATE Computer Science style practice', group: 'GATE Computer Science style practice', minutes: 15, plus: 1, minus: 0.33,
+    questions: [
+      { subject: 'Algorithms', topic: 'Searching', q: 'The worst-case time complexity of binary search on a sorted array of n elements is', options: ['O(1)', 'O(log n)', 'O(n)', 'O(n log n)'], ans: 1, exp: 'Each step halves the search range, giving O(log n).' },
+      { subject: 'Algorithms', topic: 'Sorting', q: 'The worst-case time complexity of quicksort is', options: ['O(n)', 'O(n log n)', 'O(n²)', 'O(log n)'], ans: 2, exp: 'With consistently bad pivots, quicksort takes O(n²).' },
+      { subject: 'Data structures', topic: 'Stacks and queues', q: 'Which data structure follows the Last In, First Out (LIFO) rule?', options: ['Queue', 'Stack', 'Heap', 'Linked list'], ans: 1, exp: 'A stack removes the most recently added item first.' },
+      { subject: 'Operating systems', topic: 'Deadlock', q: 'Which of these is NOT one of the four necessary conditions for deadlock?', options: ['Mutual exclusion', 'Hold and wait', 'Preemption', 'Circular wait'], ans: 2, exp: 'The condition is "no preemption". Allowing preemption prevents deadlock.' },
+      { subject: 'Databases', topic: 'Normalisation', q: 'Which normal form removes transitive dependencies of non-key attributes?', options: ['1NF', '2NF', '3NF', 'BCNF only'], ans: 2, exp: 'Third normal form (3NF) removes transitive dependencies.' },
+      { subject: 'Computer networks', topic: 'OSI model', q: 'Which OSI layer is responsible for routing packets between networks?', options: ['Data link layer', 'Network layer', 'Transport layer', 'Session layer'], ans: 1, exp: 'Routing is done at the network layer (layer 3).' },
+      { subject: 'Digital logic', topic: 'Number representation', q: 'The 4-bit two\'s complement of 0101 is', options: ['1010', '1011', '1101', '0110'], ans: 1, exp: 'Invert the bits to get 1010, then add 1 to get 1011.' },
+      { subject: 'Discrete mathematics', topic: 'Graph theory', q: 'How many edges does a complete graph with 5 vertices have?', options: ['5', '8', '10', '20'], ans: 2, exp: 'A complete graph has n(n − 1)/2 edges: 5 × 4 / 2 = 10.' }
+    ]
+  },
+  {
+    id: 'cuet', name: 'CUET General Test style practice', group: 'CUET General Test style practice', minutes: 10, plus: 5, minus: 1,
+    questions: [
+      { subject: 'General knowledge', topic: 'National symbols', q: 'The national animal of India is the', options: ['Lion', 'Elephant', 'Tiger', 'Leopard'], ans: 2, exp: 'The tiger (Royal Bengal tiger) is the national animal.' },
+      { subject: 'General knowledge', topic: 'National symbols', q: 'Who wrote the national anthem of India?', options: ['Bankim Chandra Chatterjee', 'Rabindranath Tagore', 'Sarojini Naidu', 'Muhammad Iqbal'], ans: 1, exp: 'Jana Gana Mana was written by Rabindranath Tagore.' },
+      { subject: 'General knowledge', topic: 'Indian polity', q: 'The Rajya Sabha is also known as the', options: ['House of the People', 'Council of States', 'Legislative Council', 'Constituent Assembly'], ans: 1, exp: 'The Rajya Sabha is the Council of States, the upper house of Parliament. The Lok Sabha is the House of the People.' },
+      { subject: 'Mathematics', topic: 'LCM and HCF', q: 'The LCM of 12 and 18 is', options: ['6', '24', '36', '72'], ans: 2, exp: '12 = 2² × 3 and 18 = 2 × 3², so the LCM is 2² × 3² = 36.' },
+      { subject: 'Mathematics', topic: 'Linear equations', q: 'If 3x − 7 = 11, then x equals', options: ['4', '5', '6', '18'], ans: 2, exp: '3x = 18, so x = 6.' },
+      { subject: 'Reasoning', topic: 'Classification', q: 'Find the odd one out: Apple, Mango, Carrot, Banana.', options: ['Apple', 'Mango', 'Carrot', 'Banana'], ans: 2, exp: 'Carrot is a vegetable; the others are fruits.' },
+      { subject: 'Reasoning', topic: 'Analogy', q: 'Book is to Reading as Fork is to', options: ['Drawing', 'Writing', 'Stirring', 'Eating'], ans: 3, exp: 'A book is used for reading; a fork is used for eating.' },
+      { subject: 'General science', topic: 'Chemistry basics', q: 'The chemical formula of common salt is', options: ['KCl', 'NaCl', 'CaCO₃', 'NaOH'], ans: 1, exp: 'Common salt is sodium chloride, NaCl.' }
+    ]
+  },
+  {
+    id: 'univ', name: 'University practice: B.Tech first-year Engineering Mathematics', group: 'University practice: B.Tech first-year Engineering Mathematics', minutes: 10, plus: 1, minus: 0,
+    questions: [
+      { subject: 'Engineering mathematics', topic: 'Matrices', q: 'The determinant of the matrix with rows (2, 3) and (1, 4) is', options: ['5', '8', '11', '−5'], ans: 0, exp: 'Determinant = 2 × 4 − 3 × 1 = 5.' },
+      { subject: 'Engineering mathematics', topic: 'Matrices', q: 'The rank of the 2 × 2 identity matrix is', options: ['0', '1', '2', '4'], ans: 2, exp: 'Both rows are independent, so the rank is 2.' },
+      { subject: 'Engineering mathematics', topic: 'Integration', q: 'The value of the integral of 2x from 0 to 1 is', options: ['0', '1', '2', '1/2'], ans: 1, exp: 'The integral of 2x is x², and 1² − 0² = 1.' },
+      { subject: 'Engineering mathematics', topic: 'Differentiation', q: 'The derivative of sin x with respect to x is', options: ['cos x', '−cos x', '−sin x', 'tan x'], ans: 0, exp: 'd/dx (sin x) = cos x.' },
+      { subject: 'Engineering mathematics', topic: 'Limits', q: 'The limit of (sin x)/x as x approaches 0 is', options: ['0', '1', 'Infinity', 'Not defined'], ans: 1, exp: 'This standard limit equals 1.' },
+      { subject: 'Engineering mathematics', topic: 'Differential equations', q: 'The order of the differential equation d²y/dx² + 3 dy/dx + y = 0 is', options: ['0', '1', '2', '3'], ans: 2, exp: 'The highest derivative present is the second derivative, so the order is 2.' },
+      { subject: 'Engineering mathematics', topic: 'Complex numbers', q: 'The modulus of the complex number 3 + 4i is', options: ['1', '5', '7', '25'], ans: 1, exp: '|3 + 4i| = √(3² + 4²) = 5.' },
+      { subject: 'Engineering mathematics', topic: 'Vectors', q: 'The dot product of the vectors (1, 2, 3) and (4, 5, 6) is', options: ['15', '21', '32', '90'], ans: 2, exp: '1×4 + 2×5 + 3×6 = 4 + 10 + 18 = 32.' }
+    ]
+  }
+];
+
+window.RA_INTERVIEWS = [
+  { id: 'hr', name: 'HR and general interview', questions: [
+    { q: 'Tell me about yourself.', tip: 'Go present, past, future: what you do now, what brought you here, and what you want next. Keep it under two minutes.' },
+    { q: 'What is your biggest strength? Give an example.', tip: 'Name one strength and prove it with a short real story that has a result.' },
+    { q: 'Tell me about a time you failed. What did you learn?', tip: 'Pick a real failure, own it, and spend most of the answer on what you changed afterwards.' },
+    { q: 'Why should we select you?', tip: 'Link two or three of your skills directly to what the role needs.' },
+    { q: 'Where do you see yourself in five years?', tip: 'Show ambition that fits the organisation and the skills you plan to build.' } ] },
+  { id: 'upsc', name: 'Civil services personality test', questions: [
+    { q: 'Why do you want to join the civil services?', tip: 'Be personal and specific. Avoid slogans; connect it to something you have seen or done.' },
+    { q: 'Tell us about your home district and one problem you would fix there.', tip: 'Give facts about the district, then one practical step within an officer\'s powers.' },
+    { q: 'A senior asks you to do something you believe is wrong. What do you do?', tip: 'Stay calm, check the rules, put your view in writing respectfully, and follow the law.' },
+    { q: 'What is your view on balancing development and the environment?', tip: 'Present both sides fairly, then give a balanced position with an example.' },
+    { q: 'What is your biggest weakness?', tip: 'Choose a real one and explain the steps you are taking to improve.' } ] },
+  { id: 'bank', name: 'Bank PO interview', questions: [
+    { q: 'Why do you want a career in banking?', tip: 'Mention stability only briefly. Focus on the work: customers, finance, responsibility.' },
+    { q: 'What is the difference between the repo rate and the reverse repo rate?', tip: 'Repo: rate at which the RBI lends to banks. Reverse repo: rate at which the RBI borrows from banks.' },
+    { q: 'What is a non-performing asset (NPA)?', tip: 'A loan where interest or principal is overdue for more than 90 days.' },
+    { q: 'How would you handle an angry customer at the branch?', tip: 'Listen first, stay polite, acknowledge the problem, solve or escalate, and follow up.' },
+    { q: 'What do you know about digital payments such as UPI?', tip: 'Explain what it does in simple words and why it matters for financial inclusion.' } ] },
+  { id: 'tech', name: 'Campus technical interview (CS)', questions: [
+    { q: 'Explain the difference between an array and a linked list.', tip: 'Cover memory layout, access time, and insertion or deletion cost.' },
+    { q: 'What is the difference between a process and a thread?', tip: 'Processes have separate memory; threads share memory within a process.' },
+    { q: 'What is normalisation in databases, and why is it used?', tip: 'It organises tables to reduce repeated data and avoid update problems.' },
+    { q: 'Explain what happens when you type a website address and press Enter.', tip: 'DNS lookup, connection, request, server response, then the browser renders the page.' },
+    { q: 'Describe a project you built and the hardest problem in it.', tip: 'State the goal, your own role, the problem, what you tried, and the result.' } ] }
+];

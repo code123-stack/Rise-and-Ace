@@ -1,0 +1,60 @@
+RISE AND ACE - HOW TO PUT IT ONLINE WITH REAL STUDENT LOGIN
+============================================================
+
+IMPORTANT: GitHub Pages cannot give you REAL login (only device-only login).
+GitHub Pages only shows pages; it cannot run the small server that
+stores student accounts. Use GitHub to hold the code, and a host that
+runs Node.js (for example Render) to run it.
+
+TWO WAYS TO GO LIVE - the site picks the login type by itself
+  A) QUICK (GitHub Pages, Netlify or any simple page host): just upload
+     the folder. Students get a DEVICE-ONLY login: sign up, log in, log
+     out and saved tests all work, but the account lives only in that
+     phone or laptop's browser. It is not shared between devices and you
+     cannot see who signed up.
+     GitHub Pages: push the folder to a repository, then
+     Settings > Pages > Deploy from a branch > main > / (root) > Save.
+  B) REAL LOGIN (accounts work on every device): run the included server
+     on a Node.js host. Follow steps 1 to 3 below.
+
+STEP 1 - Try it on your own computer (VS Code)
+  1. Install Node.js (version 18 or newer) from nodejs.org.
+  2. Unzip this folder and open it in VS Code (File > Open Folder).
+  3. Open the terminal in VS Code (Terminal > New Terminal) and type:
+        npm start
+  4. Open http://localhost:3000 in your browser.
+     Sign up, take a test, log out, log in again. Your history should be there.
+     Press Ctrl+C in the terminal to stop it.
+
+STEP 2 - Put the code on GitHub
+  1. Create a free account at github.com and make a new repository.
+  2. In VS Code open "Source Control" (the branch icon on the left),
+     click "Publish to GitHub" and choose your repository.
+     (The file .gitignore already keeps student data out of GitHub.)
+
+STEP 3 - Run it on a Node.js host (example: Render)
+  1. Create an account at render.com and choose New > Web Service.
+  2. Connect your GitHub repository.
+  3. Settings:
+        Build command:  echo no build needed
+        Start command:  node server/server.js
+        Instance type:  Free (or a paid one, see below)
+  4. Click Deploy. Render gives you an https address. Login works there.
+  Other Node.js hosts work the same way: the start command is always
+  "node server/server.js" and the host sets the PORT for you.
+
+PLEASE READ - where student accounts are stored
+  Accounts and test history are saved as files in server/data.
+  On free hosting plans those files are usually wiped whenever the site
+  restarts or goes to sleep, so sign-ups disappear. That is fine for a
+  demo, not for real students.
+  To keep accounts permanently, use a paid plan with a "persistent disk"
+  and set the environment variable DATA_DIR to the disk's folder
+  (for example /var/data). The site then saves accounts there.
+
+OPTIONAL - switch on the hidden extras later
+  Live AI answers: set AI_API_URL, AI_API_KEY and AI_MODEL in the host's
+  "Environment" settings (never inside the code).
+  In-page video search: put a YouTube key in js/config.js.
+  Spoken interviews: set SPOKEN_INTERVIEWS: true in js/config.js after
+  testing the microphone.

@@ -1,0 +1,8 @@
+{
+  "name": "riseandace",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Rise and Ace exam-prep website",
+  "scripts": { "start": "node server/server.js" },
+  "engines": { "node": ">=18" }
+}
