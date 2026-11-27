@@ -24,6 +24,9 @@ WHAT IS INCLUDED
   The Mock tests page shows one card per exam; tap it to see that exam's papers.
   Timer, question palette, mark for review, negative marking, and analysis (score, accuracy,
   topic-wise results, time spent, answer review, past attempts). Search box to find an exam.
+- "Show answer" button on every question during a test: shows the correct answer and
+  explanation on the spot and locks that question (seen before answering = not attempted).
+- Mock interviews: "See a sample answer" button on every interview question.
 - Answer key for every paper: an "Answer key" button on each paper in the list and on the
   result page. It shows the question number, the correct option and, on tap, the question and
   explanation. It can be opened without taking the test. It is not shown while a test is running.
@@ -71,7 +74,8 @@ IMPORTANT TO KNOW
 
 FILES
 index.html, videos.html, tests.html, tutor.html, interview.html, lab.html, account.html
-css/style.css        design
+css/style.css        design (lavender glass theme, moving bubbles on every page)
+fonts/               Poppins font files (open licence), loaded by css/style.css
 js/config.js         YouTube key and optional test AI key
 js/data.js           the 9 short sample papers and the interview questions
 js/papers/*.js       10 practice papers per exam (one file per exam)

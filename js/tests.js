@@ -84,7 +84,7 @@
 
   function start(exam) {
     const n = exam.questions.length;
-    S = { exam, i: 0, ans: Array(n).fill(null), marked: Array(n).fill(false), time: Array(n).fill(0), left: exam.minutes * 60 };
+    S = { exam, i: 0, ans: Array(n).fill(null), marked: Array(n).fill(false), shown: Array(n).fill(false), time: Array(n).fill(0), left: exam.minutes * 60 };
     clearInterval(tick);
     tick = setInterval(() => {
       S.left--; S.time[S.i]++;
@@ -105,10 +105,13 @@
         h('div', { class: 'card' },
           h('div', { class: 'muted' }, 'Question ' + (S.i + 1) + ' of ' + n + ' · ' + q.subject),
           h('p', { class: 'qtext' }, q.q),
-          h('div', { class: 'opts' }, q.options.map((o, k) => h('button', { class: 'opt' + (S.ans[S.i] === k ? ' sel' : ''), onclick: () => { S.ans[S.i] = k; render(); } }, h('b', {}, 'ABCD'[k] + '.  '), o))),
+          h('div', { class: 'opts' }, q.options.map((o, k) => h('button', { class: 'opt' + (S.shown[S.i] ? (k === q.ans ? ' right' : S.ans[S.i] === k ? ' wrong' : '') : S.ans[S.i] === k ? ' sel' : ''), disabled: S.shown[S.i], onclick: () => { S.ans[S.i] = k; render(); } }, h('b', {}, 'ABCD'[k] + '.  '), o))),
+          S.shown[S.i] ? h('div', { class: 'note', id: 'shown-answer' }, h('p', { style: 'margin:0 0 6px' }, h('b', {}, 'Correct answer: '), 'ABCD'[q.ans] + '. ' + q.options[q.ans]), q.exp ? h('p', { style: 'margin:0 0 6px' }, h('b', {}, 'Explanation: '), q.exp) : null,
+            h('p', { class: 'muted', style: 'margin:0' }, S.ans[S.i] === null ? 'You saw the answer before answering, so this question is counted as not attempted.' : 'Your answer for this question is now locked.')) : null,
           h('div', { class: 'row' },
             h('button', { class: 'btn', disabled: S.i === 0, onclick: () => go(S.i - 1) }, 'Previous'),
-            h('button', { class: 'btn', onclick: () => { S.ans[S.i] = null; render(); } }, 'Clear answer'),
+            h('button', { class: 'btn', disabled: S.shown[S.i], onclick: () => { S.ans[S.i] = null; render(); } }, 'Clear answer'),
+            h('button', { class: 'btn', disabled: S.shown[S.i], 'data-show': '1', onclick: () => { S.shown[S.i] = true; render(); } }, S.shown[S.i] ? 'Answer shown' : 'Show answer'),
             h('button', { class: 'btn', onclick: () => { S.marked[S.i] = !S.marked[S.i]; render(); } }, S.marked[S.i] ? 'Unmark review' : 'Mark for review'),
             h('button', { class: 'btn primary', disabled: S.i === n - 1, onclick: () => go(S.i + 1) }, 'Save and next'))),
         h('div', { class: 'card' },

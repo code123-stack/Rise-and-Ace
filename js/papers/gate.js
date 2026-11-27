@@ -1,6 +1,6 @@
 window.RA_EXAMS = window.RA_EXAMS || [];
 window.RA_EXAMS.push(
-  { id: 'gate-p01', name: 'GATE Computer Science style practice paper 1', group: 'GATE Computer Science style practice', minutes: 18, plus: 1, minus: 0.33,
+  { id: 'gate-p01', name: 'GATE Computer Science practice paper 1', group: 'GATE Computer Science practice papers', minutes: 18, plus: 1, minus: 0.33,
     questions: [
       { subject: 'Algorithms', topic: 'Sorting', q: 'Which of these sorting algorithms runs in O(n log n) time in the worst case and is stable in its standard implementation?', options: ['Quicksort', 'Heapsort', 'Merge sort', 'Selection sort'], ans: 2, exp: 'Merge sort is O(n log n) in every case and keeps equal keys in order. Quicksort and selection sort are O(n²) in the worst case, and heapsort is not stable.' },
       { subject: 'Data structures', topic: 'Binary trees', q: 'The maximum number of nodes in a binary tree that has 5 levels (the root is on level 1) is', options: ['31', '16', '32', '63'], ans: 0, exp: 'Level k holds at most 2^(k−1) nodes, so the total is 1 + 2 + 4 + 8 + 16 = 2⁵ − 1 = 31.' },
@@ -13,7 +13,7 @@ window.RA_EXAMS.push(
       { subject: 'Computer organisation', topic: 'Cache memory', q: 'A direct-mapped cache holds 64 KB of data in blocks of 16 bytes. Memory addresses are 32 bits. The number of tag bits per cache block is', options: ['12', '20', '18', '16'], ans: 3, exp: 'Blocks = 2¹⁶ / 2⁴ = 2¹², so the index is 12 bits and the offset is 4 bits. Tag = 32 − 12 − 4 = 16 bits.' },
       { subject: 'Engineering mathematics', topic: 'Linear algebra', q: 'The eigenvalues of the matrix with rows (2, 1) and (1, 2) are', options: ['2 and 2', '1 and 3', '0 and 4', '−1 and 3'], ans: 1, exp: 'The characteristic equation is (2 − λ)² − 1 = 0, so 2 − λ = ±1 and λ = 1 or 3.' }
     ] },
-  { id: 'gate-p02', name: 'GATE Computer Science style practice paper 2', group: 'GATE Computer Science style practice', minutes: 18, plus: 1, minus: 0.33,
+  { id: 'gate-p02', name: 'GATE Computer Science practice paper 2', group: 'GATE Computer Science practice papers', minutes: 18, plus: 1, minus: 0.33,
     questions: [
       { subject: 'Databases', topic: 'Functional dependencies', q: 'Relation R(A, B, C, D, E) has the functional dependencies A → B, BC → D and D → E. The closure of the attribute set {A, C} is', options: ['{A, B, C}', '{A, C}', '{A, B, C, D, E}', '{A, B, C, D}'], ans: 2, exp: 'A → B adds B; BC → D adds D; D → E adds E. So {A, C}⁺ = {A, B, C, D, E}.' },
       { subject: 'Computer networks', topic: 'IP addressing', q: 'A host has the IPv4 address 192.168.10.77 with a /27 mask. The network address of its subnet is', options: ['192.168.10.72', '192.168.10.32', '192.168.10.64', '192.168.10.76'], ans: 2, exp: 'A /27 gives blocks of 32 addresses: 0, 32, 64, 96, ... The address 77 lies in the block 64–95, so the network address is 192.168.10.64.' },
@@ -26,7 +26,7 @@ window.RA_EXAMS.push(
       { subject: 'Data structures', topic: 'Binary search trees', q: 'The keys 40, 20, 60, 10, 30, 50, 70, 25 are inserted in this order into an empty binary search tree. The height of the tree (number of edges on the longest root-to-leaf path) is', options: ['3', '2', '4', '5'], ans: 0, exp: 'After the first seven keys the tree is perfectly balanced with height 2. Key 25 goes 40 → 20 → 30 → left child of 30, making the height 3.' },
       { subject: 'Operating systems', topic: 'CPU scheduling', q: 'Four processes arrive at time 0 with CPU bursts P1 = 5, P2 = 2, P3 = 9 and P4 = 4 ms. Under non-preemptive shortest-job-first scheduling, the average waiting time is', options: ['5.25 ms', '6.5 ms', '4 ms', '4.75 ms'], ans: 3, exp: 'Order of execution: P2, P4, P1, P3. Waiting times are 0, 2, 6 and 11 ms. Average = 19 / 4 = 4.75 ms.' }
     ] },
-  { id: 'gate-p03', name: 'GATE Computer Science style practice paper 3', group: 'GATE Computer Science style practice', minutes: 18, plus: 1, minus: 0.33,
+  { id: 'gate-p03', name: 'GATE Computer Science practice paper 3', group: 'GATE Computer Science practice papers', minutes: 18, plus: 1, minus: 0.33,
     questions: [
       { subject: 'Discrete mathematics', topic: 'Graph theory', q: 'A connected planar graph with 8 vertices and 12 edges is drawn in the plane without edge crossings. The number of faces (regions), including the outer face, is', options: ['6', '4', '5', '8'], ans: 0, exp: 'Euler\'s formula: V − E + F = 2, so F = 2 − 8 + 12 = 6.' },
       { subject: 'Computer organisation', topic: 'Pipelining', q: 'A non-pipelined processor takes 10 ns per instruction. A 5-stage pipelined version has a clock period of 2 ns. For 100 instructions with no stalls, the speedup of the pipelined processor is closest to', options: ['5.00', '4.17', '4.50', '4.81'], ans: 3, exp: 'Non-pipelined time = 100 × 10 = 1000 ns. Pipelined time = (5 + 100 − 1) × 2 = 208 ns. Speedup = 1000 / 208 ≈ 4.81.' },
@@ -39,7 +39,7 @@ window.RA_EXAMS.push(
       { subject: 'Computer networks', topic: 'Transport layer', q: 'The correct sequence of segments in the TCP three-way handshake is', options: ['SYN, ACK, FIN', 'SYN, SYN, ACK', 'SYN, SYN + ACK, ACK', 'ACK, SYN, SYN + ACK'], ans: 2, exp: 'The client sends SYN, the server replies with SYN + ACK, and the client completes the connection with ACK.' },
       { subject: 'Digital logic', topic: 'Number systems', q: 'The octal equivalent of the hexadecimal number 2F is', options: ['47', '57', '75', '137'], ans: 1, exp: '2F in binary is 0010 1111. Regrouping in threes gives 101 111, which is 57 in octal (decimal 47).' }
     ] },
-  { id: 'gate-p04', name: 'GATE Computer Science style practice paper 4', group: 'GATE Computer Science style practice', minutes: 18, plus: 1, minus: 0.33,
+  { id: 'gate-p04', name: 'GATE Computer Science practice paper 4', group: 'GATE Computer Science practice papers', minutes: 18, plus: 1, minus: 0.33,
     questions: [
       { subject: 'Engineering mathematics', topic: 'Probability', q: 'Machine A makes 60% of the items in a factory and machine B makes 40%. 2% of the items from A and 5% of the items from B are defective. If a randomly chosen item is defective, the probability that it came from A is', options: ['0.60', '0.25', '0.40', '0.375'], ans: 3, exp: 'Bayes\' theorem: (0.6 × 0.02) / (0.6 × 0.02 + 0.4 × 0.05) = 0.012 / 0.032 = 0.375.' },
       { subject: 'Algorithms', topic: 'Dynamic programming', q: 'A 0/1 knapsack has capacity 10. The four items have (weight, value) = (5, 10), (4, 40), (6, 30) and (3, 50). The maximum total value that can be carried is', options: ['80', '100', '70', '90'], ans: 3, exp: 'Taking the items of weight 4 and 3 uses weight 7 and gives 40 + 50 = 90. No third item fits, and every other feasible combination gives less (for example 3 + 6 gives 80).' },
@@ -52,7 +52,7 @@ window.RA_EXAMS.push(
       { subject: 'Computer organisation', topic: 'Cache memory', q: 'A memory system has a cache hit ratio of 0.9. An access takes 10 ns on a hit and 110 ns in total on a miss. The average access time is', options: ['20 ns', '19 ns', '28 ns', '55 ns'], ans: 0, exp: 'Average = 0.9 × 10 + 0.1 × 110 = 9 + 11 = 20 ns.' },
       { subject: 'Programming in C', topic: 'Pointers', q: 'What is printed by this C code? int a[] = {10, 20, 30, 40}; int *p = a + 1; printf("%d", *(p + 2));', options: ['30', '20', '40', '12'], ans: 2, exp: 'p points to a[1], so p + 2 points to a[3], whose value is 40.' }
     ] },
-  { id: 'gate-p05', name: 'GATE Computer Science style practice paper 5', group: 'GATE Computer Science style practice', minutes: 18, plus: 1, minus: 0.33,
+  { id: 'gate-p05', name: 'GATE Computer Science practice paper 5', group: 'GATE Computer Science practice papers', minutes: 18, plus: 1, minus: 0.33,
     questions: [
       { subject: 'Operating systems', topic: 'Threads', q: 'Which of the following is shared by all the threads of a single process?', options: ['Stack', 'Heap memory', 'Program counter', 'Register set'], ans: 1, exp: 'Threads of a process share its code, global data and heap. Each thread has its own stack, program counter and registers.' },
       { subject: 'Databases', topic: 'Indexing', q: 'In a B+ tree, an internal node with n child pointers stores n − 1 keys. A block is 512 bytes, a key is 10 bytes and a child pointer is 6 bytes. The largest n for which an internal node fits in one block is', options: ['31', '33', '32', '51'], ans: 2, exp: '6n + 10(n − 1) ≤ 512 gives 16n ≤ 522, so n = 32 (32 pointers and 31 keys use 502 bytes).' },
@@ -65,7 +65,7 @@ window.RA_EXAMS.push(
       { subject: 'Algorithms', topic: 'Minimum spanning tree', q: 'An undirected graph on vertices A, B, C, D, E has edges AB = 4, AC = 1, BC = 2, BD = 5, CD = 8, CE = 10 and DE = 3. The weight of its minimum spanning tree is', options: ['10', '13', '11', '15'], ans: 2, exp: 'Kruskal: take AC (1), BC (2), DE (3); skip AB (4) because it forms a cycle; take BD (5). Total = 1 + 2 + 3 + 5 = 11.' },
       { subject: 'Data structures', topic: 'Hashing', q: 'A hash table has 7 slots (0 to 6), uses h(k) = k mod 7 and resolves collisions by linear probing. The keys 10, 17, 24, 5 are inserted in this order into the empty table. In which slot is key 5 stored?', options: ['5', '6', '0', '4'], ans: 1, exp: '10 goes to slot 3; 17 hashes to 3 and moves to 4; 24 hashes to 3 and moves to 5; 5 hashes to 5, which is full, so it goes to slot 6.' }
     ] },
-  { id: 'gate-p06', name: 'GATE Computer Science style practice paper 6', group: 'GATE Computer Science style practice', minutes: 18, plus: 1, minus: 0.33,
+  { id: 'gate-p06', name: 'GATE Computer Science practice paper 6', group: 'GATE Computer Science practice papers', minutes: 18, plus: 1, minus: 0.33,
     questions: [
       { subject: 'Discrete mathematics', topic: 'Functions', q: 'The number of onto (surjective) functions from a set of 4 elements to a set of 2 elements is', options: ['16', '14', '12', '8'], ans: 1, exp: 'There are 2⁴ = 16 functions in all; the 2 constant functions are not onto. So 16 − 2 = 14.' },
       { subject: 'Theory of computation', topic: 'Regular expressions', q: 'The number of strings of length exactly 3 in the language of the regular expression (a + b)* a (a + b)* is', options: ['7', '8', '4', '6'], ans: 0, exp: 'The expression describes strings over {a, b} with at least one a. Of the 2³ = 8 strings of length 3, only bbb has no a, so the answer is 7.' },
@@ -78,7 +78,7 @@ window.RA_EXAMS.push(
       { subject: 'Databases', topic: 'Transactions', q: 'A schedule is conflict serialisable if and only if its precedence graph', options: ['Is connected', 'Has exactly one cycle', 'Has no cycle', 'Is a complete graph'], ans: 2, exp: 'An acyclic precedence graph can be topologically sorted to give an equivalent serial order; a cycle means no such order exists.' },
       { subject: 'Digital logic', topic: 'Number representation', q: 'The range of integers that can be represented in 8-bit two\'s complement form is', options: ['−127 to +127', '−128 to +128', '−128 to +127', '0 to 255'], ans: 2, exp: 'n-bit two\'s complement covers −2^(n−1) to 2^(n−1) − 1, which for n = 8 is −128 to +127.' }
     ] },
-  { id: 'gate-p07', name: 'GATE Computer Science style practice paper 7', group: 'GATE Computer Science style practice', minutes: 18, plus: 1, minus: 0.33,
+  { id: 'gate-p07', name: 'GATE Computer Science practice paper 7', group: 'GATE Computer Science practice papers', minutes: 18, plus: 1, minus: 0.33,
     questions: [
       { subject: 'Programming in C', topic: 'Storage classes', q: 'A C function is defined as: void f(void) { static int x = 0; x += 2; printf("%d ", x); } If f is called three times in a row, the output is', options: ['2 4 6', '2 2 2', '0 2 4', '6 6 6'], ans: 0, exp: 'A static local variable is initialised once and keeps its value between calls, so x becomes 2, then 4, then 6.' },
       { subject: 'Engineering mathematics', topic: 'Linear algebra', q: 'A is a 3 × 3 matrix with determinant 2. The determinant of the matrix 3A is', options: ['6', '18', '54', '27'], ans: 2, exp: 'For an n × n matrix, det(kA) = kⁿ det(A). So det(3A) = 3³ × 2 = 54.' },
@@ -91,7 +91,7 @@ window.RA_EXAMS.push(
       { subject: 'Theory of computation', topic: 'Context-free grammars', q: 'A grammar is in Chomsky normal form. The number of derivation steps needed to derive a string of length 6 is', options: ['11', '12', '6', '10'], ans: 0, exp: 'A string of length n needs n − 1 steps of the form A → BC and n steps of the form A → a: 2n − 1 = 11.' },
       { subject: 'Computer organisation', topic: 'Performance', q: 'An enhancement speeds up 40% of a program\'s execution time by a factor of 4, leaving the rest unchanged. By Amdahl\'s law, the overall speedup is closest to', options: ['1.60', '2.50', '1.25', '1.43'], ans: 3, exp: 'Speedup = 1 / (0.6 + 0.4 / 4) = 1 / 0.7 ≈ 1.43.' }
     ] },
-  { id: 'gate-p08', name: 'GATE Computer Science style practice paper 8', group: 'GATE Computer Science style practice', minutes: 18, plus: 1, minus: 0.33,
+  { id: 'gate-p08', name: 'GATE Computer Science practice paper 8', group: 'GATE Computer Science practice papers', minutes: 18, plus: 1, minus: 0.33,
     questions: [
       { subject: 'Data structures', topic: 'Binary trees', q: 'In a binary tree every node has either 0 or 2 children. If the tree has 15 leaves, the number of internal (non-leaf) nodes is', options: ['15', '14', '16', '29'], ans: 1, exp: 'In such a tree, leaves = internal nodes + 1, so internal nodes = 15 − 1 = 14.' },
       { subject: 'Databases', topic: 'Transactions', q: 'Which ACID property guarantees that the changes made by a committed transaction are not lost even if the system crashes afterwards?', options: ['Atomicity', 'Consistency', 'Isolation', 'Durability'], ans: 3, exp: 'Durability means the effects of a committed transaction persist despite later failures.' },
@@ -104,7 +104,7 @@ window.RA_EXAMS.push(
       { subject: 'Engineering mathematics', topic: 'Calculus', q: 'The function f(x) = x³ − 6x² + 9x + 1 has a local minimum at x =', options: ['3', '1', '2', '0'], ans: 0, exp: 'f\'(x) = 3x² − 12x + 9 = 3(x − 1)(x − 3). f\'\'(x) = 6x − 12 is positive at x = 3 (minimum) and negative at x = 1 (maximum).' },
       { subject: 'Algorithms', topic: 'Dynamic programming', q: 'The length of a longest common subsequence of the strings COMPUTER and COMMUTE is', options: ['5', '7', '4', '6'], ans: 3, exp: 'COMUTE is a subsequence of both strings (length 6). A common subsequence of length 7 would have to be COMMUTE itself, but COMPUTER has only one M.' }
     ] },
-  { id: 'gate-p09', name: 'GATE Computer Science style practice paper 9', group: 'GATE Computer Science style practice', minutes: 18, plus: 1, minus: 0.33,
+  { id: 'gate-p09', name: 'GATE Computer Science practice paper 9', group: 'GATE Computer Science practice papers', minutes: 18, plus: 1, minus: 0.33,
     questions: [
       { subject: 'Digital logic', topic: 'Number representation', q: 'The decimal value of the 8-bit two\'s complement number 11101100 is', options: ['−19', '−108', '−20', '236'], ans: 2, exp: 'As an unsigned number it is 236. Since the sign bit is 1, the value is 236 − 256 = −20.' },
       { subject: 'Discrete mathematics', topic: 'Counting', q: 'The minimum number of cards that must be drawn from a standard 52-card deck to guarantee that at least 3 of them are of the same suit is', options: ['9', '8', '12', '13'], ans: 0, exp: 'With 8 cards it is possible to have exactly 2 of each of the 4 suits. A 9th card must give some suit 3 cards (pigeonhole principle).' },
@@ -117,7 +117,7 @@ window.RA_EXAMS.push(
       { subject: 'Databases', topic: 'Relational algebra', q: 'R and S are union-compatible relations. R has 7 tuples and S has 4 tuples. The minimum possible number of tuples in R − S is', options: ['0', '4', '7', '3'], ans: 3, exp: 'R − S is smallest when every tuple of S also appears in R, leaving 7 − 4 = 3 tuples.' },
       { subject: 'Computer networks', topic: 'Delays', q: 'The time needed to transmit a 1500-byte packet over a 10 Mbps link (1 Mbps = 10⁶ bits per second) is', options: ['0.15 ms', '1.2 ms', '12 ms', '1.5 ms'], ans: 1, exp: '1500 bytes = 12000 bits. 12000 / 10⁷ = 0.0012 s = 1.2 ms.' }
     ] },
-  { id: 'gate-p10', name: 'GATE Computer Science style practice paper 10', group: 'GATE Computer Science style practice', minutes: 18, plus: 1, minus: 0.33,
+  { id: 'gate-p10', name: 'GATE Computer Science practice paper 10', group: 'GATE Computer Science practice papers', minutes: 18, plus: 1, minus: 0.33,
     questions: [
       { subject: 'Computer organisation', topic: 'Cache memory', q: 'A 4-way set-associative cache contains 256 blocks in total. The number of bits in the set-index field of the address is', options: ['8', '4', '2', '6'], ans: 3, exp: 'Number of sets = 256 / 4 = 64 = 2⁶, so the set index needs 6 bits.' },
       { subject: 'Programming in C', topic: 'Operators', q: 'What is printed by this C code? int x = 0, y = 5; int z = x && ++y; printf("%d %d", y, z);', options: ['6 0', '5 0', '6 1', '5 1'], ans: 1, exp: 'x is 0, so && short-circuits: ++y is never evaluated and z is 0. The output is 5 0.' },

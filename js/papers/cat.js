@@ -1,6 +1,6 @@
 window.RA_EXAMS = window.RA_EXAMS || [];
 window.RA_EXAMS.push(
-  { id: 'cat-p01', name: 'CAT style practice paper 1', group: 'CAT style practice', minutes: 20, plus: 3, minus: 1,
+  { id: 'cat-p01', name: 'CAT practice paper 1', group: 'CAT practice papers', minutes: 20, plus: 3, minus: 1,
     questions: [
       { subject: 'Quantitative ability', topic: 'Number system', q: 'What is the remainder when 3¹⁰⁰ is divided by 13?', options: ['1', '9', '3', '12'], ans: 2, exp: '3³ = 27 = 2 × 13 + 1, so 3³ leaves remainder 1. 3¹⁰⁰ = (3³)³³ × 3, which leaves remainder 1 × 3 = 3.' },
       { subject: 'Quantitative ability', topic: 'Quadratic equations', q: 'The roots of x² − 7x + k = 0 differ by 3. What is the value of k?', options: ['10', '6', '8', '12'], ans: 0, exp: 'Sum of roots = 7 and difference = 3, so the roots are 5 and 2. k = product = 5 × 2 = 10.' },
@@ -13,7 +13,7 @@ window.RA_EXAMS.push(
       { subject: 'Verbal ability', topic: 'Vocabulary', q: 'LACONIC most nearly means', options: ['Using very few words', 'Talkative', 'Lazy', 'Sorrowful'], ans: 0, exp: 'Laconic describes a person or style that uses very few words.' },
       { subject: 'Verbal ability', topic: 'Para-jumble', q: 'Arrange the sentences in a logical order. A. As a result, the harvest that year was the poorest in a decade. B. The monsoon arrived nearly a month late. C. Farmers who had already sown their seeds watched the seedlings wither. D. Many of them could not afford to sow a second time.', options: ['BDCA', 'BCDA', 'CBDA', 'BCAD'], ans: 1, exp: 'B introduces the late monsoon, C gives its effect on farmers, D ("many of them") continues about those farmers, and A ("As a result") gives the final outcome.' }
     ] },
-  { id: 'cat-p02', name: 'CAT style practice paper 2', group: 'CAT style practice', minutes: 20, plus: 3, minus: 1,
+  { id: 'cat-p02', name: 'CAT practice paper 2', group: 'CAT practice papers', minutes: 20, plus: 3, minus: 1,
     questions: [
       { subject: 'Quantitative ability', topic: 'Number system', q: 'How many zeros are there at the end of 100! (100 factorial)?', options: ['20', '22', '25', '24'], ans: 3, exp: 'The number of trailing zeros is the power of 5 in 100!: ⌊100/5⌋ + ⌊100/25⌋ = 20 + 4 = 24.' },
       { subject: 'Quantitative ability', topic: 'Percentage', q: 'In an election between two candidates, the winner got 58% of the valid votes and won by 2,400 votes. How many valid votes were cast?', options: ['12,000', '15,000', '14,000', '16,000'], ans: 1, exp: 'The loser got 42%, so the margin is 16% of the valid votes. 16% = 2,400 gives total = 2,400 ÷ 0.16 = 15,000.' },
@@ -26,7 +26,7 @@ window.RA_EXAMS.push(
       { subject: 'Verbal ability', topic: 'Grammar', q: 'Choose the grammatically correct sentence.', options: ['Neither the manager nor the employees was aware of the change.', 'Neither the manager or the employees were aware of the change.', 'Neither the manager nor the employees is aware about the change.', 'Neither the manager nor the employees were aware of the change.'], ans: 3, exp: '"Neither" pairs with "nor", and the verb agrees with the nearer subject ("employees"), so "were" is correct; the idiom is "aware of".' },
       { subject: 'Verbal ability', topic: 'Vocabulary', q: 'Choose the word most nearly OPPOSITE in meaning to FRUGAL.', options: ['Thrifty', 'Honest', 'Extravagant', 'Timid'], ans: 2, exp: 'Frugal means careful with money; its opposite is extravagant, meaning spending wastefully.' }
     ] },
-  { id: 'cat-p03', name: 'CAT style practice paper 3', group: 'CAT style practice', minutes: 20, plus: 3, minus: 1,
+  { id: 'cat-p03', name: 'CAT practice paper 3', group: 'CAT practice papers', minutes: 20, plus: 3, minus: 1,
     questions: [
       { subject: 'Quantitative ability', topic: 'Exponents', q: 'If 2ˣ⁺³ − 2ˣ = 112, what is the value of x?', options: ['3', '4', '5', '6'], ans: 1, exp: '2ˣ(2³ − 1) = 7 × 2ˣ = 112, so 2ˣ = 16 and x = 4.' },
       { subject: 'Quantitative ability', topic: 'Averages', q: 'The average of 10 numbers is 24. If one of the numbers, 42, is removed, what is the average of the remaining numbers?', options: ['21', '23', '20', '22'], ans: 3, exp: 'Total = 240. After removing 42 the total is 198, and 198 ÷ 9 = 22.' },
@@ -39,7 +39,7 @@ window.RA_EXAMS.push(
       { subject: 'Verbal ability', topic: 'Critical reasoning', q: 'A city found that neighbourhoods with more street lights reported fewer burglaries. The council concluded that installing more street lights would reduce burglaries. Which of the following, if true, most weakens this conclusion?', options: ['Street lights cost less to install than security cameras.', 'Wealthier neighbourhoods, which have more private security guards, also tend to have more street lights.', 'Most burglaries in the city take place after dark.', 'Residents of every neighbourhood have asked for more street lights.'], ans: 1, exp: 'If private security in wealthier areas explains the lower burglary rate, the street lights may not be the cause, which weakens the conclusion.' },
       { subject: 'Verbal ability', topic: 'Sentence completion', q: 'Choose the word that best fills the blank: The scientist\'s explanation was so ______ that even schoolchildren could follow it.', options: ['lucid', 'obscure', 'verbose', 'tentative'], ans: 0, exp: 'Lucid means clear and easy to understand, which fits an explanation that children could follow.' }
     ] },
-  { id: 'cat-p04', name: 'CAT style practice paper 4', group: 'CAT style practice', minutes: 20, plus: 3, minus: 1,
+  { id: 'cat-p04', name: 'CAT practice paper 4', group: 'CAT practice papers', minutes: 20, plus: 3, minus: 1,
     questions: [
       { subject: 'Quantitative ability', topic: 'Number system', q: 'How many positive divisors does 360 have?', options: ['24', '18', '20', '30'], ans: 0, exp: '360 = 2³ × 3² × 5, so the number of divisors = (3 + 1)(2 + 1)(1 + 1) = 24.' },
       { subject: 'Quantitative ability', topic: 'Progressions', q: 'What is the sum of the first 20 terms of the arithmetic progression 5, 8, 11, ...?', options: ['650', '630', '670', '700'], ans: 2, exp: 'The 20th term = 5 + 19 × 3 = 62. Sum = 20/2 × (5 + 62) = 670.' },
@@ -52,7 +52,7 @@ window.RA_EXAMS.push(
       { subject: 'Verbal ability', topic: 'Para-jumble', q: 'Arrange the sentences in a logical order. A. That discovery changed how the villagers stored grain. B. For generations, the villagers had kept their grain in open clay pots. C. Then a visiting teacher showed them that sealed containers kept insects out. D. Each year, however, insects destroyed nearly a third of it.', options: ['BCDA', 'BDCA', 'DBCA', 'BDAC'], ans: 1, exp: 'B sets the scene, D ("of it") states the problem with the grain, C ("Then") brings the solution, and A ("That discovery") gives the result.' },
       { subject: 'Verbal ability', topic: 'Idioms', q: 'The idiom "to burn the midnight oil" means', options: ['to waste resources carelessly', 'to destroy important evidence', 'to work or study late into the night', 'to lose one\'s temper suddenly'], ans: 2, exp: '"To burn the midnight oil" means to work or study until late at night.' }
     ] },
-  { id: 'cat-p05', name: 'CAT style practice paper 5', group: 'CAT style practice', minutes: 20, plus: 3, minus: 1,
+  { id: 'cat-p05', name: 'CAT practice paper 5', group: 'CAT practice papers', minutes: 20, plus: 3, minus: 1,
     questions: [
       { subject: 'Quantitative ability', topic: 'Number system', q: 'The HCF of two numbers is 12 and their LCM is 360. If one of the numbers is 72, what is the other?', options: ['48', '60', '84', '90'], ans: 1, exp: 'Product of two numbers = HCF × LCM, so the other number = 12 × 360 ÷ 72 = 60.' },
       { subject: 'Quantitative ability', topic: 'Inequalities', q: 'How many integers x satisfy x² − 5x − 14 < 0?', options: ['8', '7', '9', '6'], ans: 0, exp: '(x − 7)(x + 2) < 0 gives −2 < x < 7, so x = −1, 0, 1, 2, 3, 4, 5, 6: 8 integers.' },
@@ -65,7 +65,7 @@ window.RA_EXAMS.push(
       { subject: 'Verbal ability', topic: 'Grammar', q: 'Which of the following sentences uses the correct tense and preposition?', options: ['She is living in Pune since 2015.', 'She lives in Pune since 2015.', 'She has been living in Pune for 2015.', 'She has been living in Pune since 2015.'], ans: 3, exp: 'An action that began in the past and still continues takes the present perfect continuous, with "since" before a point of time.' },
       { subject: 'Verbal ability', topic: 'Vocabulary', q: 'MITIGATE most nearly means', options: ['Aggravate', 'Lessen', 'Imitate', 'Postpone'], ans: 1, exp: 'To mitigate is to make something less severe or less painful.' }
     ] },
-  { id: 'cat-p06', name: 'CAT style practice paper 6', group: 'CAT style practice', minutes: 20, plus: 3, minus: 1,
+  { id: 'cat-p06', name: 'CAT practice paper 6', group: 'CAT practice papers', minutes: 20, plus: 3, minus: 1,
     questions: [
       { subject: 'Quantitative ability', topic: 'Number system', q: 'What is the units digit of 7⁹⁵?', options: ['1', '7', '3', '9'], ans: 2, exp: 'Units digits of powers of 7 repeat as 7, 9, 3, 1. Since 95 = 4 × 23 + 3, the units digit is the third in the cycle, 3.' },
       { subject: 'Quantitative ability', topic: 'Functions', q: 'If f(x) = 2x + 3 and g(x) = x² − 1, what is the value of g(f(2))?', options: ['9', '50', '24', '48'], ans: 3, exp: 'f(2) = 7 and g(7) = 49 − 1 = 48.' },
@@ -78,7 +78,7 @@ window.RA_EXAMS.push(
       { subject: 'Verbal ability', topic: 'Critical reasoning', q: '"Rahul must be a good programmer, because he graduated from a top engineering college." Which assumption does this argument depend on?', options: ['Only graduates of top engineering colleges are good programmers.', 'Rahul enjoys writing programs.', 'Graduates of top engineering colleges are good programmers.', 'Good programmers earn high salaries.'], ans: 2, exp: 'The conclusion follows from Rahul\'s college only if graduates of such colleges are good programmers. The argument does not need the claim that nobody else is.' },
       { subject: 'Verbal ability', topic: 'Vocabulary', q: 'Choose the word most nearly OPPOSITE in meaning to BENEVOLENT.', options: ['Generous', 'Malevolent', 'Wealthy', 'Cautious'], ans: 1, exp: 'Benevolent means kind and well-meaning; malevolent means wishing harm to others.' }
     ] },
-  { id: 'cat-p07', name: 'CAT style practice paper 7', group: 'CAT style practice', minutes: 20, plus: 3, minus: 1,
+  { id: 'cat-p07', name: 'CAT practice paper 7', group: 'CAT practice papers', minutes: 20, plus: 3, minus: 1,
     questions: [
       { subject: 'Quantitative ability', topic: 'Number system', q: 'What is the sum of all two-digit numbers that are divisible by 7?', options: ['728', '735', '721', '742'], ans: 0, exp: 'They are 14, 21, ..., 98: 13 terms. Sum = 13/2 × (14 + 98) = 728.' },
       { subject: 'Quantitative ability', topic: 'Algebra', q: 'If a + b = 10 and ab = 21, what is the value of a³ + b³?', options: ['340', '370', '400', '730'], ans: 1, exp: 'a³ + b³ = (a + b)³ − 3ab(a + b) = 1,000 − 3 × 21 × 10 = 370. (a and b are 7 and 3: 343 + 27.)' },
@@ -91,7 +91,7 @@ window.RA_EXAMS.push(
       { subject: 'Verbal ability', topic: 'Para-jumble', q: 'Arrange the sentences in a logical order. A. He therefore decided to walk to the station instead. B. Karan stepped out of his house to find that it was pouring. C. Halfway there, he realised that he had left his ticket at home. D. No auto-rickshaw was willing to stop in such weather.', options: ['BADC', 'DBAC', 'BDAC', 'BDCA'], ans: 2, exp: 'B opens with the rain, D ("such weather") follows, A ("therefore ... instead") is the decision that results, and C ("Halfway there") happens on the walk.' },
       { subject: 'Verbal ability', topic: 'Grammar', q: 'Choose the option that correctly completes the sentence: Had I known about the delay, I ______ a later train.', options: ['would take', 'would have taken', 'will have taken', 'had taken'], ans: 1, exp: 'This is a third conditional (an unreal past condition): "Had I known ..., I would have taken ...".' }
     ] },
-  { id: 'cat-p08', name: 'CAT style practice paper 8', group: 'CAT style practice', minutes: 20, plus: 3, minus: 1,
+  { id: 'cat-p08', name: 'CAT practice paper 8', group: 'CAT practice papers', minutes: 20, plus: 3, minus: 1,
     questions: [
       { subject: 'Quantitative ability', topic: 'Number system', q: 'What is the largest three-digit number that leaves a remainder of 5 when divided by 12 and also when divided by 18?', options: ['995', '989', '941', '977'], ans: 3, exp: 'Such numbers are of the form 36k + 5 (LCM of 12 and 18 is 36). The largest below 1,000 is 36 × 27 + 5 = 977.' },
       { subject: 'Quantitative ability', topic: 'Quadratic equations', q: 'If α and β are the roots of x² − 6x + 4 = 0, what is the value of α² + β²?', options: ['32', '44', '28', '20'], ans: 2, exp: 'α + β = 6 and αβ = 4, so α² + β² = (α + β)² − 2αβ = 36 − 8 = 28.' },
@@ -104,7 +104,7 @@ window.RA_EXAMS.push(
       { subject: 'Verbal ability', topic: 'Vocabulary', q: 'PRAGMATIC most nearly means', options: ['Idealistic', 'Stubborn', 'Dramatic', 'Practical'], ans: 3, exp: 'A pragmatic person deals with things sensibly and practically rather than by theory.' },
       { subject: 'Verbal ability', topic: 'Critical reasoning', q: 'Every employee who completed the safety course received a certificate. Meena, an employee, did not receive a certificate. Which of the following can be properly inferred?', options: ['Meena failed the test at the end of the safety course.', 'Meena is not interested in workplace safety.', 'Meena did not complete the safety course.', 'Some employees received a certificate without completing the course.'], ans: 2, exp: 'If she had completed the course she would have received a certificate; she did not, so she did not complete it. Nothing is stated about why.' }
     ] },
-  { id: 'cat-p09', name: 'CAT style practice paper 9', group: 'CAT style practice', minutes: 20, plus: 3, minus: 1,
+  { id: 'cat-p09', name: 'CAT practice paper 9', group: 'CAT practice papers', minutes: 20, plus: 3, minus: 1,
     questions: [
       { subject: 'Quantitative ability', topic: 'Number system', q: 'How many integers from 1 to 200 (both inclusive) are divisible by neither 2 nor 5?', options: ['60', '80', '100', '120'], ans: 1, exp: 'Divisible by 2: 100; by 5: 40; by both (10): 20. Divisible by 2 or 5 = 100 + 40 − 20 = 120, so 200 − 120 = 80.' },
       { subject: 'Quantitative ability', topic: 'Linear equations', q: 'How many pairs of positive integers (x, y) satisfy 2x + 3y = 30?', options: ['4', '3', '5', '6'], ans: 0, exp: '3y must be even, so y is even and 3y < 30: y = 2, 4, 6, 8, giving x = 12, 9, 6, 3. So 4 pairs.' },
@@ -117,7 +117,7 @@ window.RA_EXAMS.push(
       { subject: 'Verbal ability', topic: 'Sentence completion', q: 'Choose the word that best fills the blank: Despite repeated warnings, the driver remained ______ to the danger ahead.', options: ['oblivious', 'sensitive', 'alert', 'hostile'], ans: 0, exp: 'Oblivious means unaware; "despite repeated warnings" signals that the driver still did not notice the danger.' },
       { subject: 'Verbal ability', topic: 'Para-jumble', q: 'Arrange the sentences in a logical order. A. She had avoided it all day, afraid of what it might say. B. Only then did she open the envelope. C. The letter had been lying on the table since morning. D. At last Nisha finished her chores, made a cup of tea and sat down.', options: ['ACDB', 'CABD', 'CADB', 'BDCA'], ans: 2, exp: 'C introduces the letter, A ("it") explains why it was still unopened, D ("At last") shows her finally settling down, and B ("Only then") ends with her opening it.' }
     ] },
-  { id: 'cat-p10', name: 'CAT style practice paper 10', group: 'CAT style practice', minutes: 20, plus: 3, minus: 1,
+  { id: 'cat-p10', name: 'CAT practice paper 10', group: 'CAT practice papers', minutes: 20, plus: 3, minus: 1,
     questions: [
       { subject: 'Quantitative ability', topic: 'Number system', q: 'The recurring decimal 0.363636... is equal to which fraction?', options: ['9/25', '3/8', '4/11', '11/30'], ans: 2, exp: 'Let x = 0.3636... Then 100x = 36.3636..., so 99x = 36 and x = 36/99 = 4/11.' },
       { subject: 'Quantitative ability', topic: 'Maxima and minima', q: 'What is the maximum value of 12x − 2x² for real x?', options: ['12', '24', '36', '18'], ans: 3, exp: '12x − 2x² = 18 − 2(x − 3)², which is greatest when x = 3, giving 18.' },

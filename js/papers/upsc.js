@@ -1,7 +1,7 @@
 // ORIGINAL practice questions written in exam style, not real previous-year papers.
 window.RA_EXAMS = window.RA_EXAMS || [];
 window.RA_EXAMS.push(
-  { id: 'upsc-p01', name: 'UPSC Prelims GS style practice paper 1', group: 'UPSC Prelims GS style practice', minutes: 12, plus: 2, minus: 0.66,
+  { id: 'upsc-p01', name: 'UPSC Prelims GS practice paper 1', group: 'UPSC Prelims GS practice papers', minutes: 12, plus: 2, minus: 0.66,
     questions: [
       { subject: 'Polity', topic: 'Preamble', q: 'The words "Socialist", "Secular" and "Integrity" were added to the Preamble of the Constitution of India by the', options: ['52nd Amendment', '44th Amendment', '73rd Amendment', '42nd Amendment'], ans: 3, exp: 'The 42nd Amendment Act, 1976 inserted "Socialist", "Secular" and "Integrity" into the Preamble.' },
       { subject: 'Polity', topic: 'Parliament', q: 'If a question arises whether a Bill is a Money Bill or not, whose decision is final?', options: ['Speaker of the Lok Sabha', 'President of India', 'Chairman of the Rajya Sabha', 'Union Finance Minister'], ans: 0, exp: 'Under Article 110, the decision of the Speaker of the Lok Sabha on whether a Bill is a Money Bill is final.' },
@@ -14,7 +14,7 @@ window.RA_EXAMS.push(
       { subject: 'Environment', topic: 'Conventions', q: 'The Montreal Protocol is an international agreement on', options: ['movement of hazardous wastes', 'trade in endangered species', 'phasing out ozone-depleting substances', 'conservation of wetlands'], ans: 2, exp: 'The Montreal Protocol (1987) phases out substances such as CFCs that deplete the ozone layer.' },
       { subject: 'Science and technology', topic: 'Health', q: 'Scurvy is caused by the deficiency of', options: ['vitamin C', 'vitamin K', 'vitamin D', 'vitamin A'], ans: 0, exp: 'Lack of vitamin C (ascorbic acid) causes scurvy, with bleeding gums.' }
     ] },
-  { id: 'upsc-p02', name: 'UPSC Prelims GS style practice paper 2', group: 'UPSC Prelims GS style practice', minutes: 12, plus: 2, minus: 0.66,
+  { id: 'upsc-p02', name: 'UPSC Prelims GS practice paper 2', group: 'UPSC Prelims GS practice papers', minutes: 12, plus: 2, minus: 0.66,
     questions: [
       { subject: 'Polity', topic: 'Directive Principles', q: 'The idea of Directive Principles of State Policy in the Constitution of India was drawn from the Constitution of', options: ['Australia', 'Ireland', 'Canada', 'The United States of America'], ans: 1, exp: 'The Directive Principles (Part IV) were inspired by the Irish Constitution.' },
       { subject: 'Polity', topic: 'Writs', q: 'Which writ is issued to enquire into the legality of a person\'s claim to a public office?', options: ['Mandamus', 'Certiorari', 'Habeas corpus', 'Quo warranto'], ans: 3, exp: 'Quo warranto ("by what authority") asks a person to show by what authority he or she holds a public office.' },
@@ -27,7 +27,7 @@ window.RA_EXAMS.push(
       { subject: 'Environment', topic: 'Conventions', q: 'The Ramsar Convention deals with the conservation of', options: ['migratory birds only', 'tropical rainforests', 'coral reefs only', 'wetlands'], ans: 3, exp: 'The Ramsar Convention (1971) is on wetlands of international importance.' },
       { subject: 'Science and technology', topic: 'Physics', q: 'A potential difference of 12 V is applied across a resistor of 4 Ω. The current through it is', options: ['8 A', '3 A', '0.33 A', '48 A'], ans: 1, exp: 'Ohm\'s law: I = V ÷ R = 12 ÷ 4 = 3 A.' }
     ] },
-  { id: 'upsc-p03', name: 'UPSC Prelims GS style practice paper 3', group: 'UPSC Prelims GS style practice', minutes: 12, plus: 2, minus: 0.66,
+  { id: 'upsc-p03', name: 'UPSC Prelims GS practice paper 3', group: 'UPSC Prelims GS practice papers', minutes: 12, plus: 2, minus: 0.66,
     questions: [
       { subject: 'Polity', topic: 'Local government', q: 'The 73rd Constitutional Amendment Act, 1992 is related to', options: ['Panchayati Raj institutions', 'Urban local bodies', 'Goods and Services Tax', 'Anti-defection law'], ans: 0, exp: 'The 73rd Amendment gave constitutional status to Panchayati Raj institutions (Part IX); urban local bodies came through the 74th Amendment.' },
       { subject: 'Polity', topic: 'Parliament', q: 'After a Money Bill passed by the Lok Sabha is sent to the Rajya Sabha, the Rajya Sabha must return it within', options: ['7 days', '30 days', '14 days', '6 months'], ans: 2, exp: 'Under Article 109 the Rajya Sabha must return a Money Bill, with or without recommendations, within 14 days.' },
@@ -40,7 +40,7 @@ window.RA_EXAMS.push(
       { subject: 'Environment', topic: 'Climate change', q: 'Which of the following is NOT a greenhouse gas?', options: ['Carbon dioxide', 'Argon', 'Methane', 'Nitrous oxide'], ans: 1, exp: 'Argon does not absorb outgoing infrared radiation; carbon dioxide, methane and nitrous oxide do.' },
       { subject: 'Science and technology', topic: 'Chemistry', q: 'Which of the following has a pH value less than 7?', options: ['Soap solution', 'Baking soda solution', 'Lemon juice', 'Lime water'], ans: 2, exp: 'Lemon juice contains citric acid and is acidic; the other three are basic.' }
     ] },
-  { id: 'upsc-p04', name: 'UPSC Prelims GS style practice paper 4', group: 'UPSC Prelims GS style practice', minutes: 12, plus: 2, minus: 0.66,
+  { id: 'upsc-p04', name: 'UPSC Prelims GS practice paper 4', group: 'UPSC Prelims GS practice papers', minutes: 12, plus: 2, minus: 0.66,
     questions: [
       { subject: 'Polity', topic: 'Fundamental Rights', q: 'Which Article of the Constitution did Dr B. R. Ambedkar describe as its "heart and soul"?', options: ['Article 32', 'Article 19', 'Article 14', 'Article 356'], ans: 0, exp: 'Article 32 (right to constitutional remedies) lets a person move the Supreme Court to enforce Fundamental Rights; Ambedkar called it the heart and soul of the Constitution.' },
       { subject: 'Polity', topic: 'Schedules', q: 'Provisions on disqualification of legislators on the ground of defection are contained in which Schedule of the Constitution?', options: ['Ninth Schedule', 'Eighth Schedule', 'Seventh Schedule', 'Tenth Schedule'], ans: 3, exp: 'The Tenth Schedule, added by the 52nd Amendment (1985), contains the anti-defection provisions.' },
@@ -53,7 +53,7 @@ window.RA_EXAMS.push(
       { subject: 'Environment', topic: 'Ecology', q: 'The pyramid of energy in an ecosystem is', options: ['upright on land but inverted in oceans', 'spindle-shaped in forests', 'always upright', 'always inverted'], ans: 2, exp: 'Energy is lost at every transfer, so each higher trophic level has less energy and the pyramid is always upright.' },
       { subject: 'Science and technology', topic: 'Physics', q: 'Myopia (short-sightedness) is corrected by using a', options: ['concave lens', 'bifocal lens', 'cylindrical lens', 'convex lens'], ans: 0, exp: 'A concave (diverging) lens shifts the image back onto the retina in a myopic eye.' }
     ] },
-  { id: 'upsc-p05', name: 'UPSC Prelims GS style practice paper 5', group: 'UPSC Prelims GS style practice', minutes: 12, plus: 2, minus: 0.66,
+  { id: 'upsc-p05', name: 'UPSC Prelims GS practice paper 5', group: 'UPSC Prelims GS practice papers', minutes: 12, plus: 2, minus: 0.66,
     questions: [
       { subject: 'Polity', topic: 'Parliament', q: 'A joint sitting of the two Houses of Parliament is presided over by the', options: ['President of India', 'Vice-President of India', 'Prime Minister', 'Speaker of the Lok Sabha'], ans: 3, exp: 'The President summons a joint sitting (Article 108), but the Speaker of the Lok Sabha presides over it.' },
       { subject: 'Polity', topic: 'President', q: 'Who among the following do NOT take part in the election of the President of India?', options: ['Elected members of the Lok Sabha', 'Members of State Legislative Councils', 'Elected members of State Legislative Assemblies', 'Elected members of the Rajya Sabha'], ans: 1, exp: 'The electoral college consists of elected members of both Houses of Parliament and of the Legislative Assemblies; Legislative Councils have no role.' },
@@ -66,7 +66,7 @@ window.RA_EXAMS.push(
       { subject: 'Environment', topic: 'Ecology', q: 'In a grassland, plants store 20,000 J of energy. By the ten per cent law, the energy available to the secondary consumers is', options: ['2,000 J', '20 J', '200 J', '2 J'], ans: 2, exp: 'Primary consumers get 10% of 20,000 J = 2,000 J; secondary consumers get 10% of 2,000 J = 200 J.' },
       { subject: 'Science and technology', topic: 'Physics', q: 'The kinetic energy of a body of mass 2 kg moving at 3 m/s is', options: ['18 J', '9 J', '6 J', '3 J'], ans: 1, exp: 'KE = ½mv² = ½ × 2 × 3² = 9 J.' }
     ] },
-  { id: 'upsc-p06', name: 'UPSC Prelims GS style practice paper 6', group: 'UPSC Prelims GS style practice', minutes: 12, plus: 2, minus: 0.66,
+  { id: 'upsc-p06', name: 'UPSC Prelims GS practice paper 6', group: 'UPSC Prelims GS practice papers', minutes: 12, plus: 2, minus: 0.66,
     questions: [
       { subject: 'Polity', topic: 'Fundamental Rights', q: 'Which of the following Fundamental Rights is available only to citizens of India and not to foreigners?', options: ['Equality before law (Article 14)', 'Protection in respect of conviction for offences (Article 20)', 'Freedom of conscience and religion (Article 25)', 'Freedom of speech and expression (Article 19)'], ans: 3, exp: 'Article 19 freedoms are guaranteed only to citizens; Articles 14, 20 and 25 apply to all persons.' },
       { subject: 'Polity', topic: 'Right to property', q: 'After the 44th Constitutional Amendment (1978), the right to property in India is', options: ['a constitutional right under Article 300A', 'a Fundamental Duty under Article 51A', 'a Directive Principle under Article 39', 'a Fundamental Right under Article 31'], ans: 0, exp: 'The 44th Amendment (1978) removed the right to property from the Fundamental Rights and placed it in Article 300A as a constitutional (legal) right.' },
@@ -79,7 +79,7 @@ window.RA_EXAMS.push(
       { subject: 'Environment', topic: 'Pollution', q: 'Eutrophication of a water body is caused mainly by', options: ['removal of aquatic weeds', 'excess nutrients such as nitrates and phosphates', 'increase in dissolved oxygen', 'a fall in water temperature'], ans: 1, exp: 'Nutrient enrichment causes algal blooms, which later deplete dissolved oxygen.' },
       { subject: 'Science and technology', topic: 'Chemistry', q: 'Which non-metal is a liquid at room temperature?', options: ['Bromine', 'Mercury', 'Chlorine', 'Iodine'], ans: 0, exp: 'Bromine is the only non-metal that is liquid at room temperature; mercury is a liquid metal.' }
     ] },
-  { id: 'upsc-p07', name: 'UPSC Prelims GS style practice paper 7', group: 'UPSC Prelims GS style practice', minutes: 12, plus: 2, minus: 0.66,
+  { id: 'upsc-p07', name: 'UPSC Prelims GS practice paper 7', group: 'UPSC Prelims GS practice papers', minutes: 12, plus: 2, minus: 0.66,
     questions: [
       { subject: 'Polity', topic: 'Judiciary', q: 'The doctrine of the "basic structure" of the Constitution was laid down by the Supreme Court in the', options: ['Maneka Gandhi case', 'Golaknath case', 'Kesavananda Bharati case', 'A. K. Gopalan case'], ans: 2, exp: 'In Kesavananda Bharati v. State of Kerala (1973) the Court held that Parliament cannot alter the basic structure of the Constitution.' },
       { subject: 'Polity', topic: 'Constitutional bodies', q: 'The Finance Commission is constituted by the President under which Article of the Constitution?', options: ['Article 324', 'Article 280', 'Article 315', 'Article 148'], ans: 1, exp: 'Article 280 provides for the Finance Commission; Article 148 is on the CAG, 315 on Public Service Commissions and 324 on the Election Commission.' },
@@ -92,7 +92,7 @@ window.RA_EXAMS.push(
       { subject: 'Environment', topic: 'Biodiversity', q: 'Which of the following is a method of in situ conservation of biodiversity?', options: ['Seed bank', 'Biosphere reserve', 'Botanical garden', 'Zoological park'], ans: 1, exp: 'In situ conservation protects species in their natural habitat; zoos, botanical gardens and seed banks are ex situ methods.' },
       { subject: 'Science and technology', topic: 'Biology', q: 'The hormone insulin is secreted by the', options: ['adrenal gland', 'thyroid gland', 'pancreas', 'liver'], ans: 2, exp: 'Beta cells of the islets of Langerhans in the pancreas secrete insulin.' }
     ] },
-  { id: 'upsc-p08', name: 'UPSC Prelims GS style practice paper 8', group: 'UPSC Prelims GS style practice', minutes: 12, plus: 2, minus: 0.66,
+  { id: 'upsc-p08', name: 'UPSC Prelims GS practice paper 8', group: 'UPSC Prelims GS practice papers', minutes: 12, plus: 2, minus: 0.66,
     questions: [
       { subject: 'Polity', topic: 'Constitutional bodies', q: 'Which of the following bodies was set up by a resolution of the Union Cabinet and is not provided for in the Constitution of India?', options: ['Election Commission of India', 'Finance Commission', 'Union Public Service Commission', 'NITI Aayog'], ans: 3, exp: 'NITI Aayog was created by a resolution of the Union Cabinet; the other three are provided for in the Constitution.' },
       { subject: 'Polity', topic: 'Parliament', q: 'What is the minimum age prescribed for becoming a member of the Rajya Sabha?', options: ['30 years', '35 years', '25 years', '21 years'], ans: 0, exp: 'Article 84 fixes 30 years for the Rajya Sabha and 25 years for the Lok Sabha.' },
@@ -105,7 +105,7 @@ window.RA_EXAMS.push(
       { subject: 'Environment', topic: 'Pollution', q: 'The increase in concentration of a persistent toxic substance at each successive trophic level of a food chain is called', options: ['ecological succession', 'biomagnification', 'bioremediation', 'eutrophication'], ans: 1, exp: 'Persistent substances such as DDT build up to higher concentrations at higher trophic levels; this is biomagnification.' },
       { subject: 'Science and technology', topic: 'Physics', q: 'In which of the following does sound travel fastest?', options: ['Air', 'Water', 'Steel', 'Vacuum'], ans: 2, exp: 'Sound travels fastest in solids, slower in liquids, slowest in gases, and not at all in a vacuum.' }
     ] },
-  { id: 'upsc-p09', name: 'UPSC Prelims GS style practice paper 9', group: 'UPSC Prelims GS style practice', minutes: 12, plus: 2, minus: 0.66,
+  { id: 'upsc-p09', name: 'UPSC Prelims GS practice paper 9', group: 'UPSC Prelims GS practice papers', minutes: 12, plus: 2, minus: 0.66,
     questions: [
       { subject: 'Polity', topic: 'Emergency provisions', q: 'A Financial Emergency can be proclaimed by the President under', options: ['Article 356', 'Article 360', 'Article 352', 'Article 365'], ans: 1, exp: 'Article 360 deals with Financial Emergency; Article 352 with National Emergency and Article 356 with President\'s Rule in a State.' },
       { subject: 'Polity', topic: 'Schedules', q: 'The Union List, State List and Concurrent List are contained in which Schedule of the Constitution?', options: ['Eleventh Schedule', 'Sixth Schedule', 'Seventh Schedule', 'Fifth Schedule'], ans: 2, exp: 'The Seventh Schedule distributes legislative subjects among the Union, State and Concurrent Lists.' },
@@ -118,7 +118,7 @@ window.RA_EXAMS.push(
       { subject: 'Environment', topic: 'Ecosystems', q: 'Pneumatophores (breathing roots) are a characteristic feature of', options: ['desert vegetation', 'alpine vegetation', 'tropical evergreen forests', 'mangrove vegetation'], ans: 3, exp: 'Mangroves grow in waterlogged saline mud and have roots that grow upward to take in air.' },
       { subject: 'Science and technology', topic: 'Biology', q: 'Photosynthesis in a plant cell takes place in the', options: ['Golgi apparatus', 'ribosome', 'chloroplast', 'mitochondrion'], ans: 2, exp: 'Chloroplasts contain chlorophyll and are the site of photosynthesis.' }
     ] },
-  { id: 'upsc-p10', name: 'UPSC Prelims GS style practice paper 10', group: 'UPSC Prelims GS style practice', minutes: 12, plus: 2, minus: 0.66,
+  { id: 'upsc-p10', name: 'UPSC Prelims GS practice paper 10', group: 'UPSC Prelims GS practice papers', minutes: 12, plus: 2, minus: 0.66,
     questions: [
       { subject: 'Polity', topic: 'Centre-State relations', q: 'Under the Constitution of India, the residuary powers of legislation are vested in', options: ['Parliament', 'the State Legislatures', 'the President', 'the Supreme Court'], ans: 0, exp: 'Article 248 gives Parliament exclusive power to legislate on matters not listed in the State or Concurrent Lists.' },
       { subject: 'Polity', topic: 'Amendment', q: 'The procedure for amendment of the Constitution of India is laid down in', options: ['Article 370', 'Article 368', 'Article 360', 'Article 352'], ans: 1, exp: 'Article 368 (Part XX) contains the power of Parliament to amend the Constitution and the procedure for it.' },

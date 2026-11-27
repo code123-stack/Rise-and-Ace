@@ -48,6 +48,8 @@
       const out = h('div', {});
       const micBtn = SR && mode === 'spoken' ? h('button', { class: 'btn', onclick: mic }, 'Start speaking') : null;
       const submit = h('button', { class: 'btn primary', onclick: done }, 'Submit answer');
+      const sampleBox = h('div', { class: 'note', id: 'sample-answer', style: 'display:none' }, h('p', { style: 'margin:0 0 6px' }, h('b', {}, 'Sample answer')), h('p', { style: 'margin:0 0 6px' }, q.sample || ''), h('p', { class: 'muted', style: 'margin:0' }, 'This is only an example. Use your own real details when you answer.'));
+      const sampleBtn = q.sample ? h('button', { class: 'btn', onclick: () => { const open = sampleBox.style.display === 'none'; sampleBox.style.display = open ? '' : 'none'; sampleBtn.textContent = open ? 'Hide sample answer' : 'See a sample answer'; } }, 'See a sample answer') : null;
       function mic() {
         if (rec) { stopAll(); micBtn.textContent = 'Start speaking'; return; }
         try {
@@ -71,7 +73,7 @@
           h('h3', {}, 'Feedback'),
           ai ? h('p', { style: 'white-space:pre-wrap' }, ai) : [
             h('p', { class: 'good' }, 'What went well'), h('ul', {}, fb.good.map(x => h('li', {}, x))),
-            fb.fix.length ? [h('p', { style: 'font-weight:700;color:#d97706' }, 'What to improve'), h('ul', {}, fb.fix.map(x => h('li', {}, x)))] : null],
+            fb.fix.length ? [h('p', { style: 'font-weight:700;color:#b45309' }, 'What to improve'), h('ul', {}, fb.fix.map(x => h('li', {}, x)))] : null],
           h('p', {}, h('b', {}, 'A strong answer usually: '), q.tip),
           h('button', { class: 'btn primary', onclick: () => { i++; i < iv.questions.length ? question() : summary(); } }, i + 1 < iv.questions.length ? 'Next question' : 'Finish interview')));
       }
@@ -81,7 +83,7 @@
         h('div', { class: 'card' }, h('p', { class: 'qtext' }, q.q),
           mode === 'spoken' ? h('button', { class: 'btn', onclick: () => speak(q.q) }, 'Hear the question again') : null),
         h('div', { style: 'height:12px' }), box,
-        h('div', { class: 'row' }, micBtn, submit, h('button', { class: 'btn', onclick: home }, 'End interview')), out);
+        h('div', { class: 'row' }, micBtn, submit, sampleBtn, h('button', { class: 'btn', onclick: home }, 'End interview')), q.sample ? sampleBox : null, out);
       if (mode === 'spoken') speak(q.q);
       window.scrollTo(0, 0);
     }

@@ -1,7 +1,7 @@
 // Original practice papers written in exam style. Not real previous-year papers.
 window.RA_EXAMS = window.RA_EXAMS || [];
 window.RA_EXAMS.push(
-  { id: "bank-p01", name: "IBPS PO style practice paper 1", group: "IBPS PO style practice", minutes: 12, plus: 1, minus: 0.25,
+  { id: "bank-p01", name: "IBPS PO practice paper 1", group: "IBPS PO practice papers", minutes: 12, plus: 1, minus: 0.25,
     questions: [
       {"subject":"Quantitative aptitude","topic":"Simplification","q":"18 × 15 − 144 ÷ 12 + 37 = ?","options":["285","295","305","319"],"ans":1,"exp":"18 × 15 = 270 and 144 ÷ 12 = 12, so 270 − 12 + 37 = 295."},
       {"subject":"Quantitative aptitude","topic":"Percentage","q":"In an election between two candidates, the winner received 58% of the valid votes and won by a margin of 2,400 votes. How many valid votes were cast?","options":["12,000","13,500","14,400","15,000"],"ans":3,"exp":"The loser got 42%, so the margin is 58% − 42% = 16% of the valid votes. 16% = 2,400 gives total = 2,400 ÷ 0.16 = 15,000."},
@@ -14,7 +14,7 @@ window.RA_EXAMS.push(
       {"subject":"English","topic":"Synonyms","q":"Choose the word closest in meaning to DILIGENT.","options":["Hardworking","Careless","Clever","Doubtful"],"ans":0,"exp":"Diligent means showing steady, careful effort, i.e. hardworking."},
       {"subject":"Banking awareness","topic":"Payment systems","q":"In banking, RTGS stands for","options":["Rapid Transfer Gross System","Real Time Guaranteed Settlement","Real Time Gross Settlement","Regulated Transfer and Guarantee Scheme"],"ans":2,"exp":"RTGS is Real Time Gross Settlement: funds transfers are settled individually and continuously in real time."}
     ] },
-  { id: "bank-p02", name: "IBPS PO style practice paper 2", group: "IBPS PO style practice", minutes: 12, plus: 1, minus: 0.25,
+  { id: "bank-p02", name: "IBPS PO practice paper 2", group: "IBPS PO practice papers", minutes: 12, plus: 1, minus: 0.25,
     questions: [
       {"subject":"Quantitative aptitude","topic":"Number series","q":"Find the next term: 7, 12, 22, 37, 57, ?","options":["72","77","80","82"],"ans":3,"exp":"The differences are 5, 10, 15, 20, so the next difference is 25 and the term is 57 + 25 = 82."},
       {"subject":"Quantitative aptitude","topic":"Profit and loss","q":"A trader marks his goods 25% above the cost price and then allows a discount of 12% on the marked price. His profit percentage is","options":["10%","12%","13%","15%"],"ans":0,"exp":"Let CP = 100. Marked price = 125. Selling price = 125 × 0.88 = 110. Profit = 10%."},
@@ -27,7 +27,7 @@ window.RA_EXAMS.push(
       {"subject":"English","topic":"Antonyms","q":"Choose the word opposite in meaning to SCARCE.","options":["Rare","Plentiful","Costly","Small"],"ans":1,"exp":"Scarce means in short supply; its opposite is plentiful."},
       {"subject":"Banking awareness","topic":"Monetary policy","q":"The rate at which a central bank lends short-term funds to commercial banks against government securities is called the","options":["Reverse repo rate","Base rate","Savings deposit rate","Repo rate"],"ans":3,"exp":"Under a repo (repurchase agreement), banks borrow from the central bank against securities; the interest rate charged is the repo rate."}
     ] },
-  { id: "bank-p03", name: "IBPS PO style practice paper 3", group: "IBPS PO style practice", minutes: 12, plus: 1, minus: 0.25,
+  { id: "bank-p03", name: "IBPS PO practice paper 3", group: "IBPS PO practice papers", minutes: 12, plus: 1, minus: 0.25,
     questions: [
       {"subject":"Quantitative aptitude","topic":"Compound interest","q":"What is the compound interest on ₹10,000 for 2 years at 10% per annum, compounded annually?","options":["₹2,000","₹2,050","₹2,100","₹2,200"],"ans":2,"exp":"Amount = 10,000 × 1.1 × 1.1 = 12,100. Compound interest = 12,100 − 10,000 = ₹2,100."},
       {"subject":"Quantitative aptitude","topic":"Ratio and proportion","q":"The incomes of A and B are in the ratio 5 : 4 and their expenditures are in the ratio 3 : 2. If each of them saves ₹4,000, what is A's income?","options":["₹10,000","₹12,000","₹14,000","₹15,000"],"ans":0,"exp":"Let incomes be 5x, 4x and expenditures 3y, 2y. 5x − 3y = 4,000 and 4x − 2y = 4,000 give x = 2,000, y = 2,000. A's income = 5x = ₹10,000."},
@@ -40,7 +40,7 @@ window.RA_EXAMS.push(
       {"subject":"English","topic":"One-word substitution","q":"Choose one word for: a person who can speak many languages.","options":["Polyglot","Orator","Philanthropist","Bibliophile"],"ans":0,"exp":"A polyglot knows and uses several languages. An orator is a skilled public speaker, a philanthropist helps others generously, and a bibliophile loves books."},
       {"subject":"Banking awareness","topic":"Monetary policy","q":"The portion of a bank's deposits that it must keep as cash balance with the central bank is called the","options":["Statutory Liquidity Ratio","Cash Reserve Ratio","Capital Adequacy Ratio","Credit-Deposit Ratio"],"ans":1,"exp":"The Cash Reserve Ratio (CRR) is the share of deposits a bank must hold as cash with the central bank. SLR is held by the bank itself in liquid assets such as government securities."}
     ] },
-  { id: "bank-p04", name: "IBPS PO style practice paper 4", group: "IBPS PO style practice", minutes: 12, plus: 1, minus: 0.25,
+  { id: "bank-p04", name: "IBPS PO practice paper 4", group: "IBPS PO practice papers", minutes: 12, plus: 1, minus: 0.25,
     questions: [
       {"subject":"Quantitative aptitude","topic":"Simplification","q":"√1764 + 3³ − 15% of 400 = ?","options":["7","9","11","13"],"ans":1,"exp":"√1764 = 42, 3³ = 27 and 15% of 400 = 60, so 42 + 27 − 60 = 9."},
       {"subject":"Quantitative aptitude","topic":"Problems on ages","q":"A father is three times as old as his son. After 12 years, he will be twice as old as his son. What is the father's present age?","options":["30 years","33 years","36 years","42 years"],"ans":2,"exp":"Let the son be s years. 3s + 12 = 2(s + 12) gives s = 12, so the father is 3 × 12 = 36 years old."},
@@ -53,7 +53,7 @@ window.RA_EXAMS.push(
       {"subject":"English","topic":"Spelling","q":"Choose the correctly spelt word.","options":["Accomodation","Acommodation","Accommodation","Accommodasion"],"ans":2,"exp":"The correct spelling is \"accommodation\", with double c and double m."},
       {"subject":"Banking awareness","topic":"Negotiable instruments","q":"In a cheque, the bank on which the cheque is drawn and which is directed to make the payment is called the","options":["Drawee","Drawer","Payee","Endorser"],"ans":0,"exp":"The drawer is the account holder who writes the cheque, the drawee is the bank directed to pay, and the payee is the person to whom payment is to be made."}
     ] },
-  { id: "bank-p05", name: "IBPS PO style practice paper 5", group: "IBPS PO style practice", minutes: 12, plus: 1, minus: 0.25,
+  { id: "bank-p05", name: "IBPS PO practice paper 5", group: "IBPS PO practice papers", minutes: 12, plus: 1, minus: 0.25,
     questions: [
       {"subject":"Quantitative aptitude","topic":"Approximation","q":"What approximate value should come in place of the question mark? 39.97% of 649.8 + 15.02 × 11.99 = ?","options":["380","400","420","440"],"ans":3,"exp":"Approximately 40% of 650 + 15 × 12 = 260 + 180 = 440."},
       {"subject":"Quantitative aptitude","topic":"Partnership","q":"A starts a business with ₹40,000. After 3 months, B joins with ₹50,000. At the end of one year the profit is ₹31,000. What is A's share of the profit?","options":["₹16,000","₹16,500","₹17,000","₹17,500"],"ans":0,"exp":"A : B = 40,000 × 12 : 50,000 × 9 = 480 : 450 = 16 : 15. A's share = 16/31 × 31,000 = ₹16,000."},
@@ -66,7 +66,7 @@ window.RA_EXAMS.push(
       {"subject":"English","topic":"Error spotting","q":"Find the part that has an error: The news about the floods (A) / are very (B) / disturbing for (C) / the villagers (D).","options":["A","B","C","D"],"ans":1,"exp":"\"News\" is an uncountable noun that takes a singular verb, so part B should be \"is very\"."},
       {"subject":"Banking awareness","topic":"Banking terms","q":"In banking, KYC stands for","options":["Know Your Credit","Keep Your Capital","Key Yield Certificate","Know Your Customer"],"ans":3,"exp":"KYC is Know Your Customer, the process by which a bank verifies the identity and address of its customers."}
     ] },
-  { id: "bank-p06", name: "IBPS PO style practice paper 6", group: "IBPS PO style practice", minutes: 12, plus: 1, minus: 0.25,
+  { id: "bank-p06", name: "IBPS PO practice paper 6", group: "IBPS PO practice papers", minutes: 12, plus: 1, minus: 0.25,
     questions: [
       {"subject":"Quantitative aptitude","topic":"Number series","q":"Find the next term: 3, 6, 18, 72, 360, ?","options":["2,160","2,400","2,520","2,880"],"ans":0,"exp":"The terms are multiplied by 2, 3, 4, 5 in turn, so the next term is 360 × 6 = 2,160."},
       {"subject":"Quantitative aptitude","topic":"Percentage","q":"The price of sugar rises by 25%. By what percentage must a family reduce its consumption of sugar so that its expenditure on sugar does not change?","options":["15%","20%","25%","30%"],"ans":1,"exp":"New price = 1.25 times the old, so consumption must become 1 ÷ 1.25 = 0.8 times the old, a reduction of 20%."},
@@ -79,7 +79,7 @@ window.RA_EXAMS.push(
       {"subject":"English","topic":"Synonyms","q":"Choose the word closest in meaning to METICULOUS.","options":["Thorough","Careless","Hasty","Generous"],"ans":0,"exp":"Meticulous means very careful and precise about details, i.e. thorough."},
       {"subject":"Banking awareness","topic":"Banking terms","q":"In banking, the abbreviation CASA stands for","options":["Cash and Securities Account","Credit and Savings Allocation","Current Account Savings Account","Central Account Settlement Agency"],"ans":2,"exp":"CASA is Current Account Savings Account; CASA deposits are a low-cost source of funds for banks."}
     ] },
-  { id: "bank-p07", name: "IBPS PO style practice paper 7", group: "IBPS PO style practice", minutes: 12, plus: 1, minus: 0.25,
+  { id: "bank-p07", name: "IBPS PO practice paper 7", group: "IBPS PO practice papers", minutes: 12, plus: 1, minus: 0.25,
     questions: [
       {"subject":"Quantitative aptitude","topic":"Simplification","q":"3/4 of 2/5 of 1,200 − 12² = ?","options":["206","216","226","236"],"ans":1,"exp":"2/5 of 1,200 = 480 and 3/4 of 480 = 360. 12² = 144, so 360 − 144 = 216."},
       {"subject":"Quantitative aptitude","topic":"Profit and loss","q":"A shopkeeper sells two articles for ₹990 each. On one he gains 10% and on the other he loses 10%. What is his overall result?","options":["Profit of ₹20","Neither profit nor loss","Loss of ₹10","Loss of ₹20"],"ans":3,"exp":"Cost prices are 990 ÷ 1.1 = ₹900 and 990 ÷ 0.9 = ₹1,100, total ₹2,000. Total selling price = ₹1,980, so there is a loss of ₹20."},
@@ -92,7 +92,7 @@ window.RA_EXAMS.push(
       {"subject":"English","topic":"Antonyms","q":"Choose the word opposite in meaning to EXPAND.","options":["Enlarge","Stretch","Contract","Extend"],"ans":2,"exp":"Expand means to become larger; contract means to become smaller. The other options are similar in meaning to expand."},
       {"subject":"Banking awareness","topic":"Central banking","q":"In a banking system, the institution described as the \"lender of last resort\" is the","options":["Largest commercial bank","Central bank","Stock exchange","Co-operative bank"],"ans":1,"exp":"The central bank (in India, the Reserve Bank of India) provides funds to banks that cannot obtain them elsewhere, so it is called the lender of last resort."}
     ] },
-  { id: "bank-p08", name: "IBPS PO style practice paper 8", group: "IBPS PO style practice", minutes: 12, plus: 1, minus: 0.25,
+  { id: "bank-p08", name: "IBPS PO practice paper 8", group: "IBPS PO practice papers", minutes: 12, plus: 1, minus: 0.25,
     questions: [
       {"subject":"Quantitative aptitude","topic":"Approximation","q":"What approximate value should come in place of the question mark? √624.9 × 7.98 + 199.9 ÷ 4.99 = ?","options":["180","200","220","240"],"ans":3,"exp":"Approximately √625 × 8 + 200 ÷ 5 = 25 × 8 + 40 = 240."},
       {"subject":"Quantitative aptitude","topic":"Problems on ages","q":"The present ages of A and B are in the ratio 4 : 5. Six years from now, the ratio of their ages will be 5 : 6. What is A's present age?","options":["20 years","24 years","28 years","30 years"],"ans":1,"exp":"Let the ages be 4x and 5x. (4x + 6)/(5x + 6) = 5/6 gives 24x + 36 = 25x + 30, so x = 6 and A is 24 years old."},
@@ -105,7 +105,7 @@ window.RA_EXAMS.push(
       {"subject":"English","topic":"Error spotting","q":"Find the part that has an error: She has been living (A) / in this city (B) / since five years (C) / with her parents (D).","options":["A","B","C","D"],"ans":2,"exp":"\"Five years\" is a duration, so \"for five years\" is correct; \"since\" is used with a point of time."},
       {"subject":"Banking awareness","topic":"Banking terms","q":"The term \"bancassurance\" refers to","options":["Insurance of bank deposits by the government","Selling of insurance products through bank branches","Lending by banks to insurance companies","Banks insuring their own cash in transit"],"ans":1,"exp":"Bancassurance is an arrangement in which a bank distributes the products of an insurance company to its customers."}
     ] },
-  { id: "bank-p09", name: "IBPS PO style practice paper 9", group: "IBPS PO style practice", minutes: 12, plus: 1, minus: 0.25,
+  { id: "bank-p09", name: "IBPS PO practice paper 9", group: "IBPS PO practice papers", minutes: 12, plus: 1, minus: 0.25,
     questions: [
       {"subject":"Quantitative aptitude","topic":"Number series","q":"Find the next term: 2, 5, 11, 23, 47, ?","options":["91","93","95","97"],"ans":2,"exp":"Each term is double the previous term plus 1: 47 × 2 + 1 = 95."},
       {"subject":"Quantitative aptitude","topic":"Discount","q":"Two successive discounts of 20% and 10% are equivalent to a single discount of","options":["28%","29%","30%","32%"],"ans":0,"exp":"Price after both discounts = 0.8 × 0.9 = 0.72 of the marked price, so the single equivalent discount is 28%."},
@@ -118,7 +118,7 @@ window.RA_EXAMS.push(
       {"subject":"English","topic":"Grammar","q":"Choose the grammatically correct sentence.","options":["He don't know the answer.","He doesn't knows the answer.","He doesn't know the answer.","He not know the answer."],"ans":2,"exp":"A third-person singular subject takes \"does not\" followed by the base form of the verb: \"He doesn't know\"."},
       {"subject":"Banking awareness","topic":"Financial regulators","q":"Which body is the regulator of the securities (stock) market in India?","options":["Securities and Exchange Board of India","Insurance Regulatory and Development Authority of India","National Bank for Agriculture and Rural Development","Pension Fund Regulatory and Development Authority"],"ans":0,"exp":"SEBI regulates the securities market. IRDAI regulates insurance, PFRDA regulates pensions, and NABARD is a development bank for agriculture and rural areas."}
     ] },
-  { id: "bank-p10", name: "IBPS PO style practice paper 10", group: "IBPS PO style practice", minutes: 12, plus: 1, minus: 0.25,
+  { id: "bank-p10", name: "IBPS PO practice paper 10", group: "IBPS PO practice papers", minutes: 12, plus: 1, minus: 0.25,
     questions: [
       {"subject":"Quantitative aptitude","topic":"Simplification","q":"2⁵ × 3² ÷ 12 + 16 = ?","options":["34","36","38","40"],"ans":3,"exp":"2⁵ × 3² = 32 × 9 = 288, and 288 ÷ 12 = 24, so 24 + 16 = 40."},
       {"subject":"Quantitative aptitude","topic":"Percentage","q":"A student must score 40% of the maximum marks to pass an examination. He scores 178 marks and fails by 22 marks. What are the maximum marks?","options":["450","500","550","600"],"ans":1,"exp":"Pass marks = 178 + 22 = 200, which is 40% of the maximum. Maximum = 200 ÷ 0.4 = 500."},

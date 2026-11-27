@@ -1,6 +1,6 @@
 window.RA_EXAMS = window.RA_EXAMS || [];
 window.RA_EXAMS.push(
-  { id: 'jee-p01', name: 'JEE Main style practice paper 1', group: 'JEE Main style practice', minutes: 20, plus: 4, minus: 1,
+  { id: 'jee-p01', name: 'JEE Main practice paper 1', group: 'JEE Main practice papers', minutes: 20, plus: 4, minus: 1,
     questions: [
       { subject: 'Physics', topic: 'Kinematics', q: 'A car moving at 20 m/s brakes with a uniform retardation of 4 m/s². The distance it covers before stopping is', options: ['40 m', '80 m', '50 m', '100 m'], ans: 2, exp: 'v² = u² − 2as with v = 0, so s = u²/(2a) = 400/8 = 50 m.' },
       { subject: 'Physics', topic: 'Sound waves', q: 'An organ pipe closed at one end has a length of 0.85 m. If the speed of sound in air is 340 m/s, its fundamental frequency is', options: ['200 Hz', '100 Hz', '400 Hz', '50 Hz'], ans: 1, exp: 'For a pipe closed at one end, f₁ = v/(4L) = 340/(4 × 0.85) = 100 Hz.' },
@@ -13,7 +13,7 @@ window.RA_EXAMS.push(
       { subject: 'Mathematics', topic: 'Trigonometric equations', q: 'The number of solutions of 2 sin x = 1 in the interval [0, 2π] is', options: ['1', '2', '3', '4'], ans: 1, exp: 'sin x = 1/2 gives x = π/6 and x = 5π/6 in [0, 2π], so there are 2 solutions.' },
       { subject: 'Mathematics', topic: 'Definite integrals', q: 'The value of the integral of x eˣ from x = 0 to x = 1 is', options: ['1', 'e', 'e − 1', 'e − 2'], ans: 0, exp: 'By parts: ∫x eˣ dx = x eˣ − eˣ = (x − 1)eˣ. From 0 to 1: 0 − (−1) = 1.' }
     ] },
-  { id: 'jee-p02', name: 'JEE Main style practice paper 2', group: 'JEE Main style practice', minutes: 20, plus: 4, minus: 1,
+  { id: 'jee-p02', name: 'JEE Main practice paper 2', group: 'JEE Main practice papers', minutes: 20, plus: 4, minus: 1,
     questions: [
       { subject: 'Physics', topic: 'Calorimetry', q: '100 g of water at 80 °C is mixed with 300 g of water at 20 °C in an insulated vessel of negligible heat capacity. The final temperature is', options: ['50 °C', '40 °C', '35 °C', '30 °C'], ans: 2, exp: 'Heat lost = heat gained: 100(80 − T) = 300(T − 20), so 8000 + 6000 = 400T and T = 35 °C.' },
       { subject: 'Physics', topic: 'Alternating current', q: 'The peak value of a sinusoidal alternating voltage is 311 V. Its rms value is about', options: ['155 V', '440 V', '311 V', '220 V'], ans: 3, exp: 'V(rms) = V₀/√2 = 311/1.414 ≈ 220 V.' },
@@ -26,7 +26,7 @@ window.RA_EXAMS.push(
       { subject: 'Mathematics', topic: 'Definite integrals', q: 'The value of the integral of sin x from x = 0 to x = π is', options: ['2', '0', '1', 'π'], ans: 0, exp: '∫sin x dx = −cos x. From 0 to π: −cos π + cos 0 = 1 + 1 = 2.' },
       { subject: 'Mathematics', topic: 'Complex numbers', q: 'If z = (1 + i)/(1 − i), then z⁴ equals', options: ['−1', 'i', '1', '−i'], ans: 2, exp: 'z = (1 + i)²/((1 − i)(1 + i)) = 2i/2 = i. So z⁴ = i⁴ = 1.' }
     ] },
-  { id: 'jee-p03', name: 'JEE Main style practice paper 3', group: 'JEE Main style practice', minutes: 20, plus: 4, minus: 1,
+  { id: 'jee-p03', name: 'JEE Main practice paper 3', group: 'JEE Main practice papers', minutes: 20, plus: 4, minus: 1,
     questions: [
       { subject: 'Physics', topic: 'Thermodynamics', q: 'A Carnot engine works between a source at 500 K and a sink at 300 K. Its efficiency is', options: ['40%', '60%', '66.7%', '20%'], ans: 0, exp: 'η = 1 − T₂/T₁ = 1 − 300/500 = 0.4 = 40%.' },
       { subject: 'Physics', topic: 'Electromagnetic induction', q: 'The magnetic flux through each turn of a 100-turn coil falls uniformly from 0.02 Wb to 0.01 Wb in 0.1 s. The magnitude of the induced emf is', options: ['1 V', '10 V', '0.1 V', '100 V'], ans: 1, exp: 'emf = N ΔΦ/Δt = 100 × (0.02 − 0.01)/0.1 = 10 V.' },
@@ -39,7 +39,7 @@ window.RA_EXAMS.push(
       { subject: 'Mathematics', topic: 'Area under curves', q: 'The area bounded by the curve y = x², the x-axis and the lines x = 0 and x = 3 is', options: ['3 square units', '27 square units', '9 square units', '6 square units'], ans: 2, exp: 'Area = ∫₀³ x² dx = [x³/3] from 0 to 3 = 27/3 = 9 square units.' },
       { subject: 'Mathematics', topic: 'Complex numbers', q: 'The principal argument of the complex number −1 + i is', options: ['π/4', '−π/4', '−3π/4', '3π/4'], ans: 3, exp: 'The point (−1, 1) lies in the second quadrant with reference angle π/4, so the argument is π − π/4 = 3π/4.' }
     ] },
-  { id: 'jee-p04', name: 'JEE Main style practice paper 4', group: 'JEE Main style practice', minutes: 20, plus: 4, minus: 1,
+  { id: 'jee-p04', name: 'JEE Main practice paper 4', group: 'JEE Main practice papers', minutes: 20, plus: 4, minus: 1,
     questions: [
       { subject: 'Physics', topic: 'Electric power', q: 'A bulb is rated 100 W, 220 V. The resistance of its filament at the rated voltage is', options: ['220 Ω', '484 Ω', '48.4 Ω', '2200 Ω'], ans: 1, exp: 'P = V²/R, so R = V²/P = (220)²/100 = 48400/100 = 484 Ω.' },
       { subject: 'Physics', topic: 'Matter waves', q: 'The kinetic energy of a non-relativistic particle is increased to four times its initial value. Its de Broglie wavelength becomes', options: ['half', 'double', 'one-fourth', 'four times'], ans: 0, exp: 'λ = h/√(2mK) ∝ 1/√K. When K becomes 4 times, λ becomes 1/√4 = half.' },
@@ -52,7 +52,7 @@ window.RA_EXAMS.push(
       { subject: 'Mathematics', topic: 'Arithmetic progression', q: 'The 10th term of the arithmetic progression 3, 7, 11, ... is', options: ['43', '39', '35', '36'], ans: 1, exp: 'a = 3, d = 4. T₁₀ = a + 9d = 3 + 36 = 39.' },
       { subject: 'Mathematics', topic: 'Circles', q: 'The radius of the circle x² + y² − 2x + 4y − 4 = 0 is', options: ['3', '2', '9', '4'], ans: 0, exp: '(x − 1)² + (y + 2)² = 4 + 1 + 4 = 9, so the radius is 3.' }
     ] },
-  { id: 'jee-p05', name: 'JEE Main style practice paper 5', group: 'JEE Main style practice', minutes: 20, plus: 4, minus: 1,
+  { id: 'jee-p05', name: 'JEE Main practice paper 5', group: 'JEE Main practice papers', minutes: 20, plus: 4, minus: 1,
     questions: [
       { subject: 'Physics', topic: 'Capacitors', q: 'The energy stored in a 10 μF capacitor charged to 200 V is', options: ['0.4 J', '0.02 J', '2 J', '0.2 J'], ans: 3, exp: 'U = ½CV² = ½ × 10 × 10⁻⁶ × (200)² = 0.2 J.' },
       { subject: 'Physics', topic: 'Atoms', q: 'In the Bohr model, the energy of the electron in the ground state of hydrogen is −13.6 eV. Its energy in the first excited state (n = 2) is', options: ['−6.8 eV', '−1.51 eV', '−3.4 eV', '−27.2 eV'], ans: 2, exp: 'Eₙ = −13.6/n² eV. For n = 2, E = −13.6/4 = −3.4 eV.' },
@@ -65,7 +65,7 @@ window.RA_EXAMS.push(
       { subject: 'Mathematics', topic: 'Geometric progression', q: 'The sum to infinity of the geometric series 8 + 4 + 2 + 1 + ... is', options: ['16', '12', '15', '32'], ans: 0, exp: 'a = 8, r = 1/2. S = a/(1 − r) = 8/(1/2) = 16.' },
       { subject: 'Mathematics', topic: 'Parabola', q: 'The focus of the parabola y² = 12x is', options: ['(0, 3)', '(12, 0)', '(3, 0)', '(−3, 0)'], ans: 2, exp: 'Comparing with y² = 4ax gives 4a = 12, a = 3. The focus is (a, 0) = (3, 0).' }
     ] },
-  { id: 'jee-p06', name: 'JEE Main style practice paper 6', group: 'JEE Main style practice', minutes: 20, plus: 4, minus: 1,
+  { id: 'jee-p06', name: 'JEE Main practice paper 6', group: 'JEE Main practice papers', minutes: 20, plus: 4, minus: 1,
     questions: [
       { subject: 'Physics', topic: 'Wave optics', q: 'In Young\'s double-slit experiment the slit separation is 1 mm, the screen is 1 m away and the wavelength of light is 600 nm. The fringe width is', options: ['0.3 mm', '0.6 mm', '1.2 mm', '6 mm'], ans: 1, exp: 'β = λD/d = (600 × 10⁻⁹ × 1)/(1 × 10⁻³) = 6 × 10⁻⁴ m = 0.6 mm.' },
       { subject: 'Physics', topic: 'Gravitation', q: 'A satellite moves in a circular orbit around a planet. If the radius of its orbit is made four times as large, its period of revolution becomes', options: ['2 times', '4 times', '16 times', '8 times'], ans: 3, exp: 'Kepler\'s third law: T² ∝ r³, so T ∝ r^(3/2). For r → 4r, T becomes 4^(3/2) = 8 times.' },
@@ -78,7 +78,7 @@ window.RA_EXAMS.push(
       { subject: 'Mathematics', topic: 'Ellipse', q: 'The eccentricity of the ellipse x²/25 + y²/16 = 1 is', options: ['4/5', '3/5', '9/25', '5/3'], ans: 1, exp: 'a² = 25, b² = 16. e = √(1 − b²/a²) = √(1 − 16/25) = √(9/25) = 3/5.' },
       { subject: 'Mathematics', topic: 'Vectors', q: 'The dot product of the vectors 2i + 3j − k and i − j + 2k is', options: ['3', '−1', '7', '−3'], ans: 3, exp: '(2)(1) + (3)(−1) + (−1)(2) = 2 − 3 − 2 = −3.' }
     ] },
-  { id: 'jee-p07', name: 'JEE Main style practice paper 7', group: 'JEE Main style practice', minutes: 20, plus: 4, minus: 1,
+  { id: 'jee-p07', name: 'JEE Main practice paper 7', group: 'JEE Main practice papers', minutes: 20, plus: 4, minus: 1,
     questions: [
       { subject: 'Physics', topic: 'Ray optics', q: 'An object is placed 30 cm in front of a thin convex lens of focal length 20 cm. The image is formed on the other side of the lens at a distance of', options: ['60 cm', '12 cm', '50 cm', '10 cm'], ans: 0, exp: '1/v − 1/u = 1/f with u = −30 cm: 1/v = 1/20 − 1/30 = 1/60, so v = 60 cm (real image).' },
       { subject: 'Physics', topic: 'Collisions', q: 'A 2 kg body moving at 3 m/s collides with a 1 kg body at rest and the two stick together. The kinetic energy lost in the collision is', options: ['6 J', '9 J', '1.5 J', '3 J'], ans: 3, exp: 'Momentum: 2 × 3 = 3v, so v = 2 m/s. Initial KE = ½ × 2 × 9 = 9 J, final KE = ½ × 3 × 4 = 6 J. Loss = 3 J.' },
@@ -91,7 +91,7 @@ window.RA_EXAMS.push(
       { subject: 'Mathematics', topic: 'Limits', q: 'The value of lim (x → 0) of (sin 3x)/x is', options: ['3', '1', '1/3', '0'], ans: 0, exp: '(sin 3x)/x = 3 × (sin 3x)/(3x) → 3 × 1 = 3.' },
       { subject: 'Mathematics', topic: 'Vectors', q: 'The angle between the vectors i + j and i is', options: ['30°', '45°', '60°', '90°'], ans: 1, exp: 'cos θ = (i + j)·i / (|i + j| |i|) = 1/(√2 × 1) = 1/√2, so θ = 45°.' }
     ] },
-  { id: 'jee-p08', name: 'JEE Main style practice paper 8', group: 'JEE Main style practice', minutes: 20, plus: 4, minus: 1,
+  { id: 'jee-p08', name: 'JEE Main practice paper 8', group: 'JEE Main practice papers', minutes: 20, plus: 4, minus: 1,
     questions: [
       { subject: 'Physics', topic: 'Errors in measurement', q: 'The length and breadth of a rectangle are measured with percentage errors of 2% and 3% respectively. The maximum percentage error in its area is', options: ['6%', '1%', '5%', '2.5%'], ans: 2, exp: 'For a product A = l × b, the maximum percentage errors add: 2% + 3% = 5%.' },
       { subject: 'Physics', topic: 'Rotational motion', q: 'A solid sphere rolls without slipping on a horizontal surface. The fraction of its total kinetic energy that is rotational is', options: ['2/5', '5/7', '1/2', '2/7'], ans: 3, exp: 'Rotational KE = ½Iω² = ½ × (2/5)mr² × v²/r² = (1/5)mv². Total KE = ½mv² + (1/5)mv² = (7/10)mv². Fraction = (1/5)/(7/10) = 2/7.' },
@@ -104,7 +104,7 @@ window.RA_EXAMS.push(
       { subject: 'Mathematics', topic: 'Three-dimensional geometry', q: 'The perpendicular distance of the point (1, 2, 2) from the plane 2x + y + 2z = 17 is', options: ['9', '3', '1', '17/3'], ans: 1, exp: 'Distance = |2(1) + 2 + 2(2) − 17|/√(2² + 1² + 2²) = |−9|/3 = 3.' },
       { subject: 'Mathematics', topic: 'Probability', q: 'Two fair dice are thrown together. The probability that the sum of the numbers shown is 8 is', options: ['5/36', '1/6', '1/9', '7/36'], ans: 0, exp: 'Favourable outcomes: (2,6), (3,5), (4,4), (5,3), (6,2) = 5 out of 36, so P = 5/36.' }
     ] },
-  { id: 'jee-p09', name: 'JEE Main style practice paper 9', group: 'JEE Main style practice', minutes: 20, plus: 4, minus: 1,
+  { id: 'jee-p09', name: 'JEE Main practice paper 9', group: 'JEE Main practice papers', minutes: 20, plus: 4, minus: 1,
     questions: [
       { subject: 'Physics', topic: 'Logic gates', q: 'A two-input logic gate gives output 1 only when both inputs are 0. The gate is', options: ['NAND', 'NOR', 'AND', 'XOR'], ans: 1, exp: 'NOR = NOT(A OR B): it is 1 only for A = B = 0. NAND is 1 for three input pairs, AND only for 1,1, and XOR for unequal inputs.' },
       { subject: 'Physics', topic: 'Gravitation', q: 'If g is the acceleration due to gravity on the surface of the Earth (radius R), its value at a height R above the surface is', options: ['g/4', 'g/2', 'g/3', 'g/9'], ans: 0, exp: 'g′ = g R²/(R + h)². With h = R, g′ = g R²/(2R)² = g/4.' },
@@ -117,7 +117,7 @@ window.RA_EXAMS.push(
       { subject: 'Mathematics', topic: 'Sets', q: 'If n(A) = 20, n(B) = 15 and n(A ∩ B) = 5, then n(A ∪ B) equals', options: ['35', '30', '40', '25'], ans: 1, exp: 'n(A ∪ B) = n(A) + n(B) − n(A ∩ B) = 20 + 15 − 5 = 30.' },
       { subject: 'Mathematics', topic: 'Probability', q: 'A and B are independent events with P(A) = 0.5 and P(B) = 0.4. Then P(A ∪ B) equals', options: ['0.9', '0.2', '0.7', '0.6'], ans: 2, exp: 'P(A ∩ B) = 0.5 × 0.4 = 0.2. P(A ∪ B) = 0.5 + 0.4 − 0.2 = 0.7.' }
     ] },
-  { id: 'jee-p10', name: 'JEE Main style practice paper 10', group: 'JEE Main style practice', minutes: 20, plus: 4, minus: 1,
+  { id: 'jee-p10', name: 'JEE Main practice paper 10', group: 'JEE Main practice papers', minutes: 20, plus: 4, minus: 1,
     questions: [
       { subject: 'Physics', topic: 'Work, energy and power', q: 'A 2 kg stone is dropped from rest from a height of 20 m. Taking g = 10 m/s² and neglecting air resistance, its speed just before hitting the ground is', options: ['20 m/s', '10 m/s', '14.1 m/s', '40 m/s'], ans: 0, exp: 'mgh = ½mv², so v = √(2gh) = √(2 × 10 × 20) = √400 = 20 m/s. The mass does not matter.' },
       { subject: 'Physics', topic: 'Capacitors', q: 'Capacitors of 4 μF and 12 μF are connected in series across a 16 V battery. The charge on each capacitor is', options: ['64 μC', '192 μC', '256 μC', '48 μC'], ans: 3, exp: 'Series: C = (4 × 12)/(4 + 12) = 3 μF. Both capacitors carry the same charge Q = CV = 3 × 16 = 48 μC.' },

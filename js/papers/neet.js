@@ -1,7 +1,7 @@
 // Original practice papers written in exam style. Not real previous-year papers.
 window.RA_EXAMS = window.RA_EXAMS || [];
 window.RA_EXAMS.push(
-  { id: "neet-p01", name: "NEET style practice paper 1", group: "NEET style practice", minutes: 15, plus: 4, minus: 1,
+  { id: "neet-p01", name: "NEET practice paper 1", group: "NEET practice papers", minutes: 15, plus: 4, minus: 1,
     questions: [
       {"subject":"Biology","topic":"Cell biology","q":"The ribosomes found in the cytoplasm of a prokaryotic cell are of the type","options":["40S","60S","70S","80S"],"ans":2,"exp":"Prokaryotes have 70S ribosomes (50S + 30S subunits); eukaryotic cytoplasmic ribosomes are 80S."},
       {"subject":"Biology","topic":"Photosynthesis","q":"In the mesophyll cells of a C₄ plant, the primary acceptor of CO₂ is","options":["Ribulose bisphosphate (RuBP)","Oxaloacetic acid (OAA)","3-Phosphoglyceric acid (PGA)","Phosphoenolpyruvate (PEP)"],"ans":3,"exp":"In C₄ plants PEP (a 3-carbon compound) accepts CO₂ in the mesophyll to form the 4-carbon OAA; RuBP is the acceptor in the Calvin cycle."},
@@ -14,7 +14,7 @@ window.RA_EXAMS.push(
       {"subject":"Chemistry","topic":"Mole concept","q":"The number of moles of water molecules present in 36 g of water (molar mass 18 g/mol) is","options":["0.5","1","2","18"],"ans":2,"exp":"Moles = mass ÷ molar mass = 36 ÷ 18 = 2."},
       {"subject":"Chemistry","topic":"Periodic properties","q":"Which element has the highest electronegativity on the Pauling scale?","options":["Oxygen","Chlorine","Nitrogen","Fluorine"],"ans":3,"exp":"Fluorine is the most electronegative element (Pauling value about 4.0)."}
     ] },
-  { id: "neet-p02", name: "NEET style practice paper 2", group: "NEET style practice", minutes: 15, plus: 4, minus: 1,
+  { id: "neet-p02", name: "NEET practice paper 2", group: "NEET practice papers", minutes: 15, plus: 4, minus: 1,
     questions: [
       {"subject":"Biology","topic":"Biomolecules","q":"The reserve polysaccharide stored in the liver and muscles of animals is","options":["Starch","Cellulose","Chitin","Glycogen"],"ans":3,"exp":"Glycogen is the storage polysaccharide of animals; starch is the storage form in plants."},
       {"subject":"Biology","topic":"Plant anatomy","q":"Casparian strips are present in the cells of the root","options":["endodermis","epidermis","cortex","pericycle"],"ans":0,"exp":"The radial and tangential walls of endodermal cells carry suberin deposits called Casparian strips."},
@@ -27,7 +27,7 @@ window.RA_EXAMS.push(
       {"subject":"Chemistry","topic":"Ionic equilibrium","q":"The pH of a 0.001 M aqueous solution of HCl at 25 °C is","options":["1","2","3","11"],"ans":2,"exp":"HCl is a strong acid, so [H⁺] = 10⁻³ M and pH = −log(10⁻³) = 3."},
       {"subject":"Chemistry","topic":"Hydrocarbons","q":"The general formula of the alkanes (open-chain saturated hydrocarbons) is","options":["CₙH₂ₙ","CₙH₂ₙ₋₂","CₙH₂ₙ₋₆","CₙH₂ₙ₊₂"],"ans":3,"exp":"Alkanes are CₙH₂ₙ₊₂, e.g. methane CH₄ and ethane C₂H₆."}
     ] },
-  { id: "neet-p03", name: "NEET style practice paper 3", group: "NEET style practice", minutes: 15, plus: 4, minus: 1,
+  { id: "neet-p03", name: "NEET practice paper 3", group: "NEET practice papers", minutes: 15, plus: 4, minus: 1,
     questions: [
       {"subject":"Biology","topic":"Cell division","q":"Crossing over between homologous chromosomes takes place during which stage of prophase I of meiosis?","options":["Pachytene","Leptotene","Zygotene","Diakinesis"],"ans":0,"exp":"Crossing over between non-sister chromatids of homologous chromosomes occurs in pachytene."},
       {"subject":"Biology","topic":"Plant kingdom","q":"Which group of plants is called the amphibians of the plant kingdom?","options":["Pteridophytes","Bryophytes","Gymnosperms","Angiosperms"],"ans":1,"exp":"Bryophytes live on land but need water for the sperm to swim to the egg."},
@@ -40,7 +40,7 @@ window.RA_EXAMS.push(
       {"subject":"Chemistry","topic":"Atomic structure","q":"The maximum number of electrons that a p subshell can hold is","options":["2","10","6","14"],"ans":2,"exp":"A p subshell has 3 orbitals, each holding 2 electrons, so it holds at most 6 electrons."},
       {"subject":"Chemistry","topic":"Thermodynamics","q":"For a process that is spontaneous at constant temperature and pressure, the Gibbs energy change ΔG is","options":["zero","positive","equal to ΔH","negative"],"ans":3,"exp":"Spontaneity at constant T and P requires ΔG < 0; ΔG = 0 at equilibrium."}
     ] },
-  { id: "neet-p04", name: "NEET style practice paper 4", group: "NEET style practice", minutes: 15, plus: 4, minus: 1,
+  { id: "neet-p04", name: "NEET practice paper 4", group: "NEET practice papers", minutes: 15, plus: 4, minus: 1,
     questions: [
       {"subject":"Biology","topic":"Animal kingdom","q":"A water vascular system is the characteristic feature of the phylum","options":["Echinodermata","Mollusca","Arthropoda","Annelida"],"ans":0,"exp":"Echinoderms such as starfish have a water vascular system used for locomotion, feeding and respiration."},
       {"subject":"Biology","topic":"Photosynthesis","q":"The light reactions of photosynthesis take place in the","options":["stroma of the chloroplast","thylakoid membranes of the chloroplast","matrix of the mitochondrion","cytoplasm of the cell"],"ans":1,"exp":"Pigments and the electron transport chain are located on the thylakoid (grana) membranes; the dark reactions occur in the stroma."},
@@ -53,7 +53,7 @@ window.RA_EXAMS.push(
       {"subject":"Chemistry","topic":"Redox reactions","q":"The oxidation number of manganese in KMnO₄ is","options":["+2","+4","+6","+7"],"ans":3,"exp":"(+1) + x + 4(−2) = 0 gives x = +7."},
       {"subject":"Chemistry","topic":"Organic nomenclature","q":"The IUPAC name of CH₃COCH₃ is","options":["Propanal","Propanone","Propan-1-ol","Propanoic acid"],"ans":1,"exp":"It is a three-carbon ketone, so the name is propanone (common name acetone)."}
     ] },
-  { id: "neet-p05", name: "NEET style practice paper 5", group: "NEET style practice", minutes: 15, plus: 4, minus: 1,
+  { id: "neet-p05", name: "NEET practice paper 5", group: "NEET practice papers", minutes: 15, plus: 4, minus: 1,
     questions: [
       {"subject":"Biology","topic":"Cell biology","q":"The fluid mosaic model of the plasma membrane was proposed by","options":["Singer and Nicolson","Schleiden and Schwann","Watson and Crick","Danielli and Davson"],"ans":0,"exp":"Singer and Nicolson (1972) described the membrane as a fluid lipid bilayer with a mosaic of proteins."},
       {"subject":"Biology","topic":"Plant growth regulators","q":"Which gaseous plant hormone promotes the ripening of fruits?","options":["Auxin","Ethylene","Gibberellin","Cytokinin"],"ans":1,"exp":"Ethylene is a gaseous plant growth regulator that speeds up fruit ripening."},
@@ -66,7 +66,7 @@ window.RA_EXAMS.push(
       {"subject":"Chemistry","topic":"Electrochemistry","q":"The quantity of charge required to deposit one mole of copper from a solution of Cu²⁺ ions is (1 F = 96500 C)","options":["48250 C","96500 C","193000 C","289500 C"],"ans":2,"exp":"Cu²⁺ + 2e⁻ → Cu needs 2 mol of electrons = 2 F = 2 × 96500 = 193000 C."},
       {"subject":"Chemistry","topic":"p-Block elements","q":"Which halogen is a liquid at room temperature?","options":["Fluorine","Chlorine","Bromine","Iodine"],"ans":2,"exp":"Fluorine and chlorine are gases, bromine is a reddish-brown liquid and iodine is a solid."}
     ] },
-  { id: "neet-p06", name: "NEET style practice paper 6", group: "NEET style practice", minutes: 15, plus: 4, minus: 1,
+  { id: "neet-p06", name: "NEET practice paper 6", group: "NEET practice papers", minutes: 15, plus: 4, minus: 1,
     questions: [
       {"subject":"Biology","topic":"Biological classification","q":"The five-kingdom system of classification was proposed by","options":["Carolus Linnaeus","R. H. Whittaker","Ernst Haeckel","Carl Woese"],"ans":1,"exp":"R. H. Whittaker (1969) proposed Monera, Protista, Fungi, Plantae and Animalia."},
       {"subject":"Biology","topic":"Respiration in plants","q":"The net gain of ATP molecules by substrate-level phosphorylation when one molecule of glucose undergoes glycolysis is","options":["2","4","8","36"],"ans":0,"exp":"Glycolysis forms 4 ATP and uses 2 ATP, a net gain of 2 ATP per glucose."},
@@ -79,7 +79,7 @@ window.RA_EXAMS.push(
       {"subject":"Chemistry","topic":"Chemical kinetics","q":"A first-order reaction has a rate constant of 0.0693 min⁻¹. Its half-life is","options":["1 min","6.93 min","10 min","100 min"],"ans":2,"exp":"t½ = 0.693/k = 0.693/0.0693 = 10 min."},
       {"subject":"Chemistry","topic":"Coordination compounds","q":"The oxidation state of iron in the complex ion [Fe(CN)₆]⁴⁻ is","options":["+2","+3","+4","+6"],"ans":0,"exp":"x + 6(−1) = −4 gives x = +2."}
     ] },
-  { id: "neet-p07", name: "NEET style practice paper 7", group: "NEET style practice", minutes: 15, plus: 4, minus: 1,
+  { id: "neet-p07", name: "NEET practice paper 7", group: "NEET practice papers", minutes: 15, plus: 4, minus: 1,
     questions: [
       {"subject":"Biology","topic":"Morphology of flowering plants","q":"The edible tuber of the potato plant is a modified","options":["stem","root","leaf","fruit"],"ans":0,"exp":"A potato tuber is an underground stem; its \"eyes\" are nodes bearing buds."},
       {"subject":"Biology","topic":"Animal tissues","q":"The connective tissue that attaches a skeletal muscle to a bone is called a","options":["ligament","tendon","cartilage","areolar tissue"],"ans":1,"exp":"Tendons join muscle to bone; ligaments join bone to bone."},
@@ -92,7 +92,7 @@ window.RA_EXAMS.push(
       {"subject":"Chemistry","topic":"Stoichiometry","q":"When 16 g of methane (CH₄) is burnt completely in oxygen, the mass of water formed is (H = 1, C = 12, O = 16)","options":["9 g","18 g","36 g","44 g"],"ans":2,"exp":"CH₄ + 2O₂ → CO₂ + 2H₂O. 16 g CH₄ = 1 mol gives 2 mol H₂O = 2 × 18 = 36 g."},
       {"subject":"Chemistry","topic":"Aromatic compounds","q":"The chlorination of benzene in the presence of anhydrous FeCl₃ is an example of","options":["nucleophilic substitution","electrophilic addition","free-radical addition","electrophilic substitution"],"ans":3,"exp":"FeCl₃ generates the electrophile Cl⁺, which replaces a hydrogen of the ring: electrophilic substitution."}
     ] },
-  { id: "neet-p08", name: "NEET style practice paper 8", group: "NEET style practice", minutes: 15, plus: 4, minus: 1,
+  { id: "neet-p08", name: "NEET practice paper 8", group: "NEET practice papers", minutes: 15, plus: 4, minus: 1,
     questions: [
       {"subject":"Biology","topic":"Cell division","q":"A diploid cell with 2n = 16 chromosomes undergoes meiosis. The number of chromosomes in each of the four daughter cells is","options":["4","8","16","32"],"ans":1,"exp":"Meiosis halves the chromosome number, so each daughter cell is haploid with n = 8."},
       {"subject":"Biology","topic":"Mineral nutrition","q":"Which mineral element is a constituent of the chlorophyll molecule?","options":["Magnesium","Iron","Calcium","Potassium"],"ans":0,"exp":"Magnesium is at the centre of the porphyrin ring of chlorophyll."},
@@ -105,7 +105,7 @@ window.RA_EXAMS.push(
       {"subject":"Chemistry","topic":"Atomic structure","q":"The number of orbitals present in a d-subshell is","options":["3","5","7","10"],"ans":1,"exp":"For l = 2, mₗ takes 2l + 1 = 5 values, so there are 5 d-orbitals (holding up to 10 electrons)."},
       {"subject":"Chemistry","topic":"Polymers","q":"The monomer unit of natural rubber is","options":["chloroprene","styrene","ethene","isoprene"],"ans":3,"exp":"Natural rubber is cis-1,4-polyisoprene; isoprene is 2-methylbuta-1,3-diene."}
     ] },
-  { id: "neet-p09", name: "NEET style practice paper 9", group: "NEET style practice", minutes: 15, plus: 4, minus: 1,
+  { id: "neet-p09", name: "NEET practice paper 9", group: "NEET practice papers", minutes: 15, plus: 4, minus: 1,
     questions: [
       {"subject":"Biology","topic":"Plant anatomy","q":"Which component of phloem is living but has no nucleus at maturity?","options":["Sieve tube element","Companion cell","Phloem parenchyma","Phloem fibre"],"ans":0,"exp":"Mature sieve tube elements are living cells without a nucleus; their functions are controlled by the companion cells."},
       {"subject":"Biology","topic":"Body fluids","q":"Which vitamin is needed for the synthesis of prothrombin and other blood-clotting factors in the liver?","options":["Vitamin A","Vitamin C","Vitamin D","Vitamin K"],"ans":3,"exp":"Vitamin K is required for making prothrombin; its deficiency delays blood clotting."},
@@ -118,7 +118,7 @@ window.RA_EXAMS.push(
       {"subject":"Chemistry","topic":"Chemical bonding","q":"Which of the following molecules has zero dipole moment?","options":["H₂O","CO₂","NH₃","CHCl₃"],"ans":1,"exp":"CO₂ is linear, so its two equal C=O bond dipoles cancel. The others are unsymmetrical and polar."},
       {"subject":"Chemistry","topic":"Isomerism","q":"The number of structural (chain) isomers possible for the alkane C₄H₁₀ is","options":["2","3","4","5"],"ans":0,"exp":"Only butane and 2-methylpropane (isobutane) are possible."}
     ] },
-  { id: "neet-p10", name: "NEET style practice paper 10", group: "NEET style practice", minutes: 15, plus: 4, minus: 1,
+  { id: "neet-p10", name: "NEET practice paper 10", group: "NEET practice papers", minutes: 15, plus: 4, minus: 1,
     questions: [
       {"subject":"Biology","topic":"Reproduction in flowering plants","q":"In a typical diploid angiosperm, the endosperm formed after triple fusion is","options":["haploid","diploid","triploid","tetraploid"],"ans":2,"exp":"One haploid male gamete fuses with two haploid polar nuclei, giving a triploid (3n) primary endosperm nucleus."},
       {"subject":"Biology","topic":"Animal kingdom","q":"Which of the following is a cartilaginous fish?","options":["Dogfish shark (Scoliodon)","Rohu (Labeo)","Sea horse (Hippocampus)","Catla"],"ans":0,"exp":"Sharks belong to Chondrichthyes, with a skeleton of cartilage; the others are bony fishes (Osteichthyes)."},

@@ -1,7 +1,7 @@
 // Original practice papers written in exam style. Not real previous-year papers.
 window.RA_EXAMS = window.RA_EXAMS || [];
 window.RA_EXAMS.push(
-  { id: "cuet-p01", name: "CUET General Test style practice paper 1", group: "CUET General Test style practice", minutes: 12, plus: 5, minus: 1,
+  { id: "cuet-p01", name: "CUET General Test practice paper 1", group: "CUET General Test practice papers", minutes: 12, plus: 5, minus: 1,
     questions: [
       {"subject":"General knowledge","topic":"National symbols","q":"The national bird of India is the","options":["House sparrow","Sarus crane","Indian peacock","Rose-ringed parakeet"],"ans":2,"exp":"The Indian peacock (peafowl) is the national bird of India."},
       {"subject":"General knowledge","topic":"Medieval Indian history","q":"The First Battle of Panipat was fought in the year","options":["1526","1556","1761","1576"],"ans":0,"exp":"Babur defeated Ibrahim Lodi in the First Battle of Panipat in 1526. The second was in 1556 and the third in 1761."},
@@ -14,7 +14,7 @@ window.RA_EXAMS.push(
       {"subject":"Reasoning","topic":"Classification","q":"Find the odd one out: Triangle, Square, Circle, Rectangle.","options":["Triangle","Square","Rectangle","Circle"],"ans":3,"exp":"A circle has no straight sides; the other three are polygons."},
       {"subject":"General science","topic":"Biology basics","q":"Which gas do green plants take in from the air for photosynthesis?","options":["Oxygen","Carbon dioxide","Nitrogen","Hydrogen"],"ans":1,"exp":"Plants use carbon dioxide and water to make food in photosynthesis, releasing oxygen."}
     ] },
-  { id: "cuet-p02", name: "CUET General Test style practice paper 2", group: "CUET General Test style practice", minutes: 12, plus: 5, minus: 1,
+  { id: "cuet-p02", name: "CUET General Test practice paper 2", group: "CUET General Test practice papers", minutes: 12, plus: 5, minus: 1,
     questions: [
       {"subject":"General knowledge","topic":"Indian Constitution","q":"The Constitution of India was adopted by the Constituent Assembly on","options":["26 January 1950","15 August 1947","26 November 1949","26 January 1949"],"ans":2,"exp":"The Constituent Assembly adopted the Constitution on 26 November 1949; it came into force on 26 January 1950."},
       {"subject":"General knowledge","topic":"Art and culture","q":"Kathakali is a classical dance form of which state?","options":["Kerala","Tamil Nadu","Odisha","Assam"],"ans":0,"exp":"Kathakali is the classical dance-drama of Kerala."},
@@ -27,7 +27,7 @@ window.RA_EXAMS.push(
       {"subject":"Reasoning","topic":"Blood relations","q":"Pointing to a boy, Meena says, \"He is the son of my father's only daughter.\" How is Meena related to the boy?","options":["Sister","Aunt","Grandmother","Mother"],"ans":3,"exp":"Meena herself is her father's only daughter, so the boy is her son. Meena is his mother."},
       {"subject":"General science","topic":"Physics basics","q":"The SI unit of electrical resistance is the","options":["volt","ampere","ohm","watt"],"ans":2,"exp":"Resistance is measured in ohms (Ω); the volt, ampere and watt measure potential difference, current and power."}
     ] },
-  { id: "cuet-p03", name: "CUET General Test style practice paper 3", group: "CUET General Test style practice", minutes: 12, plus: 5, minus: 1,
+  { id: "cuet-p03", name: "CUET General Test practice paper 3", group: "CUET General Test practice papers", minutes: 12, plus: 5, minus: 1,
     questions: [
       {"subject":"General knowledge","topic":"Indian Constitution","q":"Who was the Chairman of the Drafting Committee of the Constitution of India?","options":["Dr Rajendra Prasad","Dr B. R. Ambedkar","Jawaharlal Nehru","Sardar Vallabhbhai Patel"],"ans":1,"exp":"Dr B. R. Ambedkar chaired the Drafting Committee. Dr Rajendra Prasad was President of the Constituent Assembly."},
       {"subject":"General knowledge","topic":"World geography","q":"The highest mountain peak in the world above sea level is","options":["Mount Everest","K2","Kangchenjunga","Nanda Devi"],"ans":0,"exp":"Mount Everest in the Himalayas is the highest peak above sea level."},
@@ -40,7 +40,7 @@ window.RA_EXAMS.push(
       {"subject":"Reasoning","topic":"Classification","q":"Find the odd one out: 11, 13, 17, 21.","options":["11","21","13","17"],"ans":1,"exp":"21 = 3 × 7 is not a prime number; 11, 13 and 17 are primes."},
       {"subject":"General science","topic":"Chemistry basics","q":"The chemical symbol of gold is","options":["Ag","Go","Gd","Au"],"ans":3,"exp":"Gold has the symbol Au, from its Latin name aurum. Ag is silver."}
     ] },
-  { id: "cuet-p04", name: "CUET General Test style practice paper 4", group: "CUET General Test style practice", minutes: 12, plus: 5, minus: 1,
+  { id: "cuet-p04", name: "CUET General Test practice paper 4", group: "CUET General Test practice papers", minutes: 12, plus: 5, minus: 1,
     questions: [
       {"subject":"General knowledge","topic":"Indian polity","q":"Who was the first President of India?","options":["Dr Rajendra Prasad","Dr S. Radhakrishnan","Jawaharlal Nehru","Dr Zakir Husain"],"ans":0,"exp":"Dr Rajendra Prasad became the first President of India in 1950."},
       {"subject":"General knowledge","topic":"Indian geography","q":"The Thar Desert lies mainly in which Indian state?","options":["Gujarat","Punjab","Rajasthan","Madhya Pradesh"],"ans":2,"exp":"Most of the Thar (Great Indian) Desert lies in Rajasthan."},
@@ -53,7 +53,7 @@ window.RA_EXAMS.push(
       {"subject":"Reasoning","topic":"Syllogism","q":"Statements: All roses are flowers. All flowers are plants. Which conclusion definitely follows?","options":["All plants are roses","All flowers are roses","All roses are plants","No rose is a plant"],"ans":2,"exp":"Every rose is a flower and every flower is a plant, so every rose is a plant. The reverse statements do not follow."},
       {"subject":"General science","topic":"Human health","q":"Scurvy is caused by a deficiency of","options":["Vitamin C","Vitamin A","Vitamin D","Vitamin K"],"ans":0,"exp":"Lack of vitamin C (ascorbic acid) causes scurvy, with bleeding gums."}
     ] },
-  { id: "cuet-p05", name: "CUET General Test style practice paper 5", group: "CUET General Test style practice", minutes: 12, plus: 5, minus: 1,
+  { id: "cuet-p05", name: "CUET General Test practice paper 5", group: "CUET General Test practice papers", minutes: 12, plus: 5, minus: 1,
     questions: [
       {"subject":"General knowledge","topic":"Freedom struggle","q":"The Indian National Congress was founded in the year","options":["1857","1885","1905","1920"],"ans":1,"exp":"The Indian National Congress held its first session in Bombay in 1885."},
       {"subject":"General knowledge","topic":"Indian geography","q":"Which river is known as the \"Sorrow of Bengal\"?","options":["Damodar","Kosi","Hooghly","Teesta"],"ans":0,"exp":"The Damodar was called the \"Sorrow of Bengal\" because of its frequent, destructive floods."},
@@ -66,7 +66,7 @@ window.RA_EXAMS.push(
       {"subject":"Reasoning","topic":"Coding-decoding","q":"If ROAD is written as DAOR in a certain code, how is TIME written in that code?","options":["EIMT","EMIT","MITE","ITEM"],"ans":1,"exp":"The letters are written in reverse order, so TIME becomes EMIT."},
       {"subject":"General science","topic":"Environment","q":"Which gas is the second most abundant in the Earth's atmosphere?","options":["Nitrogen","Argon","Carbon dioxide","Oxygen"],"ans":3,"exp":"Dry air is about 78% nitrogen and about 21% oxygen, so oxygen is second."}
     ] },
-  { id: "cuet-p06", name: "CUET General Test style practice paper 6", group: "CUET General Test style practice", minutes: 12, plus: 5, minus: 1,
+  { id: "cuet-p06", name: "CUET General Test practice paper 6", group: "CUET General Test practice papers", minutes: 12, plus: 5, minus: 1,
     questions: [
       {"subject":"General knowledge","topic":"National symbols","q":"How many spokes does the Ashoka Chakra on the Indian national flag have?","options":["24","12","20","32"],"ans":0,"exp":"The navy-blue Ashoka Chakra at the centre of the flag has 24 spokes."},
       {"subject":"General knowledge","topic":"Freedom struggle","q":"The Jallianwala Bagh massacre of 1919 took place in","options":["Lahore","Delhi","Amritsar","Lucknow"],"ans":2,"exp":"The massacre took place at Jallianwala Bagh in Amritsar on 13 April 1919."},
@@ -79,7 +79,7 @@ window.RA_EXAMS.push(
       {"subject":"Reasoning","topic":"Number series","q":"Find the next number: 2, 3, 5, 8, 13, ?","options":["18","19","21","26"],"ans":2,"exp":"Each term is the sum of the two before it: 8 + 13 = 21."},
       {"subject":"General science","topic":"Chemistry basics","q":"Which of these metals is a liquid at room temperature?","options":["Mercury","Sodium","Aluminium","Zinc"],"ans":0,"exp":"Mercury melts at about −39 °C, so it is liquid at room temperature; the others are solids."}
     ] },
-  { id: "cuet-p07", name: "CUET General Test style practice paper 7", group: "CUET General Test style practice", minutes: 12, plus: 5, minus: 1,
+  { id: "cuet-p07", name: "CUET General Test practice paper 7", group: "CUET General Test practice papers", minutes: 12, plus: 5, minus: 1,
     questions: [
       {"subject":"General knowledge","topic":"Modern Indian history","q":"Who gave the slogan \"Jai Jawan, Jai Kisan\"?","options":["Jawaharlal Nehru","Indira Gandhi","Subhas Chandra Bose","Lal Bahadur Shastri"],"ans":3,"exp":"Lal Bahadur Shastri gave this slogan in 1965 to honour soldiers and farmers."},
       {"subject":"General knowledge","topic":"Art and culture","q":"The Sun Temple at Konark is in which state?","options":["West Bengal","Odisha","Andhra Pradesh","Tamil Nadu"],"ans":1,"exp":"The 13th-century Konark Sun Temple stands on the coast of Odisha."},
@@ -92,7 +92,7 @@ window.RA_EXAMS.push(
       {"subject":"Reasoning","topic":"Coding-decoding","q":"In a certain code, every letter is replaced by the letter at the same position counted from the end of the alphabet (A ↔ Z, B ↔ Y, and so on). How is CAB written?","options":["XYZ","XZY","ZYX","YZX"],"ans":1,"exp":"C → X, A → Z, B → Y, giving XZY."},
       {"subject":"General science","topic":"Biology basics","q":"Which tissue carries water from the roots to the leaves of a plant?","options":["Xylem","Phloem","Epidermis","Cork"],"ans":0,"exp":"Xylem carries water and minerals upward; phloem carries food."}
     ] },
-  { id: "cuet-p08", name: "CUET General Test style practice paper 8", group: "CUET General Test style practice", minutes: 12, plus: 5, minus: 1,
+  { id: "cuet-p08", name: "CUET General Test practice paper 8", group: "CUET General Test practice papers", minutes: 12, plus: 5, minus: 1,
     questions: [
       {"subject":"General knowledge","topic":"Medieval Indian history","q":"The First Battle of Panipat was fought between Babur and","options":["Rana Sanga","Hemu","Sher Shah Suri","Ibrahim Lodi"],"ans":3,"exp":"Babur defeated Ibrahim Lodi at Panipat in 1526 and founded the Mughal Empire in India."},
       {"subject":"General knowledge","topic":"Art and culture","q":"Bihu is a major festival of which state?","options":["Punjab","Kerala","Assam","Gujarat"],"ans":2,"exp":"Bihu is the main festival of Assam."},
@@ -105,7 +105,7 @@ window.RA_EXAMS.push(
       {"subject":"Reasoning","topic":"Classification","q":"Find the odd one out: Violin, Guitar, Flute, Sitar.","options":["Flute","Violin","Guitar","Sitar"],"ans":0,"exp":"The flute is a wind instrument; the other three are string instruments."},
       {"subject":"General science","topic":"Human body","q":"Which protein in red blood cells carries oxygen?","options":["Insulin","Keratin","Haemoglobin","Melanin"],"ans":2,"exp":"Haemoglobin, an iron-containing protein in red blood cells, carries oxygen."}
     ] },
-  { id: "cuet-p09", name: "CUET General Test style practice paper 9", group: "CUET General Test style practice", minutes: 12, plus: 5, minus: 1,
+  { id: "cuet-p09", name: "CUET General Test practice paper 9", group: "CUET General Test practice papers", minutes: 12, plus: 5, minus: 1,
     questions: [
       {"subject":"General knowledge","topic":"Awards and honours","q":"Who was the first Indian to win a Nobel Prize?","options":["C. V. Raman","Mother Teresa","Amartya Sen","Rabindranath Tagore"],"ans":3,"exp":"Rabindranath Tagore won the Nobel Prize in Literature in 1913."},
       {"subject":"General knowledge","topic":"Indian polity","q":"The 61st Constitutional Amendment lowered the voting age for Lok Sabha elections in India from 21 years to","options":["16 years","18 years","20 years","25 years"],"ans":1,"exp":"The 61st Constitutional Amendment (1988) lowered the voting age from 21 years to 18 years."},
@@ -118,7 +118,7 @@ window.RA_EXAMS.push(
       {"subject":"Reasoning","topic":"Analogy","q":"Kilometre is to Distance as Kilogram is to","options":["Volume","Mass","Length","Temperature"],"ans":1,"exp":"The kilometre is a unit of distance; the kilogram is a unit of mass."},
       {"subject":"General science","topic":"Chemistry basics","q":"The pH of pure water at 25 °C is","options":["7","0","1","14"],"ans":0,"exp":"Pure water is neutral, with a pH of 7 at 25 °C."}
     ] },
-  { id: "cuet-p10", name: "CUET General Test style practice paper 10", group: "CUET General Test style practice", minutes: 12, plus: 5, minus: 1,
+  { id: "cuet-p10", name: "CUET General Test practice paper 10", group: "CUET General Test practice papers", minutes: 12, plus: 5, minus: 1,
     questions: [
       {"subject":"General knowledge","topic":"Religion and culture","q":"Who was the founder of Sikhism?","options":["Guru Gobind Singh","Guru Angad","Guru Arjan","Guru Nanak"],"ans":3,"exp":"Guru Nanak, the first Sikh Guru, founded Sikhism."},
       {"subject":"General knowledge","topic":"Monuments","q":"The Gateway of India is in","options":["Delhi","Kolkata","Mumbai","Chennai"],"ans":2,"exp":"The Gateway of India stands on the waterfront in Mumbai. India Gate is in Delhi."},

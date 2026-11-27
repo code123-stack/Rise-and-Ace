@@ -1,3 +1,25 @@
+// Floating glass bubbles behind every page (decorative only, never blocks taps).
+(function () {
+  function make() {
+    if (!document.body || document.querySelector('.bubbles')) return;
+    const box = document.createElement('div'); box.className = 'bubbles'; box.setAttribute('aria-hidden', 'true');
+    // [left %, size px, seconds to rise, sway seconds]
+    const B = [[3, 110, 26, 5], [9, 52, 19, 4], [16, 150, 34, 7], [24, 70, 22, 5], [31, 40, 17, 4], [38, 170, 38, 8], [46, 84, 24, 6],
+      [53, 46, 18, 4], [60, 130, 31, 7], [67, 62, 21, 5], [74, 180, 40, 8], [82, 90, 27, 6], [89, 48, 16, 4], [95, 120, 29, 6],
+      [13, 34, 15, 3], [43, 58, 20, 5], [71, 36, 14, 3], [98, 66, 23, 5], [27, 100, 28, 6], [57, 30, 13, 3]];
+    B.forEach((b, i) => {
+      const r = document.createElement('div'); r.className = 'rise';
+      r.style.left = 'calc(' + b[0] + '% - ' + (b[1] / 2) + 'px)'; r.style.animationDuration = b[2] + 's';
+      r.style.animationDelay = '-' + ((i * 7.3) % b[2]).toFixed(1) + 's';
+      const o = document.createElement('div'); o.className = 'orb';
+      o.style.width = o.style.height = b[1] + 'px'; o.style.animationDuration = b[3] + 's';
+      r.appendChild(o); box.appendChild(r);
+    });
+    document.body.insertBefore(box, document.body.firstChild);
+  }
+  if (document.body) make(); else document.addEventListener('DOMContentLoaded', make);
+})();
+
 // Shared helpers: element builder, navigation, accounts and the AI call.
 function h(tag, props, ...kids) {
   const e = document.createElement(tag);

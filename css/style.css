@@ -1,3 +1,8 @@
+@font-face{font-family:"Poppins";font-style:normal;font-weight:400;font-display:swap;src:url(../fonts/poppins-400.woff2) format("woff2")}
+@font-face{font-family:"Poppins";font-style:normal;font-weight:500;font-display:swap;src:url(../fonts/poppins-500.woff2) format("woff2")}
+@font-face{font-family:"Poppins";font-style:normal;font-weight:600;font-display:swap;src:url(../fonts/poppins-600.woff2) format("woff2")}
+@font-face{font-family:"Poppins";font-style:normal;font-weight:700;font-display:swap;src:url(../fonts/poppins-700.woff2) format("woff2")}
+@font-face{font-family:"Poppins";font-style:normal;font-weight:800;font-display:swap;src:url(../fonts/poppins-800.woff2) format("woff2")}
 :root{--ink:#1b1f3b;--brand:#3b3fd8;--brand2:#ff7a1a;--bg:#f6f7fc;--card:#fff;--muted:#6b7090;--line:#e3e5f2;--ok:#16a34a;--bad:#dc2626;--warn:#d97706}
 *{box-sizing:border-box}
 body{margin:0;font-family:system-ui,-apple-system,"Segoe UI",Roboto,Arial,sans-serif;color:var(--ink);background:var(--bg);line-height:1.55}
@@ -74,3 +79,52 @@ canvas{width:100%;height:auto;background:#0f1230;border-radius:12px;display:bloc
 .vid img{width:100%;aspect-ratio:16/9;object-fit:cover;background:#111327;border-radius:10px;display:block}
 .vid iframe{width:100%;aspect-ratio:16/9;border:0;border-radius:10px}
 footer{text-align:center;color:var(--muted);font-size:13px;padding:24px 16px}
+.opt:disabled{cursor:default;color:var(--ink);opacity:1}
+
+/* ===== Lavender glass theme with floating bubbles (all pages) ===== */
+:root{--ink:#231a52;--brand:#5a3fd6;--brand2:#c2337a;--bg:#b7b4f3;--card:rgba(255,255,255,.66);--muted:#4a4279;--line:rgba(255,255,255,.85);--ok:#15803d;--bad:#c81e1e;--warn:#b45309}
+html{background:#b7b4f3}
+body{font-family:"Poppins",system-ui,-apple-system,"Segoe UI",Roboto,Arial,sans-serif;background:linear-gradient(160deg,#b9c0f8 0%,#bdb2f6 45%,#cbb0f7 75%,#aaa6ea 100%) fixed;min-height:100vh;position:relative;overflow-x:hidden}
+.bubbles{position:fixed;inset:0;overflow:hidden;pointer-events:none;z-index:0}
+.bubbles .rise{position:absolute;bottom:-220px;animation:ra-rise linear infinite;will-change:transform}
+.bubbles .orb{border-radius:50%;border:1.5px solid rgba(255,255,255,.85);
+ background:radial-gradient(circle at 30% 26%,rgba(255,255,255,.95) 0 5%,rgba(255,255,255,0) 7%),radial-gradient(ellipse at 68% 30%,rgba(255,255,255,.55) 0 4%,rgba(255,255,255,0) 9%),radial-gradient(circle at 50% 80%,rgba(250,160,236,.75),rgba(250,160,236,0) 58%),radial-gradient(circle at 50% 18%,rgba(150,210,255,.55),rgba(150,210,255,0) 50%),radial-gradient(circle at 50% 50%,rgba(255,255,255,.10) 50%,rgba(255,255,255,.7) 100%);
+ box-shadow:inset 0 -16px 28px rgba(232,130,226,.55),inset 0 12px 22px rgba(130,200,255,.6),inset 0 0 0 1px rgba(255,255,255,.35),0 12px 28px rgba(70,50,170,.22);
+ animation:ra-sway ease-in-out infinite alternate}
+@keyframes ra-rise{from{transform:translateY(0)}to{transform:translateY(calc(-100vh - 460px))}}
+@keyframes ra-sway{from{transform:translateX(-22px) scale(.97)}to{transform:translateX(22px) scale(1.03)}}
+header.nav,main,footer{position:relative;z-index:1}
+header.nav{position:sticky;z-index:10;background:rgba(255,255,255,.62);-webkit-backdrop-filter:blur(14px);backdrop-filter:blur(14px);border-bottom:1px solid rgba(255,255,255,.8);box-shadow:0 4px 20px rgba(70,50,160,.10)}
+.logo{font-weight:800;letter-spacing:-.3px;background:linear-gradient(90deg,#3d2bb5,#8a3fd6 55%,#c2337a);-webkit-background-clip:text;background-clip:text;color:transparent}
+.logo span{color:transparent}
+.links a{color:var(--ink);border-radius:99px}
+.links a.on,.links a:hover{background:rgba(90,63,214,.14);color:#3d2bb5}
+h1,h2,h3{letter-spacing:-.3px;color:#231a52}
+h1{font-weight:800}
+.hero{background:linear-gradient(135deg,rgba(78,52,206,.93),rgba(126,70,214,.92) 55%,rgba(176,66,160,.92));border:1px solid rgba(255,255,255,.45);box-shadow:0 18px 44px rgba(70,45,170,.28),inset 0 1px 0 rgba(255,255,255,.35);border-radius:24px}
+.hero h1{color:#fff;font-size:44px;text-shadow:0 2px 14px rgba(40,20,110,.3)}
+.card,.stat,.testbar{background:var(--card);border:1px solid var(--line);box-shadow:0 8px 26px rgba(70,50,160,.12);border-radius:18px}
+.card.link:hover{transform:translateY(-4px);box-shadow:0 16px 36px rgba(70,50,160,.22)}
+.tag{background:rgba(90,63,214,.13);color:#3d2bb5}
+.btn{background:rgba(255,255,255,.85);border:1px solid rgba(90,63,214,.28);color:var(--ink);border-radius:12px;transition:transform .12s,box-shadow .12s}
+.btn:hover:not(:disabled){transform:translateY(-1px);box-shadow:0 6px 16px rgba(70,50,160,.2)}
+.btn.primary{background:linear-gradient(135deg,#5a3fd6,#8546dc);border-color:transparent;color:#fff;box-shadow:0 6px 16px rgba(90,63,214,.32)}
+.btn.accent{background:linear-gradient(135deg,#a8329c,#c2337a);border-color:transparent;color:#fff;box-shadow:0 6px 16px rgba(194,51,122,.3)}
+input[type=text],input[type=password],textarea,select{background:rgba(255,255,255,.88)!important;border:1px solid rgba(90,63,214,.28)!important;color:var(--ink)}
+input:focus,textarea:focus,select:focus{outline:2px solid rgba(90,63,214,.55);outline-offset:1px}
+.opt{background:rgba(255,255,255,.88);border-color:rgba(90,63,214,.22);border-radius:12px}
+.opt.sel{background:#e7e1ff;border-color:var(--brand)}
+.pq{background:rgba(255,255,255,.88);border-color:rgba(90,63,214,.22)}
+.tabs button{background:rgba(255,255,255,.8);border-color:rgba(90,63,214,.28)}
+.tabs button.on{background:linear-gradient(135deg,#5a3fd6,#8546dc);border-color:transparent}
+.note{background:rgba(255,255,255,.8);border:1px solid rgba(255,255,255,.9);border-left:4px solid #8546dc;color:var(--ink)}
+th,td{border-bottom:1px solid rgba(90,63,214,.16)}
+.bar{background:rgba(90,63,214,.15)}
+.msg.ai{background:rgba(255,255,255,.88);border-color:rgba(90,63,214,.2)}
+.msg.me{background:linear-gradient(135deg,#5a3fd6,#8546dc)}
+.stat b,.timer{color:#4a31c4}
+.timer.low{color:var(--bad)}
+main canvas{background:#1d1547;border:1px solid rgba(255,255,255,.6);box-shadow:0 10px 30px rgba(50,30,130,.28)}
+footer{color:#3f3774;font-weight:500}
+@media(max-width:800px){.hero h1{font-size:32px}}
+.hero p.slogan{margin:8px auto 14px}

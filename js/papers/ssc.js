@@ -1,7 +1,7 @@
 // Original practice papers written in exam style. Not real previous-year papers.
 window.RA_EXAMS = window.RA_EXAMS || [];
 window.RA_EXAMS.push(
-  { id: "ssc-p01", name: "SSC CGL style practice paper 1", group: "SSC CGL style practice", minutes: 12, plus: 2, minus: 0.5,
+  { id: "ssc-p01", name: "SSC CGL practice paper 1", group: "SSC CGL practice papers", minutes: 12, plus: 2, minus: 0.5,
     questions: [
       {"subject":"Quantitative aptitude","topic":"Percentage","q":"A number, when increased by 20%, becomes 540. The number is","options":["432","450","460","480"],"ans":1,"exp":"Number × 1.2 = 540, so number = 540 ÷ 1.2 = 450."},
       {"subject":"Quantitative aptitude","topic":"Profit and loss","q":"A shopkeeper buys an article for ₹1,250 and sells it at a loss of 12%. The selling price is","options":["₹1,100","₹1,120","₹1,150","₹1,238"],"ans":0,"exp":"Loss = 12% of 1250 = 150, so SP = 1250 − 150 = ₹1,100."},
@@ -14,7 +14,7 @@ window.RA_EXAMS.push(
       {"subject":"General awareness","topic":"Indian polity","q":"The Constitution of India came into force on","options":["26 January 1950","15 August 1947","26 November 1949","26 January 1947"],"ans":0,"exp":"The Constitution was adopted on 26 November 1949 and came into force on 26 January 1950, celebrated as Republic Day."},
       {"subject":"General awareness","topic":"Physics","q":"The SI unit of electric current is the","options":["Volt","Ohm","Watt","Ampere"],"ans":3,"exp":"Electric current is measured in amperes; volt is for potential difference, ohm for resistance and watt for power."}
     ] },
-  { id: "ssc-p02", name: "SSC CGL style practice paper 2", group: "SSC CGL style practice", minutes: 12, plus: 2, minus: 0.5,
+  { id: "ssc-p02", name: "SSC CGL practice paper 2", group: "SSC CGL practice papers", minutes: 12, plus: 2, minus: 0.5,
     questions: [
       {"subject":"Quantitative aptitude","topic":"Simple interest","q":"A sum of money amounts to ₹6,200 in 4 years at 6% per annum simple interest. The sum is","options":["₹4,800","₹5,000","₹5,200","₹5,400"],"ans":1,"exp":"Amount = P(1 + 6 × 4/100) = 1.24P = 6200, so P = ₹5,000."},
       {"subject":"Quantitative aptitude","topic":"Time, speed and distance","q":"A car covers 180 km in 2.5 hours. Its speed in metres per second is","options":["18 m/s","20 m/s","24 m/s","25 m/s"],"ans":1,"exp":"Speed = 180 ÷ 2.5 = 72 km/h = 72 × 5/18 = 20 m/s."},
@@ -27,7 +27,7 @@ window.RA_EXAMS.push(
       {"subject":"General awareness","topic":"Modern Indian history","q":"The Battle of Plassey was fought in the year","options":["1757","1761","1764","1857"],"ans":0,"exp":"The Battle of Plassey took place in 1757. 1761 is the Third Battle of Panipat, 1764 the Battle of Buxar and 1857 the Revolt."},
       {"subject":"General awareness","topic":"Indian geography","q":"Which is the longest river of peninsular India?","options":["Krishna","Kaveri","Narmada","Godavari"],"ans":3,"exp":"The Godavari is the longest river of peninsular India."}
     ] },
-  { id: "ssc-p03", name: "SSC CGL style practice paper 3", group: "SSC CGL style practice", minutes: 12, plus: 2, minus: 0.5,
+  { id: "ssc-p03", name: "SSC CGL practice paper 3", group: "SSC CGL practice papers", minutes: 12, plus: 2, minus: 0.5,
     questions: [
       {"subject":"Quantitative aptitude","topic":"Compound interest","q":"The compound interest on ₹8,000 at 10% per annum for 2 years, compounded annually, is","options":["₹1,600","₹1,640","₹1,680","₹1,760"],"ans":2,"exp":"Amount = 8000 × 1.1 × 1.1 = 9680, so CI = 9680 − 8000 = ₹1,680."},
       {"subject":"Quantitative aptitude","topic":"Ratio and proportion","q":"Two numbers are in the ratio 3 : 5 and their sum is 96. The larger number is","options":["36","54","60","64"],"ans":2,"exp":"Larger number = 5/8 × 96 = 60."},
@@ -40,7 +40,7 @@ window.RA_EXAMS.push(
       {"subject":"General awareness","topic":"Biology","q":"Rickets in children is caused mainly by the deficiency of","options":["Vitamin A","Vitamin C","Vitamin K","Vitamin D"],"ans":3,"exp":"Vitamin D is needed for calcium absorption and bone formation; its deficiency causes rickets in children."},
       {"subject":"General awareness","topic":"Indian polity","q":"In the Parliament of India, a Money Bill can be introduced only in","options":["The Lok Sabha","The Rajya Sabha","Either House of Parliament","A joint sitting of both Houses"],"ans":0,"exp":"Under Article 109, a Money Bill can be introduced only in the Lok Sabha."}
     ] },
-  { id: "ssc-p04", name: "SSC CGL style practice paper 4", group: "SSC CGL style practice", minutes: 12, plus: 2, minus: 0.5,
+  { id: "ssc-p04", name: "SSC CGL practice paper 4", group: "SSC CGL practice papers", minutes: 12, plus: 2, minus: 0.5,
     questions: [
       {"subject":"Quantitative aptitude","topic":"Average","q":"The average of 5 numbers is 28. When one number is removed, the average of the remaining four becomes 26. The removed number is","options":["30","34","36","38"],"ans":2,"exp":"Total of five = 140; total of four = 104; removed number = 140 − 104 = 36."},
       {"subject":"Quantitative aptitude","topic":"Time and work","q":"12 men can complete a piece of work in 15 days. In how many days can 20 men complete the same work?","options":["8 days","9 days","10 days","25 days"],"ans":1,"exp":"Work = 12 × 15 = 180 man-days, and 180 ÷ 20 = 9 days."},
@@ -53,7 +53,7 @@ window.RA_EXAMS.push(
       {"subject":"General awareness","topic":"Astronomy","q":"Which is the largest planet in the solar system?","options":["Saturn","Neptune","Earth","Jupiter"],"ans":3,"exp":"Jupiter is the largest planet of the solar system."},
       {"subject":"General awareness","topic":"Ancient Indian history","q":"Which Mauryan emperor embraced Buddhism after the Kalinga War?","options":["Ashoka","Chandragupta Maurya","Bindusara","Brihadratha"],"ans":0,"exp":"Ashoka, moved by the bloodshed of the Kalinga War, embraced Buddhism and the policy of Dhamma."}
     ] },
-  { id: "ssc-p05", name: "SSC CGL style practice paper 5", group: "SSC CGL style practice", minutes: 12, plus: 2, minus: 0.5,
+  { id: "ssc-p05", name: "SSC CGL practice paper 5", group: "SSC CGL practice papers", minutes: 12, plus: 2, minus: 0.5,
     questions: [
       {"subject":"Quantitative aptitude","topic":"LCM and HCF","q":"The LCM of 12, 18 and 30 is","options":["90","120","180","360"],"ans":2,"exp":"12 = 2² × 3, 18 = 2 × 3², 30 = 2 × 3 × 5, so LCM = 2² × 3² × 5 = 180."},
       {"subject":"Quantitative aptitude","topic":"Trains","q":"A train 200 m long crosses a platform 300 m long in 25 seconds. The speed of the train is","options":["54 km/h","60 km/h","72 km/h","80 km/h"],"ans":2,"exp":"Distance = 200 + 300 = 500 m; speed = 500 ÷ 25 = 20 m/s = 20 × 18/5 = 72 km/h."},
@@ -66,7 +66,7 @@ window.RA_EXAMS.push(
       {"subject":"General awareness","topic":"Chemistry","q":"Which gas is the most abundant in the Earth's atmosphere?","options":["Oxygen","Carbon dioxide","Argon","Nitrogen"],"ans":3,"exp":"Nitrogen makes up about 78% of the atmosphere by volume; oxygen about 21%."},
       {"subject":"General awareness","topic":"Indian economy","q":"Which institution issues currency notes in India, other than the one-rupee note?","options":["Reserve Bank of India","State Bank of India","NITI Aayog","Securities and Exchange Board of India"],"ans":0,"exp":"The Reserve Bank of India issues all currency notes except the one-rupee note, which is issued by the Government of India (Ministry of Finance)."}
     ] },
-  { id: "ssc-p06", name: "SSC CGL style practice paper 6", group: "SSC CGL style practice", minutes: 12, plus: 2, minus: 0.5,
+  { id: "ssc-p06", name: "SSC CGL practice paper 6", group: "SSC CGL practice papers", minutes: 12, plus: 2, minus: 0.5,
     questions: [
       {"subject":"Quantitative aptitude","topic":"Percentage","q":"In an election between two candidates, the winner got 60% of the valid votes and won by 1,200 votes. The total number of valid votes was","options":["4,800","5,000","6,000","7,200"],"ans":2,"exp":"Winner 60%, loser 40%; the difference 20% = 1200, so total = 1200 ÷ 0.2 = 6,000."},
       {"subject":"Quantitative aptitude","topic":"Boats and streams","q":"A boat's speed in still water is 12 km/h and the speed of the stream is 3 km/h. How long will the boat take to travel 45 km downstream?","options":["3 hours","3.75 hours","4 hours","5 hours"],"ans":0,"exp":"Downstream speed = 12 + 3 = 15 km/h; time = 45 ÷ 15 = 3 hours."},
@@ -79,7 +79,7 @@ window.RA_EXAMS.push(
       {"subject":"General awareness","topic":"Modern Indian history","q":"Who founded the Arya Samaj?","options":["Raja Ram Mohan Roy","Swami Vivekananda","Swami Dayananda Saraswati","Jyotiba Phule"],"ans":2,"exp":"Swami Dayananda Saraswati founded the Arya Samaj in 1875. Raja Ram Mohan Roy founded the Brahmo Samaj."},
       {"subject":"General awareness","topic":"World geography","q":"Which of these continents is the smallest by area?","options":["Europe","Antarctica","South America","Australia"],"ans":3,"exp":"Australia is the smallest of the seven continents by area."}
     ] },
-  { id: "ssc-p07", name: "SSC CGL style practice paper 7", group: "SSC CGL style practice", minutes: 12, plus: 2, minus: 0.5,
+  { id: "ssc-p07", name: "SSC CGL practice paper 7", group: "SSC CGL practice papers", minutes: 12, plus: 2, minus: 0.5,
     questions: [
       {"subject":"Quantitative aptitude","topic":"Profit and loss","q":"By selling an article for ₹720, a trader gains 20%. The cost price of the article is","options":["₹576","₹600","₹620","₹640"],"ans":1,"exp":"CP × 1.2 = 720, so CP = 720 ÷ 1.2 = ₹600."},
       {"subject":"Quantitative aptitude","topic":"Problems on ages","q":"A father is three times as old as his son. After 12 years, he will be twice as old as his son. The present age of the son is","options":["10 years","12 years","15 years","18 years"],"ans":1,"exp":"Let the son be x. Then 3x + 12 = 2(x + 12), so x = 12 years."},
@@ -92,7 +92,7 @@ window.RA_EXAMS.push(
       {"subject":"General awareness","topic":"Biology","q":"Which pigment gives leaves their green colour?","options":["Chlorophyll","Haemoglobin","Melanin","Carotene"],"ans":0,"exp":"Chlorophyll is the green pigment in plants that absorbs light for photosynthesis."},
       {"subject":"General awareness","topic":"Indian polity","q":"Article 32 of the Constitution of India deals with the","options":["Right to equality","Right to constitutional remedies","Right to education","Abolition of untouchability"],"ans":1,"exp":"Article 32 gives the right to move the Supreme Court to enforce Fundamental Rights. Article 14 covers equality, 21A education and 17 untouchability."}
     ] },
-  { id: "ssc-p08", name: "SSC CGL style practice paper 8", group: "SSC CGL style practice", minutes: 12, plus: 2, minus: 0.5,
+  { id: "ssc-p08", name: "SSC CGL practice paper 8", group: "SSC CGL practice papers", minutes: 12, plus: 2, minus: 0.5,
     questions: [
       {"subject":"Quantitative aptitude","topic":"Simplification","q":"Simplify: 18 ÷ 3 × 2 + 4 − 6","options":["1","8","10","12"],"ans":2,"exp":"Division and multiplication from left to right: 18 ÷ 3 = 6, 6 × 2 = 12. Then 12 + 4 − 6 = 10."},
       {"subject":"Quantitative aptitude","topic":"Pipes and cisterns","q":"A pipe can fill a tank in 6 hours. Because of a leak in the bottom, the tank takes 8 hours to fill. In how many hours can the leak alone empty the full tank?","options":["14 hours","16 hours","24 hours","48 hours"],"ans":2,"exp":"Leak rate = 1/6 − 1/8 = 1/24 of the tank per hour, so it empties the tank in 24 hours."},
@@ -105,7 +105,7 @@ window.RA_EXAMS.push(
       {"subject":"General awareness","topic":"World geography","q":"Which imaginary line divides the Earth into the Northern and Southern Hemispheres?","options":["Prime Meridian","Tropic of Capricorn","International Date Line","Equator"],"ans":3,"exp":"The Equator (0° latitude) divides the Earth into the Northern and Southern Hemispheres."},
       {"subject":"General awareness","topic":"Modern Indian history","q":"Mahatma Gandhi undertook the Dandi March (Salt Satyagraha) in the year","options":["1919","1922","1930","1942"],"ans":2,"exp":"The Dandi March took place in March–April 1930 and began the Civil Disobedience Movement."}
     ] },
-  { id: "ssc-p09", name: "SSC CGL style practice paper 9", group: "SSC CGL style practice", minutes: 12, plus: 2, minus: 0.5,
+  { id: "ssc-p09", name: "SSC CGL practice paper 9", group: "SSC CGL practice papers", minutes: 12, plus: 2, minus: 0.5,
     questions: [
       {"subject":"Quantitative aptitude","topic":"Percentage","q":"The price of an article is first increased by 10% and then decreased by 10%. The net change in the price is","options":["No change","1% increase","1% decrease","2% decrease"],"ans":2,"exp":"100 → 110 → 99, a net decrease of 1%."},
       {"subject":"Quantitative aptitude","topic":"Time, speed and distance","q":"A man walks to his office at 4 km/h and returns along the same road at 6 km/h. His average speed for the whole journey is","options":["4.5 km/h","4.8 km/h","5 km/h","5.2 km/h"],"ans":1,"exp":"Average speed for equal distances = 2 × 4 × 6 ÷ (4 + 6) = 48 ÷ 10 = 4.8 km/h."},
@@ -118,7 +118,7 @@ window.RA_EXAMS.push(
       {"subject":"General awareness","topic":"Chemistry","q":"Which of the following substances is the hardest?","options":["Graphite","Diamond","Quartz","Iron"],"ans":1,"exp":"Diamond, a form of carbon, is far harder than graphite, quartz or iron."},
       {"subject":"General awareness","topic":"Indian polity","q":"The words \"Socialist\" and \"Secular\" were added to the Preamble of the Constitution of India by the","options":["44th Amendment","52nd Amendment","42nd Amendment","73rd Amendment"],"ans":2,"exp":"The 42nd Amendment Act, 1976 added \"Socialist\", \"Secular\" and \"Integrity\" to the Preamble."}
     ] },
-  { id: "ssc-p10", name: "SSC CGL style practice paper 10", group: "SSC CGL style practice", minutes: 12, plus: 2, minus: 0.5,
+  { id: "ssc-p10", name: "SSC CGL practice paper 10", group: "SSC CGL practice papers", minutes: 12, plus: 2, minus: 0.5,
     questions: [
       {"subject":"Quantitative aptitude","topic":"Compound interest","q":"The difference between the compound interest (compounded annually) and the simple interest on ₹10,000 for 2 years at 5% per annum is","options":["₹20","₹25","₹50","₹100"],"ans":1,"exp":"Difference for 2 years = P × (R/100)² = 10000 × 0.05² = ₹25."},
       {"subject":"Quantitative aptitude","topic":"Partnership","q":"A and B invest ₹15,000 and ₹25,000 respectively in a business for one year. Out of a total profit of ₹9,600, A's share is","options":["₹3,200","₹3,600","₹4,800","₹6,000"],"ans":1,"exp":"The ratio of investments is 15000 : 25000 = 3 : 5, so A's share = 3/8 × 9600 = ₹3,600."},

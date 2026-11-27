@@ -3,7 +3,7 @@
 // "ans" is the position of the right option, starting from 0.
 window.RA_EXAMS = [
   {
-    id: 'jee', name: 'JEE Main style practice', group: 'JEE Main style practice', minutes: 20, plus: 4, minus: 1,
+    id: 'jee', name: 'JEE Main short practice paper', group: 'JEE Main practice papers', minutes: 20, plus: 4, minus: 1,
     questions: [
       { subject: 'Physics', topic: 'Kinematics', q: 'A body starts from rest and moves with a uniform acceleration of 2 m/s². How far does it travel in 5 s?', options: ['10 m', '20 m', '25 m', '50 m'], ans: 2, exp: 's = ut + ½at² = 0 + ½ × 2 × 5² = 25 m.' },
       { subject: 'Physics', topic: 'Projectile motion', q: 'A ball is thrown at 20 m/s at 45° to the horizontal. Taking g = 10 m/s², its horizontal range is', options: ['20 m', '40 m', '60 m', '80 m'], ans: 1, exp: 'R = u² sin2θ / g = 400 × 1 / 10 = 40 m.' },
@@ -20,7 +20,7 @@ window.RA_EXAMS = [
     ]
   },
   {
-    id: 'neet', name: 'NEET style practice', group: 'NEET style practice', minutes: 15, plus: 4, minus: 1,
+    id: 'neet', name: 'NEET short practice paper', group: 'NEET practice papers', minutes: 15, plus: 4, minus: 1,
     questions: [
       { subject: 'Biology', topic: 'Cell biology', q: 'Which organelle is called the powerhouse of the cell?', options: ['Ribosome', 'Mitochondrion', 'Golgi body', 'Lysosome'], ans: 1, exp: 'Mitochondria produce most of the cell\'s ATP.' },
       { subject: 'Biology', topic: 'Genetics', q: 'How many chromosomes does a normal human body (somatic) cell have?', options: ['23', '44', '46', '48'], ans: 2, exp: 'Human somatic cells have 46 chromosomes (23 pairs).' },
@@ -35,7 +35,7 @@ window.RA_EXAMS = [
     ]
   },
   {
-    id: 'upsc', name: 'UPSC Prelims GS style practice', group: 'UPSC Prelims GS style practice', minutes: 12, plus: 2, minus: 0.66,
+    id: 'upsc', name: 'UPSC Prelims GS short practice paper', group: 'UPSC Prelims GS practice papers', minutes: 12, plus: 2, minus: 0.66,
     questions: [
       { subject: 'Polity', topic: 'Constitution', q: 'Fundamental Duties are contained in which Part of the Constitution of India?', options: ['Part III', 'Part IV', 'Part IVA', 'Part V'], ans: 2, exp: 'Part IVA (Article 51A) lists the Fundamental Duties.' },
       { subject: 'Polity', topic: 'Parliament', q: 'Who is the ex-officio Chairman of the Rajya Sabha?', options: ['President', 'Vice-President', 'Prime Minister', 'Speaker of the Lok Sabha'], ans: 1, exp: 'The Vice-President of India is the ex-officio Chairman of the Rajya Sabha.' },
@@ -50,7 +50,7 @@ window.RA_EXAMS = [
     ]
   },
   {
-    id: 'ssc', name: 'SSC CGL style practice', group: 'SSC CGL style practice', minutes: 12, plus: 2, minus: 0.5,
+    id: 'ssc', name: 'SSC CGL short practice paper', group: 'SSC CGL practice papers', minutes: 12, plus: 2, minus: 0.5,
     questions: [
       { subject: 'Quantitative aptitude', topic: 'Percentage', q: 'What is 15% of 240?', options: ['24', '30', '36', '40'], ans: 2, exp: '240 × 15/100 = 36.' },
       { subject: 'Quantitative aptitude', topic: 'Time and work', q: 'A can finish a job in 10 days and B in 15 days. Working together, they finish it in', options: ['5 days', '6 days', '8 days', '12.5 days'], ans: 1, exp: 'Combined rate = 1/10 + 1/15 = 1/6 of the job per day, so 6 days.' },
@@ -65,7 +65,7 @@ window.RA_EXAMS = [
     ]
   },
   {
-    id: 'bank', name: 'IBPS PO style practice', group: 'IBPS PO style practice', minutes: 10, plus: 1, minus: 0.25,
+    id: 'bank', name: 'IBPS PO short practice paper', group: 'IBPS PO practice papers', minutes: 10, plus: 1, minus: 0.25,
     questions: [
       { subject: 'Quantitative aptitude', topic: 'Simplification', q: '25% of 480 + 15 = ?', options: ['120', '125', '135', '145'], ans: 2, exp: '25% of 480 is 120, and 120 + 15 = 135.' },
       { subject: 'Quantitative aptitude', topic: 'Profit and loss', q: 'An article bought for ₹800 is sold for ₹1,000. The profit percentage is', options: ['20%', '25%', '30%', '80%'], ans: 1, exp: 'Profit = 200, and 200 / 800 × 100 = 25%.' },
@@ -78,7 +78,7 @@ window.RA_EXAMS = [
     ]
   },
   {
-    id: 'cat', name: 'CAT style practice', group: 'CAT style practice', minutes: 15, plus: 3, minus: 1,
+    id: 'cat', name: 'CAT short practice paper', group: 'CAT practice papers', minutes: 15, plus: 3, minus: 1,
     questions: [
       { subject: 'Quantitative ability', topic: 'Number system', q: 'What is the remainder when 2¹⁰ is divided by 7?', options: ['1', '2', '4', '6'], ans: 1, exp: '2³ = 8 leaves remainder 1, so 2⁹ leaves 1 and 2¹⁰ leaves 2. (1024 = 7 × 146 + 2.)' },
       { subject: 'Quantitative ability', topic: 'Algebra', q: 'If x + 1/x = 3, then x² + 1/x² equals', options: ['5', '7', '9', '11'], ans: 1, exp: '(x + 1/x)² = x² + 1/x² + 2, so x² + 1/x² = 9 − 2 = 7.' },
@@ -91,7 +91,7 @@ window.RA_EXAMS = [
     ]
   },
   {
-    id: 'gate', name: 'GATE Computer Science style practice', group: 'GATE Computer Science style practice', minutes: 15, plus: 1, minus: 0.33,
+    id: 'gate', name: 'GATE Computer Science short practice paper', group: 'GATE Computer Science practice papers', minutes: 15, plus: 1, minus: 0.33,
     questions: [
       { subject: 'Algorithms', topic: 'Searching', q: 'The worst-case time complexity of binary search on a sorted array of n elements is', options: ['O(1)', 'O(log n)', 'O(n)', 'O(n log n)'], ans: 1, exp: 'Each step halves the search range, giving O(log n).' },
       { subject: 'Algorithms', topic: 'Sorting', q: 'The worst-case time complexity of quicksort is', options: ['O(n)', 'O(n log n)', 'O(n²)', 'O(log n)'], ans: 2, exp: 'With consistently bad pivots, quicksort takes O(n²).' },
@@ -104,7 +104,7 @@ window.RA_EXAMS = [
     ]
   },
   {
-    id: 'cuet', name: 'CUET General Test style practice', group: 'CUET General Test style practice', minutes: 10, plus: 5, minus: 1,
+    id: 'cuet', name: 'CUET General Test short practice paper', group: 'CUET General Test practice papers', minutes: 10, plus: 5, minus: 1,
     questions: [
       { subject: 'General knowledge', topic: 'National symbols', q: 'The national animal of India is the', options: ['Lion', 'Elephant', 'Tiger', 'Leopard'], ans: 2, exp: 'The tiger (Royal Bengal tiger) is the national animal.' },
       { subject: 'General knowledge', topic: 'National symbols', q: 'Who wrote the national anthem of India?', options: ['Bankim Chandra Chatterjee', 'Rabindranath Tagore', 'Sarojini Naidu', 'Muhammad Iqbal'], ans: 1, exp: 'Jana Gana Mana was written by Rabindranath Tagore.' },
@@ -133,27 +133,27 @@ window.RA_EXAMS = [
 
 window.RA_INTERVIEWS = [
   { id: 'hr', name: 'HR and general interview', questions: [
-    { q: 'Tell me about yourself.', tip: 'Go present, past, future: what you do now, what brought you here, and what you want next. Keep it under two minutes.' },
-    { q: 'What is your biggest strength? Give an example.', tip: 'Name one strength and prove it with a short real story that has a result.' },
-    { q: 'Tell me about a time you failed. What did you learn?', tip: 'Pick a real failure, own it, and spend most of the answer on what you changed afterwards.' },
-    { q: 'Why should we select you?', tip: 'Link two or three of your skills directly to what the role needs.' },
-    { q: 'Where do you see yourself in five years?', tip: 'Show ambition that fits the organisation and the skills you plan to build.' } ] },
+    { q: 'Tell me about yourself.', sample: 'I am a final-year B.Com student from Jaipur. Over the last two years I have handled the accounts of my college\'s cultural society, where I managed a budget of about two lakh rupees and finished every event within it. That work showed me that I enjoy careful, detail-based tasks and working with people. I am now looking for a role where I can use those skills every day and keep learning from an experienced team.', tip: 'Go present, past, future: what you do now, what brought you here, and what you want next. Keep it under two minutes.' },
+    { q: 'What is your biggest strength? Give an example.', sample: 'My biggest strength is that I stay organised under pressure. Last year our project group lost a member three weeks before the deadline. I split the remaining work into daily tasks, checked progress each evening and took over the report myself. We submitted two days early and received the second-highest grade in the class.', tip: 'Name one strength and prove it with a short real story that has a result.' },
+    { q: 'Tell me about a time you failed. What did you learn?', sample: 'In my second year I failed to clear a scholarship test because I studied only the topics I liked and ignored the rest. It was my own planning mistake. Since then I make a full topic list before any exam, begin with my weakest area and take a timed mock test every week. With that method my scores improved steadily in the following semesters.', tip: 'Pick a real failure, own it, and spend most of the answer on what you changed afterwards.' },
+    { q: 'Why should we select you?', sample: 'You need someone who is careful with details, learns quickly and works well with others. I have handled real budgets for my college society without a single error in the final accounts, I taught myself spreadsheets to do it faster, and I have worked in teams of ten or more. I will bring the same care and effort to this role from the first day.', tip: 'Link two or three of your skills directly to what the role needs.' },
+    { q: 'Where do you see yourself in five years?', sample: 'In five years I see myself as a dependable senior member of this organisation, handling larger responsibilities and guiding newer colleagues. To get there I plan to master the basics of this role in the first year, complete a professional certification in the next two, and then take ownership of bigger projects.', tip: 'Show ambition that fits the organisation and the skills you plan to build.' } ] },
   { id: 'upsc', name: 'Civil services personality test', questions: [
-    { q: 'Why do you want to join the civil services?', tip: 'Be personal and specific. Avoid slogans; connect it to something you have seen or done.' },
-    { q: 'Tell us about your home district and one problem you would fix there.', tip: 'Give facts about the district, then one practical step within an officer\'s powers.' },
-    { q: 'A senior asks you to do something you believe is wrong. What do you do?', tip: 'Stay calm, check the rules, put your view in writing respectfully, and follow the law.' },
-    { q: 'What is your view on balancing development and the environment?', tip: 'Present both sides fairly, then give a balanced position with an example.' },
-    { q: 'What is your biggest weakness?', tip: 'Choose a real one and explain the steps you are taking to improve.' } ] },
+    { q: 'Why do you want to join the civil services?', sample: 'During the floods in my home district I volunteered at a relief camp and saw how one committed officer organised food, medicine and shelter for thousands of people within days. That experience showed me the scale of good an officer can do. I want to join the civil services because it lets me work on such problems directly, at a scale that no other career offers me.', tip: 'Be personal and specific. Avoid slogans; connect it to something you have seen or done.' },
+    { q: 'Tell us about your home district and one problem you would fix there.', sample: 'My home district is largely agricultural, with most families depending on small farms and seasonal rain. One serious problem is that village water tanks have silted up, so wells dry by late winter. As an officer I would use existing rural employment scheme funds to desilt these tanks before the monsoon, involve the gram panchayats in upkeep, and review progress village by village every month.', tip: 'Give facts about the district, then one practical step within an officer\'s powers.' },
+    { q: 'A senior asks you to do something you believe is wrong. What do you do?', sample: 'I would first make sure I have understood the instruction correctly and check the relevant rules, because I may be missing some information. If I still believe it is wrong, I would respectfully explain my concern to the senior and put my view in writing. If the instruction is illegal, I would not carry it out and would follow the proper procedure for raising the matter with the competent authority.', tip: 'Stay calm, check the rules, put your view in writing respectfully, and follow the law.' },
+    { q: 'What is your view on balancing development and the environment?', sample: 'I believe the two must go together. Development is essential to lift people out of poverty, but if it destroys forests, rivers and clean air, the poorest suffer first. The practical approach is to assess the impact honestly before a project, choose the least damaging option, compensate and rehabilitate fairly, and monitor conditions afterwards. For example, a road can often be realigned to avoid a forest patch at a small extra cost.', tip: 'Present both sides fairly, then give a balanced position with an example.' },
+    { q: 'What is your biggest weakness?', sample: 'I sometimes take on too much myself instead of delegating, because I want the work done to my standard. I noticed this caused delays in a group project. I am now working on it by dividing tasks at the start, agreeing on clear check-in points and trusting teammates with their parts. It has already made our work faster.', tip: 'Choose a real one and explain the steps you are taking to improve.' } ] },
   { id: 'bank', name: 'Bank PO interview', questions: [
-    { q: 'Why do you want a career in banking?', tip: 'Mention stability only briefly. Focus on the work: customers, finance, responsibility.' },
-    { q: 'What is the difference between the repo rate and the reverse repo rate?', tip: 'Repo: rate at which the RBI lends to banks. Reverse repo: rate at which the RBI borrows from banks.' },
-    { q: 'What is a non-performing asset (NPA)?', tip: 'A loan where interest or principal is overdue for more than 90 days.' },
-    { q: 'How would you handle an angry customer at the branch?', tip: 'Listen first, stay polite, acknowledge the problem, solve or escalate, and follow up.' },
-    { q: 'What do you know about digital payments such as UPI?', tip: 'Explain what it does in simple words and why it matters for financial inclusion.' } ] },
+    { q: 'Why do you want a career in banking?', sample: 'I enjoy work that combines numbers with helping people. A bank officer deals with customers\' savings, loans and businesses every day, and that is a real responsibility. With my commerce background and my interest in finance, I feel banking is where I can contribute well, and the structured career path gives me room to grow.', tip: 'Mention stability only briefly. Focus on the work: customers, finance, responsibility.' },
+    { q: 'What is the difference between the repo rate and the reverse repo rate?', sample: 'The repo rate is the rate at which the Reserve Bank of India lends money to commercial banks for short periods against government securities. The reverse repo rate is the rate at which the RBI borrows money from banks. Raising the repo rate makes borrowing costlier and helps control inflation, while lowering it encourages lending and growth.', tip: 'Repo: rate at which the RBI lends to banks. Reverse repo: rate at which the RBI borrows from banks.' },
+    { q: 'What is a non-performing asset (NPA)?', sample: 'A non-performing asset is a loan or advance on which the interest or principal has remained overdue for more than 90 days. At that point the loan stops earning income for the bank. A high level of NPAs reduces a bank\'s profit and its ability to give fresh loans, which is why recovery and careful lending are so important.', tip: 'A loan where interest or principal is overdue for more than 90 days.' },
+    { q: 'How would you handle an angry customer at the branch?', sample: 'I would first listen to the customer fully without interrupting and stay calm and polite. Then I would acknowledge the inconvenience, find out the exact problem and solve it if it is within my authority. If it is not, I would take the customer to the right officer myself, explain the matter so they do not have to repeat it, and follow up later to confirm that it was resolved.', tip: 'Listen first, stay polite, acknowledge the problem, solve or escalate, and follow up.' },
+    { q: 'What do you know about digital payments such as UPI?', sample: 'UPI, the Unified Payments Interface, lets a person send or receive money instantly between bank accounts using a mobile phone, at any time of day. It was developed by the National Payments Corporation of India. It matters because even small shopkeepers and customers in villages can now make cashless payments easily, which supports financial inclusion.', tip: 'Explain what it does in simple words and why it matters for financial inclusion.' } ] },
   { id: 'tech', name: 'Campus technical interview (CS)', questions: [
-    { q: 'Explain the difference between an array and a linked list.', tip: 'Cover memory layout, access time, and insertion or deletion cost.' },
-    { q: 'What is the difference between a process and a thread?', tip: 'Processes have separate memory; threads share memory within a process.' },
-    { q: 'What is normalisation in databases, and why is it used?', tip: 'It organises tables to reduce repeated data and avoid update problems.' },
-    { q: 'Explain what happens when you type a website address and press Enter.', tip: 'DNS lookup, connection, request, server response, then the browser renders the page.' },
-    { q: 'Describe a project you built and the hardest problem in it.', tip: 'State the goal, your own role, the problem, what you tried, and the result.' } ] }
+    { q: 'Explain the difference between an array and a linked list.', sample: 'An array stores elements in one continuous block of memory, so any element can be reached directly by its index in constant time, but inserting or deleting in the middle requires shifting elements. A linked list stores elements in separate nodes connected by pointers, so reaching an element means walking through the list, but inserting or deleting a node is quick once you are at that position. Arrays suit frequent lookups; linked lists suit frequent insertions and deletions.', tip: 'Cover memory layout, access time, and insertion or deletion cost.' },
+    { q: 'What is the difference between a process and a thread?', sample: 'A process is a program in execution with its own separate memory space. A thread is a smaller unit of execution inside a process, and all threads of a process share its memory and resources. Because of this, threads are lighter to create and switch between and can communicate easily, but a bug in one thread can affect the whole process, whereas processes are isolated from each other.', tip: 'Processes have separate memory; threads share memory within a process.' },
+    { q: 'What is normalisation in databases, and why is it used?', sample: 'Normalisation is the process of organising a database into well-structured tables so that each fact is stored in only one place. It is used to reduce repeated data and to avoid problems when inserting, updating or deleting records. For example, instead of repeating a customer\'s address in every order row, we keep it once in a customer table and link orders to it with a key.', tip: 'It organises tables to reduce repeated data and avoid update problems.' },
+    { q: 'Explain what happens when you type a website address and press Enter.', sample: 'First the browser finds the IP address of the website through a DNS lookup. It then opens a connection to that server, and for an https site it also sets up a secure TLS connection. The browser sends an HTTP request, the server sends back a response containing the page, and the browser reads the HTML, fetches the styles, scripts and images it refers to, and finally renders the page on the screen.', tip: 'DNS lookup, connection, request, server response, then the browser renders the page.' },
+    { q: 'Describe a project you built and the hardest problem in it.', sample: 'I built a library management web application for my college department, and I was responsible for the back end. The hardest problem was that two students could reserve the same copy of a book at the same moment. I first tried checking availability in the application code, which still failed under load, so I moved the check and the update into a single database transaction. After that the double bookings stopped completely in our tests.', tip: 'State the goal, your own role, the problem, what you tried, and the result.' } ] }
 ];
